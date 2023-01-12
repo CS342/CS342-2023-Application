@@ -1,5 +1,5 @@
 //
-// This source file is part of the StanfordBDHG Template Application project
+// This source file is part of the CS342 2023 Application project
 //
 // SPDX-FileCopyrightText: 2023 Stanford University
 //
@@ -9,7 +9,7 @@
 import XCTest
 
 
-class TemplateApplicationUITests: XCTestCase {
+class  CS342ApplicationUITests: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false

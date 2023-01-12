@@ -1,5 +1,5 @@
 #
-# This source file is part of the StanfordBDHG Template Application project
+# This source file is part of the CS342 2023 Application project
 #
 # SPDX-FileCopyrightText: 2023 Stanford University
 #
@@ -12,14 +12,14 @@
 # In general, you can use the options available
 # fastlane gym --help
 
-scheme("TemplateApplication")
+scheme("CS342Application")
 
-project("TemplateApplication.xcodeproj")
+project("CS342Application.xcodeproj")
 
 export_options(
   {
     provisioningProfiles: { 
-      "edu.stanford.templateapplication" => "TemplateApplication"
+      "edu.stanford.cs3422023application" => " CS3422023Application"
     }
   }
 )
