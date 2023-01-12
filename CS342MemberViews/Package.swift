@@ -31,6 +31,10 @@ let package = Package(
         .target(name: "CarlosGuestrin"),
         .target(
             name: "PaulSchmiedmayer",
+            exclude: [
+                "Resources/PaulSchmiedmayer.jpeg.license",
+                "Resources/PaulSchmiedmayerBio.md.license"
+            ],
             resources: [
                 .process("Resources")
             ]
