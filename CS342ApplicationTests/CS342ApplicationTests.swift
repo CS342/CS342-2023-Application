@@ -6,11 +6,11 @@
 // SPDX-License-Identifier: MIT
 //
 
-@testable import  CS342Application
+@testable import CS342Application
 import XCTest
 
 
-class  CS342ApplicationTests: XCTestCase {
+class CS342ApplicationTests: XCTestCase {
     func testExample() throws {
         XCTAssertTrue(true)
     }

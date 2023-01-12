@@ -10,7 +10,7 @@
 *.xcodeproj
 .swiftpm
 .build/
-! CS342Application.xcodeproj
+!CS342Application.xcodeproj
 
 # IDE related folders
 .idea
@@ -28,4 +28,4 @@ xcuserdata/
 # Tests
 report.junit
 report.html
- CS342Application.xcresult
+CS342Application.xcresult
