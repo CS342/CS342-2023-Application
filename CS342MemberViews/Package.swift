@@ -29,7 +29,16 @@ let package = Package(
     targets: [
         .target(name: "OliverAalami"),
         .target(name: "CarlosGuestrin"),
-        .target(name: "PaulSchmiedmayer"),
+        .target(
+            name: "PaulSchmiedmayer",
+            exclude: [
+                "Resources/PaulSchmiedmayer.jpeg.license",
+                "Resources/PaulSchmiedmayerBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
         .target(name: "VishnuRavi"),
         .target(name: "AshleyGriffin"),
         .target(name: "NicholasBernhardtLanier"),
