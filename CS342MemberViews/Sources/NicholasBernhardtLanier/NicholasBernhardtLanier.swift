@@ -6,15 +6,14 @@
 // SPDX-License-Identifier: MIT
 //
 
-import PaulSchmiedmayer
 import SwiftUI
 
 
-@main
-struct CS342Application: App {
-    var body: some Scene {
-        WindowGroup {
-            MemberList()
-        }
+public struct NicholasBernhardtLanier: View {
+    public var body: some View {
+        Text("Nicholas Bernhardt-Lanier")
     }
+    
+    
+    public init() { }
 }
