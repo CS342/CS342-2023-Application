@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct DescriptionView: View {
     var body: some View {
         VStack(spacing: 8) {
@@ -30,6 +31,7 @@ struct DescriptionView: View {
         return description
     }
 }
+
 
 struct DescriptionView_Previews: PreviewProvider {
     static var previews: some View {

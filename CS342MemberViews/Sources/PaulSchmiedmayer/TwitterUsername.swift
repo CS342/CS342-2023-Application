@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct TwitterUsername: View {
     @Environment(\.openURL) var openURL
     
@@ -30,6 +31,7 @@ struct TwitterUsername: View {
         URL(string: "https://twitter.com/@PSchmiedmayer")
     }
 }
+
 
 struct TwitterUsername_Previews: PreviewProvider {
     static var previews: some View {
