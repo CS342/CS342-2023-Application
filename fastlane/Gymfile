@@ -19,7 +19,7 @@ project("CS342Application.xcodeproj")
 export_options(
   {
     provisioningProfiles: { 
-      "edu.stanford.cs3422023application" => " CS3422023Application"
+      "edu.stanford.cs3422023application" => "CS3422023Application"
     }
   }
 )

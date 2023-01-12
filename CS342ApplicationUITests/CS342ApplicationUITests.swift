@@ -9,7 +9,7 @@
 import XCTest
 
 
-class  CS342ApplicationUITests: XCTestCase {
+class CS342ApplicationUITests: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
