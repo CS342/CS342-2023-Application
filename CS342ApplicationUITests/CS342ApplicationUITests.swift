@@ -15,8 +15,10 @@ class CS342ApplicationUITests: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testGreeting() throws {
+    func testNavigationBar() throws {
         let app = XCUIApplication()
         app.launch()
+
+        XCTAssert(app.navigationBars.firstMatch.staticTexts["CS342"].waitForExistence(timeout: 0.5))
     }
 }
