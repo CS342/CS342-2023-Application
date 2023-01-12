@@ -29,7 +29,12 @@ let package = Package(
     targets: [
         .target(name: "OliverAalami"),
         .target(name: "CarlosGuestrin"),
-        .target(name: "PaulSchmiedmayer"),
+        .target(
+            name: "PaulSchmiedmayer",
+            resources: [
+                .process("Resources")
+            ]
+        ),
         .target(name: "VishnuRavi"),
         .target(name: "AshleyGriffin"),
         .target(name: "NicholasBernhardtLanier"),
