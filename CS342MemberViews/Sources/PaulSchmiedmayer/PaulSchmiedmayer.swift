@@ -14,7 +14,7 @@ public struct PaulSchmiedmayer: View {
     
     
     public var body: some View {
-        Text("Paul Schmiedmayer")
+        Text("Paul Schmiedmayer, Ph.D.")
     }
     
     
