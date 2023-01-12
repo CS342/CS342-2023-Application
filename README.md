@@ -12,6 +12,17 @@ SPDX-License-Identifier: MIT
 
 This repository contains the CS342 2023 Application. It serves as a template repository for projects requiering a mobile application using a continous integration and continous delivery setup.
 
+## Structure
+
+The application is based on a Swift Package Manager-based modularized structure to separate the implementation of each SwiftUI view.
+
+Each member should create a new Swift Package taget in the `CS342MemberViews` Swift Package. You can learn more about Swift Packages at [developer.apple.com/documentation/xcode/swift-packages](https://developer.apple.com/documentation/xcode/swift-packages).
+
+The main application target contains the `Role` and `Member` model types that define the members of the class.
+The `MemberList` contains the list and `NavigationStack` to power the SwiftUI-based appliaction. Subviews can modify the `NavigationPath` that can be passed in as a `Binding<NavigationPath>` to add additional subviews or control the navigation path.
+
+Extend the `Member` enumeration with an additional case and add a new view to the `Member+Views.swift` extension to add an additional member to the application.
+
 ## Continous Delivery Workflows
 
 ### Beta Deployment
@@ -33,40 +44,6 @@ You can change the SwiftLint configuration in the `.swiftlint.yml` file found at
 ## Continous Delivery Setup
 
 It is a prerequiesite to have access to a Apple Developer Account that allows [TestFlight](https://developer.apple.com/testflight/) releases and create a app in [App Store Connect](https://appstoreconnect.apple.com) that matches the bundle identifier you have defined in the App project.
-
-### App Store Connect Access
-
-The [TestFlight](https://developer.apple.com/testflight/) deployment requires access to the App Store Connect API using an API key. Please follow the Apple instructions to [Creating API Keys for the App Store Connect API](https://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api). The key needs the `App Manager` access role.
-Store the following information in the following GitHub secrets:
-- `APPLE_ID`: The Apple ID you use to access the App Store Connect API.
-- `APP_STORE_CONNECT_ISSUER_ID`: The issuer ID of the App Store Connect API is displayed in the App Store Connect API keys section.
-- `APP_STORE_CONNECT_API_KEY_ID`: The key ID of the API key created in the App Store Connect API keys section.
-- `APP_STORE_CONNECT_API_KEY_BASE64`: The content of the key created in App Store Connect condensed into a Base64 representation, e.g., using `base64 -i AuthKey_ABCDEFGHIJ.p8 | pbcopy`.
-
-### Apple Xcode Certificate and Provisioning Profile
-
-The GitHub Action imports the Apple certificate and provisioning profile from the GitHub secrets and installs them in a local KeyChain on the GitHub runner instances.
-Please follow the GitHub instructions to [Installing an Apple certificate on macOS runners for Xcode development](https://docs.github.com/en/enterprise-server@3.4/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development).
-
-Obtaining the Apple provisioning profile requires you to follow the following steps:
-1. Register the app identifier in the [Apple Developer Account Identifiers section](https://developer.apple.com/account/resources/identifiers/list) using the bundle identifier for your application, e.g., `com.schmiedmayer.continousdelivery`.
-2. Create an **AppStore** distribution provisioning profile in the [Apple Developer Account Profiles section](https://developer.apple.com/account/resources/profiles/list) using the app identifier you have created in the previous step.
-3. Download the provisioning profile and convert it to a Base64 representation as detailed in [Installing an Apple certificate on macOS runners for Xcode development](https://docs.github.com/en/enterprise-server@3.4/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development) and add it as the value for the `BUILD_PROVISION_PROFILE_BASE64` secret.
-
-After following the setup steps detailed in [Installing an Apple certificate on macOS runners for Xcode development](https://docs.github.com/en/enterprise-server@3.4/actions/deployment/deploying-xcode-applications/installing-an-apple-certificate-on-macos-runners-for-xcode-development) and obtaining the Apple provisioning profile as described above, you should have the following secrets configured in the repository settings:
-- `BUILD_CERTIFICATE_BASE64`: The Base64 version of the Apple signing certificate to build your iOS application.
-- `P12_PASSWORD`: The password for the Apple signing certificate.
-- `BUILD_PROVISION_PROFILE_BASE64`: The Base64 version of the Apple provisioning profile to build your iOS application.
-- `KEYCHAIN_PASSWORD`: A password for the keychain that will be created on the runner instance.
-
-Be sure that you update the name of the provisioning profile in the `Gymfile` and update the app name, bundle identifyer, Xcode project name, paths, and other settings in the fastlane files when modifying the template to your needs!
-
-### Swift Package and Fastlane Update ACCESS_TOKEN
-
-The [Swift Package and Fastlane Update workflow](https://github.com/PSchmiedmayer/ContinousDelivery/blob/main/.github/workflows/update.yml) requires an `ACCESS_TOKEN` secret: a GitHub Personal Access Token (PAT) allowing write access to the repository.
-We suggest using a bot account to create the access token. Using the PAT triggers the GitHub Actions in the create PR. [The GitHub documentation provides instructions on creating a PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). The [scrop of the token](https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps) can be limited to the `public_repo` scope for public repositories or the `repo` scrope for private repositories as well as the `workflow` scope.
-
-Removing the `token` input in the GitHub action workflow results in using the default `GITHUB_TOKEN` and the GitHub Action bot account that does not trigger any possible merge checks in the newly created PR.
 
 ### Contributors
 
