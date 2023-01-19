@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */; };
 		2F23F694296FBA8B003FECF4 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F693296FBA8B003FECF4 /* Role.swift */; };
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
 		2F23F698296FBAA3003FECF4 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F697296FBAA3003FECF4 /* MemberList.swift */; };
@@ -15,6 +14,8 @@
 		2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */; };
 		2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */; };
 		2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */; };
+		549CDC42297A3D8800769FDD /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC41297A3D8800769FDD /* PaulSchmiedmayer */; };
+		549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC43297A3D8800769FDD /* ShriyaReddy */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
@@ -60,7 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
+				549CDC42297A3D8800769FDD /* PaulSchmiedmayer in Frameworks */,
+				549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +186,8 @@
 			);
 			name = CS342Application;
 			packageProductDependencies = (
-				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
+				549CDC41297A3D8800769FDD /* PaulSchmiedmayer */,
+				549CDC43297A3D8800769FDD /* ShriyaReddy */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -668,9 +671,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */ = {
+		549CDC41297A3D8800769FDD /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PaulSchmiedmayer;
+		};
+		549CDC43297A3D8800769FDD /* ShriyaReddy */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShriyaReddy;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

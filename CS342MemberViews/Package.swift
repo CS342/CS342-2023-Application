@@ -17,11 +17,22 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"])
+        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
+        .library(name: "ShriyaReddy", targets: ["ShriyaReddy"])
     ],
     targets: [
         .target(
             name: "PaulSchmiedmayer",
+            exclude: [
+                "Resources/PaulSchmiedmayer.jpeg.license",
+                "Resources/PaulSchmiedmayerBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "ShriyaReddy",
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
