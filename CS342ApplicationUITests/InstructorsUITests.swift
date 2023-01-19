@@ -25,6 +25,6 @@ class InstructorsUITests: XCTestCase {
         app.navigationBars.firstMatch.buttons["CS342"].tap()
         
         app.collectionViews.buttons["Vishnu Ravi, MD"].tap()
-        XCTAssert(app.staticTexts["Vishnu Ravi, MD"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["Vishnu 👋"].waitForExistence(timeout: 0.5))
     }
 }
