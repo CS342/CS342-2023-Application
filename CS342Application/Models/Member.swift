@@ -10,14 +10,7 @@ import SwiftUI
 
 
 enum Member: String, Identifiable, CaseIterable {
-    case oliverAalami = "Prof. Oliver Aalami, MD"
-    case carlosGuestrin = "Prof. Carlos Guestrin, Ph.D."
     case paulSchmiedmayer = "Paul Schmiedmayer, Ph.D."
-    case vishnuRavi = "Vishnu Ravi, MD"
-    case ashleyGriffin = "Ashley Griffin, Ph.D."
-    case nicholasBernhardtLanier = "Nicholas Bernhardt-Lanier"
-    case raghavSamavedam = "Raghav Samavedam"
-    case varunShenoy = "Varun Shenoy"
     
     
     static var allMembers: [Role: [Member]] {
@@ -45,14 +38,8 @@ enum Member: String, Identifiable, CaseIterable {
     
     var role: Role {
         switch self {
-        case .oliverAalami, .carlosGuestrin:
-            return .lead
-        case .paulSchmiedmayer, .vishnuRavi, .ashleyGriffin:
+        case .paulSchmiedmayer:
             return .instructor
-        case .nicholasBernhardtLanier, .raghavSamavedam, .varunShenoy:
-            return .projectCoach
-        default:
-            return .student
         }
     }
     

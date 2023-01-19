@@ -22,22 +22,8 @@ extension Member {
         @ViewBuilder
         var memberView: some View {
             switch self {
-            case .oliverAalami:
-                OliverAalami()
-            case .carlosGuestrin:
-                CarlosGuestrin()
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
-            case .vishnuRavi:
-                VishnuRavi()
-            case .ashleyGriffin:
-                AshleyGriffin()
-            case .nicholasBernhardtLanier:
-                NicholasBernhardtLanier()
-            case .raghavSamavedam:
-                RaghavSamavedam()
-            case .varunShenoy:
-                VarunShenoy()
             }
         }
         return memberView
