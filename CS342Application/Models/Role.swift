@@ -6,9 +6,6 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
-
-
 enum Role: Int {
     case lead
     case instructor

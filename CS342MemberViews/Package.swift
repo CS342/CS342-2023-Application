@@ -17,18 +17,9 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(name: "OliverAalami", targets: ["OliverAalami"]),
-        .library(name: "CarlosGuestrin", targets: ["CarlosGuestrin"]),
-        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
-        .library(name: "VishnuRavi", targets: ["VishnuRavi"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
-        .library(name: "NicholasBernhardtLanier", targets: ["NicholasBernhardtLanier"]),
-        .library(name: "RaghavSamavedam", targets: ["RaghavSamavedam"]),
-        .library(name: "VarunShenoy", targets: ["VarunShenoy"])
+        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"])
     ],
     targets: [
-        .target(name: "OliverAalami"),
-        .target(name: "CarlosGuestrin"),
         .target(
             name: "PaulSchmiedmayer",
             exclude: [
@@ -38,11 +29,6 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        ),
-        .target(name: "VishnuRavi"),
-        .target(name: "AshleyGriffin"),
-        .target(name: "NicholasBernhardtLanier"),
-        .target(name: "RaghavSamavedam"),
-        .target(name: "VarunShenoy")
+        )
     ]
 )

@@ -9,14 +9,15 @@
 import SwiftUI
 
 
-public struct ProfileView: View {
-    public var body: some View {
+struct ProfileView: View {
+    var body: some View {
         profileImage
             .resizable()
             .aspectRatio(1.0, contentMode: .fit)
             .clipShape(Circle())
             .shadow(radius: 10)
-            .padding(.horizontal, 100)
+            .padding(.horizontal, 32)
+            .frame(maxWidth: 300)
     }
     
     

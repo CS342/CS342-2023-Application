@@ -12,21 +12,12 @@
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
 		2F23F698296FBAA3003FECF4 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F697296FBAA3003FECF4 /* MemberList.swift */; };
 		2F23F69A296FBAFB003FECF4 /* Member+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F699296FBAFB003FECF4 /* Member+Views.swift */; };
-		2F23F69E296FF973003FECF4 /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F69D296FF973003FECF4 /* AshleyGriffin */; };
-		2F23F6A0296FF973003FECF4 /* CarlosGuestrin in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F69F296FF973003FECF4 /* CarlosGuestrin */; };
-		2F23F6A2296FF973003FECF4 /* NicholasBernhardtLanier in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F6A1296FF973003FECF4 /* NicholasBernhardtLanier */; };
-		2F23F6A4296FF973003FECF4 /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F6A3296FF973003FECF4 /* OliverAalami */; };
-		2F23F6A6296FF973003FECF4 /* RaghavSamavedam in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F6A5296FF973003FECF4 /* RaghavSamavedam */; };
-		2F23F6A8296FF973003FECF4 /* VarunShenoy in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F6A7296FF973003FECF4 /* VarunShenoy */; };
-		2F23F6AA296FF973003FECF4 /* VishnuRavi in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F6A9296FF973003FECF4 /* VishnuRavi */; };
-		2F23F6AC296FFBA3003FECF4 /* ProjectCoachesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AB296FFBA3003FECF4 /* ProjectCoachesUITests.swift */; };
 		2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */; };
 		2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */; };
 		2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
-		653A256C28338800005D4D48 /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256B28338800005D4D48 /* LeadsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +43,6 @@
 		2F23F695296FBA92003FECF4 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		2F23F697296FBAA3003FECF4 /* MemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberList.swift; sourceTree = "<group>"; };
 		2F23F699296FBAFB003FECF4 /* Member+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Member+Views.swift"; sourceTree = "<group>"; };
-		2F23F6AB296FFBA3003FECF4 /* ProjectCoachesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCoachesUITests.swift; sourceTree = "<group>"; };
 		2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsUITests.swift; sourceTree = "<group>"; };
 		2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationUITests.swift; sourceTree = "<group>"; };
 		2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaulSchmiedmayer.swift; sourceTree = "<group>"; };
@@ -62,7 +52,6 @@
 		653A255D28338800005D4D48 /* CS342ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		653A256B28338800005D4D48 /* LeadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsUITests.swift; sourceTree = "<group>"; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,14 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F23F6A8296FF973003FECF4 /* VarunShenoy in Frameworks */,
-				2F23F6AA296FF973003FECF4 /* VishnuRavi in Frameworks */,
-				2F23F69E296FF973003FECF4 /* AshleyGriffin in Frameworks */,
-				2F23F6A2296FF973003FECF4 /* NicholasBernhardtLanier in Frameworks */,
-				2F23F6A4296FF973003FECF4 /* OliverAalami in Frameworks */,
-				2F23F6A0296FF973003FECF4 /* CarlosGuestrin in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
-				2F23F6A6296FF973003FECF4 /* RaghavSamavedam in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				2F23F6B329700C7F003FECF4 /* MemberViews */,
-				653A256B28338800005D4D48 /* LeadsUITests.swift */,
 				2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */,
 				2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */,
-				2F23F6AB296FFBA3003FECF4 /* ProjectCoachesUITests.swift */,
 			);
 			path = CS342ApplicationUITests;
 			sourceTree = "<group>";
@@ -196,6 +176,7 @@
 				653A2549283387FE005D4D48 /* Sources */,
 				653A254A283387FE005D4D48 /* Frameworks */,
 				653A254B283387FE005D4D48 /* Resources */,
+				2F3815C0297943EF00B8755D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -204,13 +185,6 @@
 			name = CS342Application;
 			packageProductDependencies = (
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
-				2F23F69D296FF973003FECF4 /* AshleyGriffin */,
-				2F23F69F296FF973003FECF4 /* CarlosGuestrin */,
-				2F23F6A1296FF973003FECF4 /* NicholasBernhardtLanier */,
-				2F23F6A3296FF973003FECF4 /* OliverAalami */,
-				2F23F6A5296FF973003FECF4 /* RaghavSamavedam */,
-				2F23F6A7296FF973003FECF4 /* VarunShenoy */,
-				2F23F6A9296FF973003FECF4 /* VishnuRavi */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -324,6 +298,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F3815C0297943EF00B8755D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		653A2549283387FE005D4D48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -351,9 +346,7 @@
 			files = (
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
-				653A256C28338800005D4D48 /* LeadsUITests.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
-				2F23F6AC296FFBA3003FECF4 /* ProjectCoachesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,34 +671,6 @@
 		2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PaulSchmiedmayer;
-		};
-		2F23F69D296FF973003FECF4 /* AshleyGriffin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AshleyGriffin;
-		};
-		2F23F69F296FF973003FECF4 /* CarlosGuestrin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CarlosGuestrin;
-		};
-		2F23F6A1296FF973003FECF4 /* NicholasBernhardtLanier */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NicholasBernhardtLanier;
-		};
-		2F23F6A3296FF973003FECF4 /* OliverAalami */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = OliverAalami;
-		};
-		2F23F6A5296FF973003FECF4 /* RaghavSamavedam */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RaghavSamavedam;
-		};
-		2F23F6A7296FF973003FECF4 /* VarunShenoy */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = VarunShenoy;
-		};
-		2F23F6A9296FF973003FECF4 /* VishnuRavi */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = VishnuRavi;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
