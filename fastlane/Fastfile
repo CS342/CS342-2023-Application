@@ -49,6 +49,7 @@ platform :ios do
         "CS342 Students 2023"
       ],
       submit_beta_review: true,
+      notify_external_testers: true,
       changelog: commit[:message]
     )
   end
