@@ -6,9 +6,6 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
-
-
 enum Member: String, Identifiable, CaseIterable {
     case paulSchmiedmayer = "Paul Schmiedmayer, Ph.D."
     
