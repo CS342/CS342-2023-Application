@@ -41,6 +41,15 @@ platform :ios do
       xcodeproj: "CS342Application.xcodeproj"
     })
     build
-    upload_to_testflight
+    commit = last_git_commit
+    upload_to_testflight(
+      distribute_external: true,
+      groups: [
+        "CS342 Instructors 2023",
+        "CS342 Students 2023"
+      ],
+      submit_beta_review: true,
+      changelog: commit[:message]
+    )
   end
 end
