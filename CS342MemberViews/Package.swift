@@ -17,14 +17,45 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"])
+        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
+        .library(name: "OliverAalami", targets: ["OliverAalami"]),
+        .library(name: "SarahBarragan", targets: ["SarahBarragan"])
     ],
     targets: [
         .target(
+            name: "InstructorViews"
+        ),
+        .target(
             name: "PaulSchmiedmayer",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "OliverAalami",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/OliverAalami.jpeg.license",
+                "Resources/OliverAalamiBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "SarahBarragan",
+            exclude: [
+                "Resources/SarahBarragan.jpeg.license",
+                "Resources/SarahBarraganBio.md.license"
             ],
             resources: [
                 .process("Resources")
