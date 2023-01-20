@@ -18,6 +18,8 @@ extension Member {
             switch self {
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
+            case .jenniferXu:
+                JenniferXu(navigationPath: navigationPath)
             }
         }
         return memberView
