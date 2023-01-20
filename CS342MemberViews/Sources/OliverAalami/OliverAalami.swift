@@ -6,6 +6,7 @@
 // SPDX-License-Identifier: MIT
 //
 
+import InstructorViews
 import SwiftUI
 
 
@@ -17,8 +18,12 @@ public struct OliverAalami: View {
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
-                ProfileView()
-                DescriptionView()
+                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "OliverAalami"))
+                DescriptionView(
+                    name: "Prof. Oliver Aalami, MD",
+                    title: "Director of Stanford’s Biodesign for Digital Health",
+                    description: Bundle.module.markdown(fromFileNamed: "OliverAalamiBio")
+                )
                 Button {
                     navigationPath.append(OliverDetailDestinations.biodesignOffice)
                 } label: {

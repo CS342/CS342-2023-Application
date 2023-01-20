@@ -22,7 +22,13 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "InstructorViews"
+        ),
+        .target(
             name: "PaulSchmiedmayer",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
@@ -33,6 +39,9 @@ let package = Package(
         ),
         .target(
             name: "OliverAalami",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
             exclude: [
                 "Resources/OliverAalami.jpeg.license",
                 "Resources/OliverAalamiBio.md.license"

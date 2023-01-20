@@ -9,8 +9,12 @@
 import SwiftUI
 
 
-struct ProfileView: View {
-    var body: some View {
+/// Displays a profile image in a circular view using a shaddow.
+public struct ProfileView: View {
+    private let profileImage: Image
+    
+    
+    public var body: some View {
         profileImage
             .resizable()
             .aspectRatio(1.0, contentMode: .fit)
@@ -21,19 +25,15 @@ struct ProfileView: View {
     }
     
     
-    private var profileImage: Image {
-        guard let imagePath = Bundle.module.path(forResource: "OliverAalami", ofType: "jpeg"),
-           let image = UIImage(contentsOfFile: imagePath) else {
-            return Image(systemName: "person.fill")
-        }
-        
-        return Image(uiImage: image)
+    /// - Parameter profileImage: The profile image that should be displayed.
+    public init(profileImage: Image) {
+        self.profileImage = profileImage
     }
 }
 
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView()
+        ProfileView(profileImage: Image(systemName: "person.fill"))
     }
 }
