@@ -17,7 +17,8 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"])
+        .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
+        .library(name: "JenniferXu", targets: ["JenniferXu"])
     ],
     targets: [
         .target(
@@ -29,6 +30,12 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        )
+        ),
+        .target(
+            name: "JenniferXu",
+            resources: [
+                .process("Resources")
+            ]
+        ),
     ]
 )
