@@ -14,6 +14,7 @@ private struct IdentifiablePlace: Identifiable {
     let id: UUID
     let location: CLLocationCoordinate2D
     
+    
     init(
         id: UUID,
         lat: Double,
