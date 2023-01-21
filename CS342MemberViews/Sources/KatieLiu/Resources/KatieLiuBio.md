@@ -1,0 +1,1 @@
+Katie Liu is a sophomore at Stanford University studying Computer Science and Music. She loves the field of biology and applying computer science skills to areas in medicine and bioinformatics. In her free time, she like to dance, play piano and violin, and ice skate. 
