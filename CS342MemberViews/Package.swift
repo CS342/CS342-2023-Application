@@ -19,7 +19,7 @@ let package = Package(
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "RajPabari", targets: ["RajPabari"])
     ],
     targets: [
         .target(
@@ -60,6 +60,6 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        ),
+        )
     ]
 )

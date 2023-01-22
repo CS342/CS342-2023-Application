@@ -44,7 +44,6 @@ enum Member: String, Identifiable, CaseIterable {
         case .rajPabari:
             return .student
         }
-
     }
     
     var id: RawValue {
