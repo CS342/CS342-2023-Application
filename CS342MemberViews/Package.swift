@@ -17,9 +17,16 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
+        .library(name: "AdamZhao", targets: ["AdamZhao"]),
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"])
     ],
     targets: [
+        .target(
+            name: "AdamZhao",
+            resources: [
+                .process("Resources")
+            ]
+        ),
         .target(
             name: "PaulSchmiedmayer",
             exclude: [

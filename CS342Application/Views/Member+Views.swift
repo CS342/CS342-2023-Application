@@ -6,6 +6,7 @@
 // SPDX-License-Identifier: MIT
 //
 
+import AdamZhao
 import PaulSchmiedmayer
 import SwiftUI
 
@@ -19,6 +20,8 @@ extension Member {
                 PaulSchmiedmayer(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
+            case .adamZhao:
+                AdamZhao(navigationPath: navigationPath)
             }
         }
         return memberView
