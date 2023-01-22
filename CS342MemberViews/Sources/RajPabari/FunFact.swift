@@ -36,8 +36,6 @@ public struct FunFact: View {
         }
             .buttonStyle(.borderedProminent)
             .padding()
-        
-
     }
 }
 
