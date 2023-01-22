@@ -13,7 +13,7 @@ public struct DescriptionView: View {
         VStack(spacing: 8) {
             Text("Raj Pabari")
                 .font(.title2.bold())
-            Text("Student at Stanford")
+            Text("Math + CS at Stanford")
                 .font(.title3)
             Text(description)
                 .padding()

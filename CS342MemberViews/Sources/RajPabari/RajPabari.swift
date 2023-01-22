@@ -18,7 +18,7 @@ public struct RajPabari: View {
             VStack(spacing: 42) {
                 ProfileView()
                 DescriptionView()
-                TwitterUsername()
+                FunFact()
             }
         }
             .navigationTitle("Raj")
