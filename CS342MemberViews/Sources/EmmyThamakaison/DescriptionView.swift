@@ -12,18 +12,15 @@ import SwiftUI
 struct DescriptionView: View {
     var body: some View {
         VStack(spacing: 8) {
-            Text("Paul Schmiedmayer, Ph.D.")
-                .font(.title2.bold())
-            Text("Postdoctoral Researcher")
-                .font(.title3)
+            Text("Hey there! 👋🏽")
+                .font(.custom("Inter", size: 30))
             Text(description)
-                .padding()
         }
     }
     
     
     private var description: String {
-        guard let descriptionPath = Bundle.module.path(forResource: "PaulSchmiedmayerBio", ofType: "md"),
+        guard let descriptionPath = Bundle.module.path(forResource: "EmmyThamakaisonBio", ofType: "md"),
               let description = try? String(contentsOfFile: descriptionPath) else {
             return ""
         }

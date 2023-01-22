@@ -8,21 +8,32 @@
 
 import SwiftUI
 
+struct ImageOverlay: View {
+    var body: some View {
+        VStack {
+            Text("Emmy")
+                .font(.custom("Inter", size: 110))
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 20)
+            Text("THAMAKAISON")
+                .font(.custom("Inter", size: 20))
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 30)
+                .offset(y: -10)
+        }
+        .offset(y: -150)
+    }
+}
 
 struct ProfileView: View {
     var body: some View {
         profileImage
-            .resizable()
-            .aspectRatio(1.0, contentMode: .fit)
-            .clipShape(Circle())
-            .shadow(radius: 10)
-            .padding(.horizontal, 32)
-            .frame(maxWidth: 300)
+            .overlay(ImageOverlay())
     }
     
     
     private var profileImage: Image {
-        guard let imagePath = Bundle.module.path(forResource: "PaulSchmiedmayer", ofType: "jpeg"),
+        guard let imagePath = Bundle.module.path(forResource: "EmmyThamakaison", ofType: "png"),
            let image = UIImage(contentsOfFile: imagePath) else {
             return Image(systemName: "person.fill")
         }

@@ -18,10 +18,18 @@ public struct EmmyThamakaison: View {
             VStack(spacing: 42) {
                 ProfileView()
                 DescriptionView()
-                TwitterUsername()
+                BubbleView()
+                    .offset(y:-30)
+                HStack(spacing: 40) {
+                    LinkedIn()
+                    Email()
+                }
+                    .offset(y: -50)
+                    .padding([.bottom], 50)
+                
             }
+            .offset(y: 80)
         }
-            .navigationTitle("Paul")
     }
     
     
