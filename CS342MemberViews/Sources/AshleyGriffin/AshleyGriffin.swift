@@ -43,4 +43,3 @@ struct AshleyGriffin_Previews: PreviewProvider {
         }
     }
 }
-

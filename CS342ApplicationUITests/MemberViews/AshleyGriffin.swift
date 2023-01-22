@@ -26,7 +26,5 @@ class AshleyGriffin: XCTestCase {
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
         XCTAssert(safari.wait(for: .runningForeground, timeout: 0.5))
-        
     }
 }
-

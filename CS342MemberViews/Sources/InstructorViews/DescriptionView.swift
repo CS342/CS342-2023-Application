@@ -50,7 +50,6 @@ struct DescriptionView_Previews: PreviewProvider {
                 title: "Postdoctoral Researcher",
                 description: LocalizedStringKey("A **markdown** _example_.")
             )
-            
         }
     }
 }
