@@ -26,7 +26,6 @@ public struct JustinWu: View {
                 
                 LinkedIn()
                 Quiz()
-                
             }
         }
             .navigationTitle("Justin")

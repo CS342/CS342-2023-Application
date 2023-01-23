@@ -24,6 +24,8 @@
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
+		F565FA51297F19820043DB25 /* JustinWu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565FA50297F19820043DB25 /* JustinWu.swift */; };
+		F565FA53297F29700043DB25 /* JustinWu in Frameworks */ = {isa = PBXBuildFile; productRef = F565FA52297F29700043DB25 /* JustinWu */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,7 @@
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F565FA50297F19820043DB25 /* JustinWu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustinWu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
+				F565FA53297F29700043DB25 /* JustinWu in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
 			);
@@ -124,6 +128,7 @@
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
+				F565FA50297F19820043DB25 /* JustinWu.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				F565FA52297F29700043DB25 /* JustinWu */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -364,6 +370,7 @@
 			files = (
 				23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */,
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
+				F565FA51297F19820043DB25 /* JustinWu.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
@@ -701,6 +708,10 @@
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		F565FA52297F29700043DB25 /* JustinWu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustinWu;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

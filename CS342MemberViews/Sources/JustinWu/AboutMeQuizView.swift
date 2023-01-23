@@ -10,9 +10,8 @@ struct AboutMeQuizView: View {
     @State private var quizComplete = false
     @State private var correctAnswer = ""
     @State private var questions = ["What is my favorite food?", "What is my favorite hobby?", "What is my favorite book series?",
-                                    "What is my favorite animal?", "What state am I from?", "Who is my favorite celebrity?",
-                                    "What is my dream job?", "Who is my favorite athlete?"]
-    @State private var answers = ["Sushi", "Sleeping", "Harry Potter", "Dog", "Ohio", "IU", "Getting paid to eat cheese balls", "Roger Federer"]
+                                    "What is my favorite animal?", "What state am I from?"]
+    @State private var answers = ["Sushi", "Sleeping", "Harry Potter", "Dog", "Ohio"]
     
     
 
