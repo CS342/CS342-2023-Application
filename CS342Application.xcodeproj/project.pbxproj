@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,8 @@
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
+		CA3CD6FD297B67E3009383B1 /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = CA3CD6FC297B67E3009383B1 /* SherryXie */; };
+		CAFBC596297F4D120023DDAB /* SherryXie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC595297F4D120023DDAB /* SherryXie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFBC595297F4D120023DDAB /* SherryXie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			files = (
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
+				CA3CD6FD297B67E3009383B1 /* SherryXie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +114,7 @@
 			children = (
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
+				CAFBC595297F4D120023DDAB /* SherryXie.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -170,8 +175,25 @@
 		653A258B283395A7005D4D48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA034673297A8CE900E0EAFB /* SherryXie */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA034673297A8CE900E0EAFB /* SherryXie */ = {
+			isa = PBXGroup;
+			children = (
+				CA034674297A8CE900E0EAFB /* Resources */,
+			);
+			name = SherryXie;
+			path = CS342MemberViews/Sources/SherryXie;
+			sourceTree = "<group>";
+		};
+		CA034674297A8CE900E0EAFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +216,7 @@
 			packageProductDependencies = (
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
+				CA3CD6FC297B67E3009383B1 /* SherryXie */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -261,7 +284,7 @@
 				};
 			};
 			buildConfigurationList = 653A2548283387FE005D4D48 /* Build configuration list for PBXProject "CS342Application" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -356,6 +379,7 @@
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
+				CAFBC596297F4D120023DDAB /* SherryXie.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
 				2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */,
 			);
@@ -686,6 +710,10 @@
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		CA3CD6FC297B67E3009383B1 /* SherryXie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SherryXie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
