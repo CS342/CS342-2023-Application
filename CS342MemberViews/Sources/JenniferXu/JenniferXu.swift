@@ -45,6 +45,7 @@ public struct JenniferXu: View {
     public init(navigationPath: Binding<NavigationPath>){
         self._navigationPath = navigationPath
     }
+    
 }
 
 struct JenniferXu_Previews: PreviewProvider {

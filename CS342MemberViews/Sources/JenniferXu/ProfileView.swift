@@ -25,7 +25,7 @@ struct ProfileView: View {
     
     
     private var profileImage: Image {
-        guard let imagePath = Bundle.module.path(forResource: "Xu_profpic", ofType: "jpeg"),
+        guard let imagePath = Bundle.module.path(forResource: "Xu_profpic", ofType: "jpg"),
            let image = UIImage(contentsOfFile: imagePath) else {
             return Image(systemName: "person.fill")
         }
