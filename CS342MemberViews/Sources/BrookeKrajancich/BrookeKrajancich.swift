@@ -11,27 +11,17 @@ import SwiftUI
 public struct BrookeKrajancich: View {
     @Binding var navigationPath: NavigationPath
     
-    private var profileImage: Image {
-        guard let imagePath = Bundle.module.path(forResource: "BrookeKrajancich", ofType: "png"),
-           let image = UIImage(contentsOfFile: imagePath) else {
-            return Image(systemName: "person.fill")
-        }
-        
-        return Image(uiImage: image)
-    }
+    var backgroundColor: Color = Color(red: 0.067, green: 0.094, blue: 0.153)
     
     public var body: some View {
         ScrollView(.vertical) {
-            Text("hello world")
-            profileImage
-                .resizable()
-                .aspectRatio(1.0, contentMode: .fit)
-                .clipShape(Circle())
-                .shadow(radius: 10)
-                .padding(.horizontal, 32)
-                .frame(maxWidth: 300)
+            VStack{
+                ProfilePanel()
+            }
         }
         .navigationTitle("Brooke")
+        .background(backgroundColor)
+
     }
     
     
