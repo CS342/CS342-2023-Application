@@ -26,7 +26,7 @@ struct FunFact: View {
     "Fun Fact 10: Raj was nominated for San Diego's Top Tech Awards"
     ]
 
-    public var body: some View {
+    var body: some View {
         VStack(spacing: 8) {
             Text(facts[randomInt])
         }
