@@ -58,6 +58,8 @@
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E1FBB2297E1A1500C3A106 /* CS342MemberViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CS342MemberViews; sourceTree = "<group>"; };
+		72E1FBB3297E1B3400C3A106 /* CS342MemberViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CS342MemberViews; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		653A2544283387FE005D4D48 = {
 			isa = PBXGroup;
 			children = (
+				72E1FBB1297E1A1500C3A106 /* Packages */,
 				2F23F690296FB11D003FECF4 /* CS342MemberViews */,
 				653A254F283387FE005D4D48 /* CS342Application */,
 				653A256028338800005D4D48 /* CS342ApplicationTests */,
@@ -172,6 +175,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72E1FBB1297E1A1500C3A106 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				72E1FBB2297E1A1500C3A106 /* CS342MemberViews */,
+				72E1FBB3297E1B3400C3A106 /* CS342MemberViews */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
