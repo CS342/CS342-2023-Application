@@ -21,6 +21,7 @@
 		2FC8A09B297A315300479145 /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC8A09A297A315300479145 /* OliverAalami */; };
 		2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09C297A34C300479145 /* LeadsUITests.swift */; };
 		2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09E297A34C900479145 /* OliverAalami.swift */; };
+		63057E1D297F1E2400DF58C1 /* NatashaKacharia in Frameworks */ = {isa = PBXBuildFile; productRef = 63057E1C297F1E2400DF58C1 /* NatashaKacharia */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
@@ -73,6 +74,7 @@
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				63057E1D297F1E2400DF58C1 /* NatashaKacharia in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +205,7 @@
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				63057E1C297F1E2400DF58C1 /* NatashaKacharia */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -701,6 +704,10 @@
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		63057E1C297F1E2400DF58C1 /* NatashaKacharia */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NatashaKacharia;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
