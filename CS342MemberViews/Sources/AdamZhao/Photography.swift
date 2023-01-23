@@ -9,23 +9,20 @@ import SwiftUI
 import UIKit
 
 
-
-
-struct Photography: View{
-    var body: some View{
-        ScrollView(.vertical){
-            VStack (){
+struct Photography: View {
+    var body: some View {
+        ScrollView(.vertical) {
+            VStack {
                 Text(description)
                 Photos()
                     .offset(y: -150)
                     .ignoresSafeArea()
-                }
-                .padding()
             }
+                .padding()
+        }
             .navigationTitle("Photography")
         }
     }
-
 
 
 private var description: String {
@@ -38,11 +35,10 @@ private var description: String {
 }
 
 
-struct Photography_Preview: PreviewProvider {
+struct PhotographyPreview: PreviewProvider {
     static var previews: some View {
-        NavigationStack{
+        NavigationStack {
             Photography()
         }
-        
     }
 }

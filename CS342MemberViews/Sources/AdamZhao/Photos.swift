@@ -7,47 +7,46 @@
 
 import SwiftUI
 
-struct Photos: View{
-    var body: some View{
-        ScrollView(.horizontal){
-            HStack{
-                Stanford5
+struct Photos: View {
+    var body: some View {
+        ScrollView(.horizontal) {
+            HStack {
+                stanford5
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
-                Sunset1
+                sunset1
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
-                Sunset2
+                sunset2
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
-                Stanford1
+                stanford1
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
-                Stanford2
+                stanford2
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
-                Stanford3
+                stanford3
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
-                Stanford4
+                stanford4
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 400, height: 600)
             }
             .padding()
         }
-        
     }
 }
 
 
-private var Stanford5: Image {
+private var stanford5: Image {
     guard let imagePath = Bundle.module.path(forResource: "Stanford5", ofType: "HEIC"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -56,7 +55,7 @@ private var Stanford5: Image {
     return Image(uiImage: image)
 }
 
-private var Sunset1: Image {
+private var sunset1: Image {
     guard let imagePath = Bundle.module.path(forResource: "Sunset1", ofType: "JPG"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -65,7 +64,7 @@ private var Sunset1: Image {
     return Image(uiImage: image)
 }
 
-private var Sunset2: Image {
+private var sunset2: Image {
     guard let imagePath = Bundle.module.path(forResource: "Sunset2", ofType: "JPG"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -74,7 +73,7 @@ private var Sunset2: Image {
     return Image(uiImage: image)
 }
 
-private var Stanford1: Image {
+private var stanford1: Image {
     guard let imagePath = Bundle.module.path(forResource: "Stanford1", ofType: "HEIC"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -82,7 +81,7 @@ private var Stanford1: Image {
     
     return Image(uiImage: image)
 }
-private var Stanford2: Image {
+private var stanford2: Image {
     guard let imagePath = Bundle.module.path(forResource: "Stanford2", ofType: "HEIC"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -91,7 +90,7 @@ private var Stanford2: Image {
     return Image(uiImage: image)
 }
 
-private var Stanford3: Image {
+private var stanford3: Image {
     guard let imagePath = Bundle.module.path(forResource: "Stanford3", ofType: "HEIC"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -100,7 +99,7 @@ private var Stanford3: Image {
     return Image(uiImage: image)
 }
 
-private var Stanford4: Image {
+private var stanford4: Image {
     guard let imagePath = Bundle.module.path(forResource: "Stanford4", ofType: "HEIC"),
        let image = UIImage(contentsOfFile: imagePath) else {
         return Image(systemName: "person.fill")
@@ -109,7 +108,7 @@ private var Stanford4: Image {
     return Image(uiImage: image)
 }
 
-struct Sunset_Previews: PreviewProvider {
+struct SunsetPreviews: PreviewProvider {
     static var previews: some View {
         Photos()
     }

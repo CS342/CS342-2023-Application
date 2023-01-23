@@ -11,7 +11,7 @@ public struct AdamZhao: View {
     @Binding var navigationPath: NavigationPath
     
     public var body: some View {
-        ScrollView(.vertical){
+        ScrollView(.vertical) {
             VStack(spacing: 50) {
                 HeadShot()
                 DescriptionView()
@@ -19,17 +19,17 @@ public struct AdamZhao: View {
                 PerformLink()
                     .offset(y: -100)
                 Button {
-                        navigationPath.append(AdamDestinations.Photography)
+                        navigationPath.append(AdamDestinations.photography)
                     } label: {
                         Text("Photography")
                             .frame(maxWidth: .infinity, idealHeight: 32)
-                        }
+                }
                             .buttonStyle(.borderedProminent)
                             .padding()
                             .offset(y: -175)
-                Button{
+                Button {
                     navigationPath
-                        .append(AdamDestinations.Contact)
+                        .append(AdamDestinations.contact)
                 } label: {
                     Text("Contact Me")
                         .frame(maxWidth: .infinity, idealHeight: 32)
@@ -37,14 +37,13 @@ public struct AdamZhao: View {
                 .buttonStyle(.borderedProminent)
                 .padding()
                 .offset(y: -250)
-                    }
-                    
-                }
+            }
+        }
                     .navigationDestination(for: AdamDestinations.self) { destination in
                         switch destination {
-                        case .Photography:
+                        case .photography:
                             Photography()
-                        case .Contact:
+                        case .contact:
                             Contact()
                         }
                     }
@@ -55,14 +54,8 @@ public struct AdamZhao: View {
     }
     }
 
-
-
-
-
 struct AdamZhao_Previews: PreviewProvider {
     @State private static var navigationPath = NavigationPath()
-    
-    //@State private static var navigationPath = NavigationPath()
 
     static var previews: some View {
         NavigationStack {
@@ -70,16 +63,3 @@ struct AdamZhao_Previews: PreviewProvider {
         }
     }
 }
-
-/*
- struct OliverAalami_Previews: PreviewProvider {
- @State private static var navigationPath = NavigationPath()
- 
- 
- static var previews: some View {
- NavigationStack {
- OliverAalami(navigationPath: $navigationPath)
- }
- }
- }
- */

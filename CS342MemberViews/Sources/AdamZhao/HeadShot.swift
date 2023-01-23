@@ -24,7 +24,6 @@ struct HeadShot: View {
         
         return Image(uiImage: image)
     }
-    
 }
 
 struct HeadShot_Previews: PreviewProvider {

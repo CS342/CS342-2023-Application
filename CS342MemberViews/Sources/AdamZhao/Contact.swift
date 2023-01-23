@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct Contact: View{
-    var body: some View{
-        VStack{
+struct Contact: View {
+    var body: some View {
+        VStack {
             LinkedIn()
             Text("Feel free to reach out at adamzhao@stanford.edu!")
         }
@@ -18,11 +18,10 @@ struct Contact: View{
 }
 
 
-struct Contact_Preview: PreviewProvider {
+struct ContactPreview: PreviewProvider {
     static var previews: some View {
-        NavigationStack{
+        NavigationStack {
             Contact()
         }
-        
     }
 }

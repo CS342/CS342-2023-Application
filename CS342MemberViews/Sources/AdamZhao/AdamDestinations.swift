@@ -6,8 +6,8 @@
 //
 
 enum AdamDestinations: String, Identifiable {
-    case Photography
-    case Contact
+    case photography
+    case contact
     
     var id: String {
         rawValue
