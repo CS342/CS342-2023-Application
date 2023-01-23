@@ -11,8 +11,6 @@ import SwiftUI
 
 
 public struct RajPabari: View {
-    @Binding var navigationPath: NavigationPath
-    
     
     public var body: some View {
         ScrollView(.vertical) {
