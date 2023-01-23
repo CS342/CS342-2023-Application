@@ -14,10 +14,9 @@ struct DescriptionView: View {
         VStack(spacing: 8) {
             Text("Adam Zhao")
                 .font(.title2.bold())
-            Text("Cellist, Programmer, Weightlifter")
-                .font(.title3)
+            Text("Cellist, Photographer, Weightlifter")
+                .font(.system(size: 10))
             Text(description)
-                //.multilineTextAlignment(.center)
                 .padding()
         }
     }

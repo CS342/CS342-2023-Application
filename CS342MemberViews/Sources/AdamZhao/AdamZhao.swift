@@ -15,8 +15,9 @@ public struct AdamZhao: View {
             VStack(spacing: 50) {
                 HeadShot()
                 DescriptionView()
+                    .offset(y: -25)
                 PerformLink()
-                    .offset(y: -125)
+                    .offset(y: -100)
                 Button {
                         navigationPath.append(AdamDestinations.Photography)
                     } label: {
@@ -25,14 +26,26 @@ public struct AdamZhao: View {
                         }
                             .buttonStyle(.borderedProminent)
                             .padding()
-                            .offset(y: -200)
-                    }
+                            .offset(y: -175)
+                Button{
+                    navigationPath
+                        .append(AdamDestinations.Contact)
+                } label: {
+                    Text("Contact Me")
+                        .frame(maxWidth: .infinity, idealHeight: 32)
+                }
+                .buttonStyle(.borderedProminent)
                 .padding()
+                .offset(y: -250)
+                    }
+                    
                 }
                     .navigationDestination(for: AdamDestinations.self) { destination in
                         switch destination {
                         case .Photography:
                             Photography()
+                        case .Contact:
+                            Contact()
                         }
                     }
                 .navigationTitle("Adam")

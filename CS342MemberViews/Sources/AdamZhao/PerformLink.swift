@@ -19,7 +19,7 @@ struct PerformLink: View {
                 Text("Click for a short performance")
                     .frame(maxWidth: .infinity, idealHeight: 32)
             }
-                .buttonStyle(.borderedProminent)
+                .buttonStyle(.bordered)
                 .padding()
         }
     }
