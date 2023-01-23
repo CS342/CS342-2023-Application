@@ -9,6 +9,7 @@
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari
+import AliMottaghi
 import SwiftUI
 
 
@@ -25,6 +26,8 @@ extension Member {
                 OliverAalami(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .aliMottaghi:
+                AliMottaghi(navigationPath: navigationPath)
             }
         }
         return memberView
