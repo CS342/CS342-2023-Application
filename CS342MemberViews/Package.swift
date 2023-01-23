@@ -53,6 +53,9 @@ let package = Package(
         ),
         .target(
             name: "RajPabari",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
             exclude: [
                 "Resources/RajPabari.jpeg.license",
                 "Resources/RajPabariBio.md.license"
