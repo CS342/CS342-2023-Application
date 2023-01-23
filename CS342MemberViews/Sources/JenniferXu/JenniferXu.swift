@@ -28,6 +28,15 @@ public struct JenniferXu: View {
                    SocialButton(social: "github-mark", url:"https://github.com/jennxu23" )
                    SocialButton(url:"https://jennxu.netlify.app/")
                }
+               VStack(spacing: 8){
+                   Text("About Me")
+                       .font(.title2.bold())
+                   Text("Hi! Welcome to my View! I'm interested in Software Engineering, ML/AI, and Biotech. You can see some of my previous endavors below.")
+                       .font(.title3)
+                   TLView()
+               }
+               .padding()
+               
            }
        }
        .navigationTitle("Jennifer")
