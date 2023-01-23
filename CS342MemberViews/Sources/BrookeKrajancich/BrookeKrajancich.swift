@@ -11,17 +11,16 @@ import SwiftUI
 public struct BrookeKrajancich: View {
     @Binding var navigationPath: NavigationPath
     
-    var backgroundColor: Color = Color(red: 0.067, green: 0.094, blue: 0.153)
+    var backgroundColor = Color(red: 0.067, green: 0.094, blue: 0.153)
     
     public var body: some View {
         ScrollView(.vertical) {
-            VStack{
+            VStack {
                 ProfilePanel()
             }
         }
         .navigationTitle("Brooke")
         .background(backgroundColor)
-
     }
     
     

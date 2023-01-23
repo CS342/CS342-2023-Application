@@ -54,8 +54,8 @@ let package = Package(
         .target(
             name: "BrookeKrajancich",
             exclude: [
-                "Resources/BrookeKrajancich.jpeg.license",
-                "Resources/BrookeKrajancich.md.license"
+                "Resources/BrookeKrajancich.jpg.license",
+                "Resources/Background.jpg.license"
             ],
             resources: [
                 .process("Resources")

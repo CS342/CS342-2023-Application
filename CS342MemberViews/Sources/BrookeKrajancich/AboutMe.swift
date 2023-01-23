@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AboutMe: View {
     var body: some View {
-        VStack{
+        VStack {
             Text("In my spare time, you'll find me:")
                 .font(.body)
             Text("🏋🏼‍♀️ lifting heavy things")
