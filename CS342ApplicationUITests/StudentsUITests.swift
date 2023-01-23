@@ -19,7 +19,7 @@ class StudentsUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        app.collectionViews.buttons["Raj Pabari"].tap()
-        XCTAssert(app.staticTexts["Raj Pabari"].waitForExistence(timeout: 0.5))
+        app.collectionViews.buttons["Griffin Somaratne"].tap()
+        XCTAssert(app.staticTexts["Griffin Somaratne"].waitForExistence(timeout: 0.5))
     }
 }

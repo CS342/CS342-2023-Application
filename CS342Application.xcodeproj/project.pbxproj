@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2324B681297D972200C8D549 /* RajPabari in Frameworks */ = {isa = PBXBuildFile; productRef = 2324B680297D972200C8D549 /* RajPabari */; };
-		23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
-		23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF504297EFFD7007386C6 /* RajPabari.swift */; };
 		2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */; };
 		2F23F694296FBA8B003FECF4 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F693296FBA8B003FECF4 /* Role.swift */; };
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
@@ -21,6 +18,7 @@
 		2FC8A09B297A315300479145 /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC8A09A297A315300479145 /* OliverAalami */; };
 		2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09C297A34C300479145 /* LeadsUITests.swift */; };
 		2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09E297A34C900479145 /* OliverAalami.swift */; };
+		5A976958297F505B0022014B /* GriffinSomaratne in Frameworks */ = {isa = PBXBuildFile; productRef = 5A976957297F505B0022014B /* GriffinSomaratne */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
@@ -44,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23FFF502297EFF88007386C6 /* StudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUITests.swift; sourceTree = "<group>"; };
-		23FFF504297EFFD7007386C6 /* RajPabari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajPabari.swift; sourceTree = "<group>"; };
 		2F23F690296FB11D003FECF4 /* CS342MemberViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CS342MemberViews; sourceTree = "<group>"; };
 		2F23F693296FBA8B003FECF4 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		2F23F695296FBA92003FECF4 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
@@ -71,8 +67,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
+				5A976958297F505B0022014B /* GriffinSomaratne in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
-				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +119,6 @@
 			children = (
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
-				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -175,7 +170,6 @@
 			children = (
 				2F23F6B329700C7F003FECF4 /* MemberViews */,
 				2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */,
-				23FFF502297EFF88007386C6 /* StudentsUITests.swift */,
 				2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */,
 				2FC8A09C297A34C300479145 /* LeadsUITests.swift */,
 			);
@@ -202,7 +196,7 @@
 			packageProductDependencies = (
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
-				2324B680297D972200C8D549 /* RajPabari */,
+				5A976957297F505B0022014B /* GriffinSomaratne */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -362,13 +356,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */,
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
 				2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */,
-				23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,10 +682,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2324B680297D972200C8D549 /* RajPabari */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RajPabari;
-		};
 		2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PaulSchmiedmayer;
@@ -701,6 +689,10 @@
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		5A976957297F505B0022014B /* GriffinSomaratne */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GriffinSomaratne;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
