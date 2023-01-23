@@ -9,19 +9,25 @@
 import SwiftUI
 
 
-public struct PaulSchmiedmayer: View {
+public struct RheaMalhotra: View {
     @Binding var navigationPath: NavigationPath
     
     
     public var body: some View {
         ScrollView(.vertical) {
-            VStack(spacing: 42) {
+            VStack(spacing: 30) {
+                Color.purple
+                                .ignoresSafeArea()
                 ProfileView()
                 DescriptionView()
-                TwitterUsername()
+                DescriptionText()
+                HStack(spacing: 2) {
+                    LinkedinUsername()
+                    GitUsername()
+                }
             }
         }
-            .navigationTitle("Paul")
+            .navigationTitle("Rhea!")
     }
     
     
@@ -31,10 +37,10 @@ public struct PaulSchmiedmayer: View {
 }
 
 
-struct PaulSchmiedmayer_Previews: PreviewProvider {
+struct RheaMalhotra_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            PaulSchmiedmayer(navigationPath: .constant(NavigationPath()))
+            RheaMalhotra(navigationPath: .constant(NavigationPath()))
         }
     }
 }
