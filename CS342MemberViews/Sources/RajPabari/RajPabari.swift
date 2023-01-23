@@ -11,7 +11,6 @@ import SwiftUI
 
 
 public struct RajPabari: View {
-    
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
@@ -28,8 +27,7 @@ public struct RajPabari: View {
     }
     
     
-    public init(navigationPath: Binding<NavigationPath>) {
-        self._navigationPath = navigationPath
+    public init() {
     }
 }
 
@@ -37,7 +35,7 @@ public struct RajPabari: View {
 struct RajPabari_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            RajPabari(navigationPath: .constant(NavigationPath()))
+            RajPabari()
         }
     }
 }
