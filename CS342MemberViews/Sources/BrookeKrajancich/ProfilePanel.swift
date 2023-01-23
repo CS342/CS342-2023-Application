@@ -19,7 +19,7 @@ struct ProfilePanel: View {
     }
     
     private var backgroundImage: Image {
-        guard let imagePath = Bundle.module.path(forResource: "test", ofType: "jpg"),
+        guard let imagePath = Bundle.module.path(forResource: "Background", ofType: "jpg"),
            let image = UIImage(contentsOfFile: imagePath) else {
             return Image(systemName: "person.fill")
         }
