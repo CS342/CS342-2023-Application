@@ -16,7 +16,9 @@ public struct StanleyYang: View {
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
-                Text("Hello")
+                ProfileView()
+                DescriptionView()
+                InstagramUsername()
             }
         }
             .navigationTitle("Stanley")

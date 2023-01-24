@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-struct TwitterUsername: View {
+struct InstagramUsername: View {
     @Environment(\.openURL) var openURL
     
     
@@ -18,7 +18,7 @@ struct TwitterUsername: View {
             Button {
                 openURL(twitterURL)
             } label: {
-                Text("@PSchmiedmayer")
+                Text("@sjayyang")
                     .frame(maxWidth: .infinity, idealHeight: 32)
             }
                 .buttonStyle(.borderedProminent)
@@ -28,13 +28,13 @@ struct TwitterUsername: View {
     
     
     private var twitterURL: URL? {
-        URL(string: "https://twitter.com/@PSchmiedmayer")
+        URL(string: "instagram.com/sjayyang")
     }
 }
 
 
-struct TwitterUsername_Previews: PreviewProvider {
+struct InstagramUsername_Previews: PreviewProvider {
     static var previews: some View {
-        TwitterUsername()
+        InstagramUsername()
     }
 }

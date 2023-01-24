@@ -14,7 +14,7 @@ struct DescriptionView: View {
         VStack(spacing: 8) {
             Text("Stanley Yang")
                 .font(.title2.bold())
-            Text("Postdoctoral Researcher")
+            Text("Undergraduate at Stanford")
                 .font(.title3)
             Text(description)
                 .padding()
