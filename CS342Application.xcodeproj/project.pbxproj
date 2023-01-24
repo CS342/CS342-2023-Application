@@ -26,6 +26,8 @@
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
 		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
 		ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */; };
+		DA14B6EA297FCB9300D09651 /* DannyPark in Frameworks */ = {isa = PBXBuildFile; productRef = DA14B6E9297FCB9300D09651 /* DannyPark */; };
+		DA14B6EC297FD9BC00D09651 /* DannyPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14B6EB297FD9BC00D09651 /* DannyPark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,7 @@
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshleyGriffin.swift; sourceTree = "<group>"; };
+		DA14B6EB297FD9BC00D09651 /* DannyPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DannyPark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +79,8 @@
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */
+				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
+				DA14B6EA297FCB9300D09651 /* DannyPark in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,10 +129,11 @@
 		2F23F6B329700C7F003FECF4 /* MemberViews */ = {
 			isa = PBXGroup;
 			children = (
+				DA14B6EB297FD9BC00D09651 /* DannyPark.swift */,
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
-				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */
+				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -208,7 +213,8 @@
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
 				2324B680297D972200C8D549 /* RajPabari */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				DA14B6E9297FCB9300D09651 /* DannyPark */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -371,6 +377,7 @@
 				23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */,
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
+				DA14B6EC297FD9BC00D09651 /* DannyPark.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
@@ -712,6 +719,10 @@
 		ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AshleyGriffin;
+		};
+		DA14B6E9297FCB9300D09651 /* DannyPark */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DannyPark;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
