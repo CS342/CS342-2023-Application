@@ -22,7 +22,7 @@ public struct ParthavShergill: View {
                     description: Bundle.module.markdown(fromFileNamed: "ParthavShergillBio")
                 )
                 Divider()
-                Text("Check out where I'm from:")
+                Text("Check out where I'm from!")
                 MapView()
                     .frame(height:400)
                     .padding()
@@ -38,6 +38,7 @@ public struct ParthavShergill: View {
     }
 }
 
+
 struct ParthavShergill_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
@@ -45,4 +46,3 @@ struct ParthavShergill_Previews: PreviewProvider {
         }
     }
 }
-

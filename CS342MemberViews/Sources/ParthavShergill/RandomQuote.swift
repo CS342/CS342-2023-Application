@@ -15,7 +15,7 @@ struct RandomQuote: View {
     let quotes = [
     "",
     "",
-    "",
+    ""
 //    "Don't ever, for any reason, do anything to anyone, for any reason, no matter what, no matter where, or who you are with, or or where you are going, or where you've been, ever, for any reason, whatsoever. - Michael Scott",
 //    "A common mistake people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools. - Douglas Adams",
 //    "Happiness is only real when shared. - Jon Krakauer",
@@ -35,7 +35,7 @@ struct RandomQuote: View {
         Button {
             randomInt = Int.random(in: 1..<quotes.count)
         } label: {
-            Text("Click for a random quote:")
+            Text("Click for a random quote.")
                 .frame(maxWidth: .infinity, idealHeight: 32)
         }
             .buttonStyle(.borderedProminent)
