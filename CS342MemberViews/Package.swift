@@ -1,5 +1,4 @@
 // swift-tools-version: 5.7
-
 //
 // This source file is part of the CS342 2023 Application project
 //
@@ -9,7 +8,6 @@
 //
 
 import PackageDescription
-
 
 let package = Package(
     name: "CS342MemberViews",
@@ -57,8 +55,8 @@ let package = Package(
                 .target(name: "InstructorViews")
             ],
             exclude: [
-                "Resources/KatieLiu.jpg.license",
-                "Resources/KatieLiuBio.md.license"
+                "Resources/KatieLiu.jpeg.license.txt",
+                "Resources/KatieLiuBio.md.license.txt"
             ],
             resources: [
                 .process("Resources")

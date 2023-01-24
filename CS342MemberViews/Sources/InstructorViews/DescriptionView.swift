@@ -14,8 +14,7 @@ public struct DescriptionView: View {
     private let name: String
     private let title: String
     private let description: LocalizedStringKey
-    
-    
+
     public var body: some View {
         VStack(spacing: 8) {
             Text(name)
