@@ -26,6 +26,7 @@ public struct DescriptionView: View {
                 .multilineTextAlignment(.center)
             Text(description)
                 .padding()
+                .multilineTextAlignment(.center)
         }
     }
     
