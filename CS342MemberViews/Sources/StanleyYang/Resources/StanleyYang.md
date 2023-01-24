@@ -1,0 +1,1 @@
+Dr. Schmiedmayer is a postdoctoral researcher at the Byers Center for Biodesign at Stanford University. He earned his doctoral degree at the Technical University of Munich, studying software engineering and the evolution of web service-based distributed systems. He holds a master's and bachelor's degree in computer science from the Technical University of Munich.

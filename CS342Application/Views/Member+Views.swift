@@ -15,6 +15,7 @@ import RaghavSamavedam
 import SwiftUI
 import VarunShenoy
 import VishnuRavi
+import StanleyYang
 
 
 extension Member {
@@ -38,6 +39,8 @@ extension Member {
                 RaghavSamavedam()
             case .varunShenoy:
                 VarunShenoy()
+            case .stanleyYang:
+                StanleyYang(navigationPath: navigationPath)
             }
         }
         return memberView
