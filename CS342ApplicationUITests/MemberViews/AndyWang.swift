@@ -24,6 +24,6 @@ class AndyWang: XCTestCase {
 
         app.staticTexts["Andy Wang"].swipeUp()
         app.buttons["Click to see what I do for fun!"].tap()
-        XCTAssert(app.staticTexts["My Hobbies"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["My Hobbies!"].waitForExistence(timeout: 0.5))
     }
 }

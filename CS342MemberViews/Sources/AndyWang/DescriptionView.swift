@@ -20,8 +20,6 @@ struct DescriptionView: View {
                         .font(.title3)
                 }
             }
-            
-            
             Text(description)
                 .padding()
         }

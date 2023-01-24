@@ -54,8 +54,11 @@ let package = Package(
         .target(
             name: "AndyWang",
             exclude: [
-                "Resources/AndyWang.jpeg.license",
-                "Resources/AndyWangBio.md.license"
+                "Resources/AndyWang.jpg.license",
+                "Resources/AndyWangBio.md.license",
+                "Resources/Premiere.png.license",
+                "Resources/Saxophone.jpg.license",
+                "Resources/Volleyball.png.license",
             ],
             resources: [
                 .process("Resources")

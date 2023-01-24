@@ -14,23 +14,12 @@ public struct AndyWang: View {
     
     public var body: some View {
         ScrollView(.vertical) {
-            VStack(spacing: 20) {
+            VStack(spacing: 10) {
                 DescriptionView()
-                
                 NavigationLink("Click to see what I do for fun!") {
                     HobbiesView()
                 }
-//                Button {
-//                    NavigationLink("Button") {
-//                        HobbiesView()
-//                    }
-//                } label: {
-//                    Text("Butt")
-//                        .frame(maxWidth: .infinity, idealHeight: 32)
-//                }
-//                    .buttonStyle(.borderedProminent)
-//                    .padding()
-//                    .padding(.top, -48)
+                    .buttonStyle(.borderedProminent)
             }
             .padding(20)
         }
