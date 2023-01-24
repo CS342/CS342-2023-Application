@@ -19,14 +19,23 @@ struct LinkedinUsername: View {
                 openURL(linkedinURL)
             } label: {
                 Text("Rhea's Linkedin")
-                    .frame(maxWidth: .infinity, idealHeight: 100)
+                    .frame(
+                        maxWidth: .infinity,
+                        idealHeight: 100
+                    )
                     .foregroundColor(.pink)
                     .bold()
-                    .background(RoundedRectangle(cornerRadius: 20,
-                                    style:.continuous)
-                                .stroke(.pink, lineWidth: 2)
-                                .frame(width: 175, height: 50)
-
+                    .background(
+                        RoundedRectangle(
+                            cornerRadius: 20,
+                            style: .continuous
+                        )
+                                .stroke(
+                                    .pink, lineWidth: 2
+                                )
+                                .frame(
+                                    width: 175, height: 50
+                                )
                             )
             }
                 .buttonStyle(.borderless)

@@ -25,6 +25,7 @@
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
 		E1D81019297F2F05000DC840 /* RheaMalhotra in Frameworks */ = {isa = PBXBuildFile; productRef = E1D81018297F2F05000DC840 /* RheaMalhotra */; };
+		E1D8101B29800E0E000DC840 /* RheaMalhotra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D8101A29800E0E000DC840 /* RheaMalhotra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D8101A29800E0E000DC840 /* RheaMalhotra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RheaMalhotra.swift; path = ../../../RheaMalhotra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
+				E1D8101A29800E0E000DC840 /* RheaMalhotra.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
 			);
@@ -370,6 +373,7 @@
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
+				E1D8101B29800E0E000DC840 /* RheaMalhotra.swift in Sources */,
 				2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */,
 				23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */,
 			);
