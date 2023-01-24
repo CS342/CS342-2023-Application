@@ -9,17 +9,32 @@
 
 import SwiftUI
 
+let backgroundGradient = LinearGradient(
+    colors: [Color.purple, Color.white],
+    startPoint: .top, endPoint: .center)
+
 public struct ShriyaReddy: View {
     @Binding var navigationPath: NavigationPath
     
     public var body: some View {
-        ScrollView(.vertical) {
-            VStack(spacing: 2) {
-                PictureView()
-                //IntroView()
-                Text("Shriya Reddy")
-                    .font(.title.bold())
-                Text("Stanford Bioengineering Sophomore")
+        ZStack{
+            backgroundGradient
+                .ignoresSafeArea()
+            ScrollView(.vertical) {
+                VStack(spacing: 2) {
+                    PictureView()
+                    //IntroView()
+                    Text("Shriya Reddy")
+                        .font(.title.bold())
+                    Text("Stanford Bioengineering Sophomore")
+                    Spacer()
+                }
+                VStack(spacing: 0) {
+                    IntroButton()
+                    HobbyButton()
+                    HomeButton()
+                    Linkedin()
+                }
             }
         }
         

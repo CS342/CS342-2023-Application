@@ -10,15 +10,16 @@
 import SwiftUI
 
 
-public struct HobbyButton: View {
+public struct IntroButton: View {
     @State private var showDetails = false
 
     public var body: some View {
-        HStack() {
+        VStack() {
+            
             Button {
                 showDetails.toggle()
             } label: {
-                Text("Hobbies")
+                Text("Introduction")
                     .frame(maxWidth: .infinity, idealHeight: 32)
             }
                 .buttonStyle(.bordered)
@@ -26,7 +27,7 @@ public struct HobbyButton: View {
                 .padding()
             
             if showDetails {
-                Text("She loves to dance, and is part of Stanford’s premier competitive Garba Raas dance team. Recently, she has also started to crochet.")
+                Text("Shriya Reddy is a second-year undergraduate student at Stanford, with special interests in cancer biology, nanomaterials, tissue engineering, and genomics. She is especially motivated by needs-driven innovation since discovering Stanford Biodesign and is very excited about how medical device and digital health solutions can be developed from a biodesign perspective.")
                     .padding()
                     .multilineTextAlignment(.center)
             }
@@ -34,8 +35,8 @@ public struct HobbyButton: View {
     }
 }
 
-struct HobbyView_Previews: PreviewProvider {
+struct IntroView_Previews: PreviewProvider {
     static var previews: some View {
-        HobbyButton()
+        IntroButton()
     }
 }

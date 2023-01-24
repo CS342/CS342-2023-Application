@@ -7,6 +7,7 @@
 //
 
 import PaulSchmiedmayer
+import ShriyaReddy
 import SwiftUI
 
 
@@ -17,6 +18,9 @@ extension Member {
             switch self {
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
+            ;
+            case .shriyaReddy:
+                ShriyaReddy(navigationPath: navigationPath)
             }
         }
         return memberView
