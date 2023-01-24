@@ -21,6 +21,7 @@ struct LinkedInUsername: View {
                 Text("@anushehchaudry")
                     .frame(idealWidth: 400, idealHeight: 32)
             }
+            .tint(Color(hue: 0.633, saturation: 0.833, brightness: 0.553))
             .buttonStyle(.bordered)
                 .padding()
         }

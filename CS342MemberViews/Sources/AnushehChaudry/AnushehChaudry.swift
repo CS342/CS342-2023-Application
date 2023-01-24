@@ -20,9 +20,26 @@ public struct AnushehChaudry: View {
                 ProfileView()
                 DescriptionView()
                 LinkedInUsername()
+                VStack(spacing: 8) {
+                    Text("Family")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.blue)
+                    FamView()
+                    Text("Friends")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.blue)
+                    FriendsView()
+                    Text("Fav View")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.blue)
+                    PlaceView()
+                }
             }
         }
-        .background(Color(hue: 0.534, saturation: 0.116, brightness: 0.97))
+        .background(Color(hue: 0.533, saturation: 0.116, brightness: 0.97))
             .navigationTitle("Anusheh")
     }
     
