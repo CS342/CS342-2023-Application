@@ -9,20 +9,21 @@
 import XCTest
 
 
-class LeadsUITests: XCTestCase {
+class HamedHekmat: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
     
-    func testLeads() throws {
+    func testHamedAndWikiGame() throws {
         let app = XCUIApplication()
         app.launch()
         
-        app.collectionViews.buttons["Prof. Oliver Aalami, MD"].tap()
-        XCTAssert(app.staticTexts["Prof. Oliver Aalami, MD"].waitForExistence(timeout: 0.5))
-        
         app.collectionViews.buttons["Hamed Hekmat"].tap()
         XCTAssert(app.staticTexts["Hamed Hekmat"].waitForExistence(timeout: 0.5))
+        
+        app.staticTexts["Hamed Hekmat"].swipeUp()
+        XCTAssert(app.buttons["Begin your Wikipedia Game journey here!"].waitForExistence(timeout: 0.5))
+        app.buttons["Begin your Wikipedia Game journey here!"].tap()
     }
 }
