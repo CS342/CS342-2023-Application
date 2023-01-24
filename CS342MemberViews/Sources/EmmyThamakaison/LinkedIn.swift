@@ -28,7 +28,7 @@ struct LinkedIn: View {
     
     
     private var linkedInURL: URL? {
-        URL(string: "https://www.linkedin.com/in/emmy-thamakaison/")
+        URL(string: "https://www.linkedin.com/in/emmy-thamakaison")
     }
 }
 

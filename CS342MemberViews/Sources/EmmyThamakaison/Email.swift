@@ -9,16 +9,16 @@
 import SwiftUI
 
 
-struct Email: View {
+struct GitHub: View {
     @Environment(\.openURL) var openURL
     
     
     var body: some View {
-        if let emailURL {
+        if let gitHubURL {
             Button {
-                openURL(emailURL)
+                openURL(gitHubURL)
             } label: {
-                Text("Email")
+                Text("GitHub")
                     .frame(maxWidth: 90, idealHeight: 35)
             }
                 .buttonStyle(.bordered)
@@ -27,14 +27,14 @@ struct Email: View {
     }
     
     
-    private var emailURL: URL? {
-        URL(string: "mailto:emmyst@stanford.edu")
+    private var gitHubURL: URL? {
+        URL(string: "https://github.com/emmyxth")
     }
 }
 
 
-struct Email_Previews: PreviewProvider {
+struct GitHub_Previews: PreviewProvider {
     static var previews: some View {
-        Email()
+        GitHub()
     }
 }

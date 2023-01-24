@@ -22,7 +22,7 @@ public struct EmmyThamakaison: View {
                     .offset(y:-30)
                 HStack(spacing: 40) {
                     LinkedIn()
-                    Email()
+                    GitHub()
                 }
                     .offset(y: -50)
                     .padding([.bottom], 50)
