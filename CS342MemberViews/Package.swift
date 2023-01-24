@@ -58,7 +58,7 @@ let package = Package(
                 "Resources/AndyWangBio.md.license",
                 "Resources/Premiere.png.license",
                 "Resources/Saxophone.jpg.license",
-                "Resources/Volleyball.png.license",
+                "Resources/Volleyball.png.license"
             ],
             resources: [
                 .process("Resources")
