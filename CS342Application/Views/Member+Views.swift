@@ -5,12 +5,12 @@
 //
 // SPDX-License-Identifier: MIT
 //
-
+import AbhinavAgarwal
+import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari
 import SwiftUI
-
 
 extension Member {
     func memberView(with navigationPath: Binding<NavigationPath>) -> some View {
@@ -25,6 +25,10 @@ extension Member {
                 OliverAalami(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
+            case .abhinavAgarwal:
+                AbhinavAgarwal(navigationPath: navigationPath)
             }
         }
         return memberView
