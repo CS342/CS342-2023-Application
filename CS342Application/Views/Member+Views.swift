@@ -27,7 +27,7 @@ extension Member {
             case .rajPabari:
                 RajPabari()
             case .sonyaJin:
-                SonyaJin()
+                SonyaJin(navigationPath: navigationPath)
             }
         }
         return memberView

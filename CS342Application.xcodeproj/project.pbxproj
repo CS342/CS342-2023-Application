@@ -10,6 +10,7 @@
 		2324B681297D972200C8D549 /* RajPabari in Frameworks */ = {isa = PBXBuildFile; productRef = 2324B680297D972200C8D549 /* RajPabari */; };
 		23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
 		23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF504297EFFD7007386C6 /* RajPabari.swift */; };
+		27B7629A297F8398007F1029 /* SonyaJin in Frameworks */ = {isa = PBXBuildFile; productRef = 27B76299297F8398007F1029 /* SonyaJin */; };
 		2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */; };
 		2F23F694296FBA8B003FECF4 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F693296FBA8B003FECF4 /* Role.swift */; };
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
@@ -75,6 +76,7 @@
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				27B7629A297F8398007F1029 /* SonyaJin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,13 +187,6 @@
 			path = CS342ApplicationUITests;
 			sourceTree = "<group>";
 		};
-		653A258B283395A7005D4D48 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		72E1FBB1297E1A1500C3A106 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +217,7 @@
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				27B76299297F8398007F1029 /* SonyaJin */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -712,6 +708,10 @@
 		2324B680297D972200C8D549 /* RajPabari */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RajPabari;
+		};
+		27B76299297F8398007F1029 /* SonyaJin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonyaJin;
 		};
 		2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;
