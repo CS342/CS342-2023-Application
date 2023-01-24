@@ -6,8 +6,9 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
 import InstructorViews
+import SwiftUI
+
 
 public struct ParthavShergill: View {
     @Binding var navigationPath: NavigationPath
@@ -24,7 +25,7 @@ public struct ParthavShergill: View {
                 Divider()
                 Text("Check out where I'm from!")
                 MapView()
-                    .frame(height:400)
+                    .frame(height: 400)
                     .padding()
                 Divider()
                 RandomQuote()
