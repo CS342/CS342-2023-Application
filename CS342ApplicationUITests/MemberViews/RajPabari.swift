@@ -9,23 +9,21 @@
 import XCTest
 
 
-class StudentsUITests: XCTestCase {
+class RajPabari: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
     
-    func testStudents() throws {
+    func testRajPabariAndFunFactView() throws {
         let app = XCUIApplication()
         app.launch()
         
-
-        app.collectionViews.buttons["Andy Wang"].tap()
-        XCTAssert(app.staticTexts["Andy Wang"].waitForExistence(timeout: 0.5))
-
-        app.navigationBars.firstMatch.buttons["CS342"].tap()
-
         app.collectionViews.buttons["Raj Pabari"].tap()
         XCTAssert(app.staticTexts["Raj Pabari"].waitForExistence(timeout: 0.5))
+        
+        app.staticTexts["Raj Pabari"].swipeUp()
+        XCTAssert(app.buttons["Learn a random fun fact about Raj"].waitForExistence(timeout: 0.5))
+        app.buttons["Learn a random fun fact about Raj"].tap()
     }
 }
