@@ -26,17 +26,31 @@ public struct GriffinSomaratne: View {
                     title: "Designer and Student",
                     description: Bundle.module.markdown(fromFileNamed: "GriffinSomaratneBio")
                 )
+                VStack(alignment: .leading) {
+                Text("Previous Projects")
+                    .font(.title2.bold())
+                
+                    ScrollView(.horizontal) {
+                        HStack(spacing: 20) {
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"Blue Boy", category: "Art")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"FLOAT", category:"Engineering")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"FLOAT", category:"Design")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"FLOAT", category:"Engineering")
+                        }
+                    }
+                }  .padding(.leading)
                 LinkedInButton()
+                }
             }
+        .navigationTitle("Griffin")
         }
-            .navigationTitle("Griffin")
-    }
-    
-    
-    public init(navigationPath: Binding<NavigationPath>) {
-        self._navigationPath = navigationPath
+        
+        
+        public init(navigationPath: Binding<NavigationPath>) {
+            self._navigationPath = navigationPath
     }
 }
+
 
 
 struct GriffinSomaratne_Previews: PreviewProvider {

@@ -9,17 +9,22 @@
 import XCTest
 
 
-class StudentsUITests: XCTestCase {
+class GriffinSomaratne: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
     
-    func testLeads() throws {
+    func testGriffinSomaratneAndLinkedInButton() throws {
         let app = XCUIApplication()
         app.launch()
         
         app.collectionViews.buttons["Griffin Somaratne"].tap()
         XCTAssert(app.staticTexts["Griffin Somaratne"].waitForExistence(timeout: 0.5))
+
+        app.scrollViews.otherElements.buttons["Add me on LinkedIn!"].tap()
+        
+        let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
     }
 }
