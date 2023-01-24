@@ -15,7 +15,7 @@ class CaitlinKunchur: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testCaitlinKunchurAndMapView() throws {
+    func testCaitlinKunchur() throws {
         let app = XCUIApplication()
         app.launch()
         
