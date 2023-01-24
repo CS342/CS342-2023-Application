@@ -21,6 +21,9 @@ public struct StanleyYang: View {
                 InstagramUsername()
                 LinkedInUsername()
                 GithubUsername()
+                Spacer()
+                Text("Here's some pictures of my trip to Japan!")
+                JapanView()
             }
         }
             .navigationTitle("Stanley Yang")
