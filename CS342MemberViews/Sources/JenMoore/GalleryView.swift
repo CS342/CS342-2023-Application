@@ -8,46 +8,52 @@
 
 import SwiftUI
 
-struct PictureView: View {
-    @State private var detail: String? = nil
-    private var imageNames = ["NewYork", "Riggy",  "Stanford"]
-    private var imageDetails = [
+struct GalleryView: View {
+    @Binding var accentColor: Color
+    @State private var detail: String?
+    @State var showModal = false
+    
+    private let imageNames = ["NewYork", "Riggy", "Stanford"]
+    private let imageDetails = [
         "NewYork": "Me and my friends in NY this summer!",
         "Riggy": "The cutest dog ever, Riggins!",
-        "Stanford": "My brother and I at Stanford!"]
+        "Stanford": "Me and my brother at Stanford!"
+    ]
         
     var body: some View {
-        VStack (spacing: 6) {
+        VStack(spacing: 6) {
             Text("My Gallery")
                 .font(.custom(
-                    "Baskerville-SemiBoldItalic",
-                    fixedSize: 18))
-                .foregroundColor(.pink)
+                    "Baskerville-BoldItalic",
+                    fixedSize: 30
+                ))
+                .foregroundColor(accentColor)
                 .multilineTextAlignment(.center)
-            ZStack {
-                photoGrid
-                    .opacity(detail == nil ? 1 : 0)
-                detailView
-            }
+            photoGrid
             .animation(.default, value: detail)
+        }
+        .sheet(isPresented: $showModal) {
+                    detailView
         }
     }
     
     @ViewBuilder
-    var detailView: some View {
+    private var detailView: some View {
         if let name = detail {
-            VStack() {
+            VStack {
                 createImage(titl: name)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .onTapGesture {
                         detail = nil
+                        showModal = false
                     }
                 Text(imageDetails[name] ?? "")
                     .font(.custom(
                         "Baskerville-SemiBoldItalic",
-                        fixedSize: 24))
-                    .foregroundColor(.pink)
+                        fixedSize: 24
+                    ))
+                    .foregroundColor(accentColor)
                     .multilineTextAlignment(.center)
             }
         }
@@ -65,6 +71,7 @@ struct PictureView: View {
                         .aspectRatio(1, contentMode: .fit)
                         .onTapGesture {
                             detail = name
+                            showModal = true
                         }
                 }
             }
@@ -73,16 +80,17 @@ struct PictureView: View {
     
     private func createImage(titl: String) -> Image {
         guard let imagePath = Bundle.module.path(forResource: titl, ofType: "jpeg"),
-           let image = UIImage(contentsOfFile: imagePath) else {
+           let image = UIImage(contentsOfFile: imagePath)
+        else {
             return Image(systemName: "person.fill")
         }
-        
         return Image(uiImage: image)
     }
 }
 
-struct PictureView_Previews: PreviewProvider {
+struct GalleryView_Previews: PreviewProvider {
     static var previews: some View {
-        PictureView()
+        let accentColor = Color(red: 191 / 255, green: 127 / 255, blue: 110 / 255)
+        GalleryView(accentColor: .constant(accentColor), showModal: false)
     }
 }
