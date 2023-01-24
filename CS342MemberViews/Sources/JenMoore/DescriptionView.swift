@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct DescriptionView: View {
-    var body: some View {
+    public var body: some View {
         VStack(spacing: 8) {
             Text("Jen Moore")
                 .font(.custom(
@@ -30,7 +30,6 @@ struct DescriptionView: View {
         }
         .padding(.bottom, 0)
     }
-    
     
     private var description: String {
         guard let descriptionPath = Bundle.module.path(forResource: "JenMooreBio", ofType: "md"),

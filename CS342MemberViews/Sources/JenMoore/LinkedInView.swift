@@ -12,7 +12,7 @@ import SwiftUI
 struct LinkedInView: View {
     @Environment(\.openURL) var openURL
     
-    var body: some View {
+    public var body: some View {
         if let linkedIn {
             Button {
                 openURL(linkedIn)
@@ -25,7 +25,6 @@ struct LinkedInView: View {
                 .padding()
         }
     }
-    
     
     private var linkedIn: URL? {
         URL(string: "https://www.linkedin.com/in/jlmoore20/")

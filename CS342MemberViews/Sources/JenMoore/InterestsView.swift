@@ -16,7 +16,7 @@ struct InterestsView: View {
     ]
     
     @Environment(\.openURL) var openURL
-    var body: some View {
+    public var body: some View {
         VStack {
             Text("Interests")
                 .font(.custom(

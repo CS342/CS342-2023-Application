@@ -20,7 +20,7 @@ struct GalleryView: View {
         "Stanford": "Me and my brother at Stanford!"
     ]
         
-    var body: some View {
+    public var body: some View {
         VStack(spacing: 6) {
             Text("My Gallery")
                 .font(.custom(
@@ -87,6 +87,7 @@ struct GalleryView: View {
         return Image(uiImage: image)
     }
 }
+
 
 struct GalleryView_Previews: PreviewProvider {
     static var previews: some View {

@@ -12,7 +12,7 @@ import SwiftUI
 struct ProfileView: View {
     @Binding var accentColor: Color
     
-    var body: some View {
+    public var body: some View {
         profileImage
             .resizable()
             .aspectRatio(1.0, contentMode: .fit)
