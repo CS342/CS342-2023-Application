@@ -15,9 +15,9 @@ public struct AndyWang: View {
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
-                ProfileView()
                 DescriptionView()
             }
+            .padding(20)
         }
             .navigationTitle("Andy")
     }
@@ -29,7 +29,7 @@ public struct AndyWang: View {
 }
 
 
-struct PaulSchmiedmayer_Previews: PreviewProvider {
+struct AndyWang_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             AndyWang(navigationPath: .constant(NavigationPath()))

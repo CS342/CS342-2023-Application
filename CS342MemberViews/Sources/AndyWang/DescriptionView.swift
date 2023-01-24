@@ -10,11 +10,18 @@ import SwiftUI
 
 struct DescriptionView: View {
     var body: some View {
-        VStack(spacing: 8) {
-            Text("Andy Wang")
-                .font(.title2.bold())
-            Text("Student")
-                .font(.title3)
+        VStack(spacing: 25) {
+            HStack(spacing: 30) {
+                ProfileView()
+                VStack(spacing: 8) {
+                    Text("Andy Wang")
+                        .font(.title2.bold())
+                    Text("Student")
+                        .font(.title3)
+                }
+            }
+            
+            
             Text(description)
                 .padding()
         }

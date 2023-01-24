@@ -14,8 +14,7 @@ struct ProfileView: View {
             .resizable()
             .aspectRatio(1.0, contentMode: .fit)
             .clipShape(Circle())
-            .shadow(radius: 10)
-            .padding(.horizontal, 32)
+            .shadow(color: Color.green, radius: 20)
             .frame(maxWidth: 300)
     }
     
