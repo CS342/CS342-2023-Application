@@ -19,6 +19,7 @@
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
 		663B45E5297A375A00CCCDE3 /* JenniferXu in Frameworks */ = {isa = PBXBuildFile; productRef = 663B45E4297A375A00CCCDE3 /* JenniferXu */; };
+		666570FB29804DFA00945394 /* JenniferXu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666570FA29804DFA00945394 /* JenniferXu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666570FA29804DFA00945394 /* JenniferXu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenniferXu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
+				666570FA29804DFA00945394 /* JenniferXu.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
+				666570FB29804DFA00945394 /* JenniferXu.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
 			);

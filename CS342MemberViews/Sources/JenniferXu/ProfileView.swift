@@ -5,7 +5,7 @@
 //
 // SPDX-License-Identifier: MIT
 //
-// Profile Picture. Modeled off of Paul Schmiedmayer's ProfileView.
+// Profile Picture View. Modeled off of Paul Schmiedmayer's ProfileView. Original image.
 // 
 // Created by Jennifer Xu on 1/22/23.
 //

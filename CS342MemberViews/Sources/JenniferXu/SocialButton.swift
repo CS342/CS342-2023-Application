@@ -5,10 +5,9 @@
 //
 // SPDX-License-Identifier: MIT
 //
-// Button with custom icons -- intended to link
-// to social media profiles
+// Button with custom icons -- intended to link to social media profiles.
 //
-//  Created by Jennifer Xu on 1/22/23.
+// Created by Jennifer Xu on 1/22/23.
 //
 
 import SwiftUI
@@ -18,6 +17,7 @@ struct SocialButton: View {
     @Environment(\.openURL) var openURL
     var social: String? = "person"
     var url: String
+    var label: String // unique label for testing
     
     
     var body: some View {
@@ -31,11 +31,14 @@ struct SocialButton: View {
                     .frame(maxWidth: 32)
             }
                 .padding()
+                .accessibilityIdentifier(label)
+            
+
         }
     }
     
     
-    private var socURL: URL? {
+    private var socURL: URL? { // external link
         URL(string: url)
     }
     
@@ -52,6 +55,6 @@ struct SocialButton: View {
 
 struct SocialButton_Previews: PreviewProvider {
     static var previews: some View {
-        SocialButton(url: "https://jennxu.netlify.app/")
+        SocialButton(url: "https://jennxu.netlify.app/", label: "personal")
     }
 }

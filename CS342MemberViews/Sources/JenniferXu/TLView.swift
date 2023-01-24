@@ -1,15 +1,19 @@
 //
-//  SwiftUIView.swift
-//  
+// This source file is part of the CS342 2023 Application project
+//
+// SPDX-FileCopyrightText: 2023 Stanford University
+//
+// SPDX-License-Identifier: MIT
+//
+// A single timeline event -- includes a description, a date, and dot.
+//
+// Cited:
+// Structures and Classes - https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html
 //
 //  Created by Jennifer Xu on 1/22/23.
 //
 
 import SwiftUI
-
-
-
-
 
 struct TLView: View {
     struct Event: Identifiable{
@@ -17,7 +21,8 @@ struct TLView: View {
         var date: String
         var descrip: String
     }
-
+    
+    // Career events
     let events = [
         Event(date: "August 2019", descrip: "Started undergraduate studies at Stanford University"),
         Event(date: "June 2021", descrip: "Interned at Aselo -- developed data auditing tool to spot internal data inconsistincies"),
@@ -26,6 +31,7 @@ struct TLView: View {
         Event(date: "September 2022", descrip: "Started graduate studies at Stanford University")
     ]
     
+    // Generates full timeline
     var body: some View {
         VStack(alignment: .leading){
             ForEach(events){ event in
