@@ -16,13 +16,17 @@ public struct GriffinSomaratne: View {
     
     public var body: some View {
         ScrollView(.vertical) {
-            VStack(spacing: 48) {
-                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "GriffinSomaratne"))
+            VStack(spacing: 32) {
+                Backdrop(backdropImage: Bundle.module.image(fromFileNamed: "BackdropImage"))
+                GriffinProfileView(profileImage: Bundle.module.image(fromFileNamed: "GriffinSomaratne"))
+                    .offset(y: -164)
+                    .padding(.bottom, -164)
                 DescriptionView(
                     name: "Griffin Somaratne",
                     title: "Designer and Student",
                     description: Bundle.module.markdown(fromFileNamed: "GriffinSomaratneBio")
                 )
+                LinkedInButton()
             }
         }
             .navigationTitle("Griffin")

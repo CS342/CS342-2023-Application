@@ -58,7 +58,8 @@ let package = Package(
             ],
             exclude: [
                 "Resources/GriffinSomaratne.jpeg.license",
-                "Resources/GriffinSomaratneBio.md.license"
+                "Resources/GriffinSomaratneBio.md.license",
+                "Resources/BackdropImage.jpeg.license",
             ],
             resources: [
                 .process("Resources")
