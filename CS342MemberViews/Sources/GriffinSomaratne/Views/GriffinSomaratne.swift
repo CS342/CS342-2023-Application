@@ -43,6 +43,8 @@ public struct GriffinSomaratne: View {
                 }
                 .padding(.leading)
                 LinkedInButton()
+                SpotifyButton()
+                    .offset(y: -54)
             }
         }
         .navigationTitle("Griffin")

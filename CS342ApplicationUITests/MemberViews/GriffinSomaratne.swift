@@ -26,5 +26,15 @@ class GriffinSomaratne: XCTestCase {
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        
+        app.launch()
+        
+        app.collectionViews.buttons["Griffin Somaratne"].tap()
+        XCTAssert(app.staticTexts["Griffin Somaratne"].waitForExistence(timeout: 0.5))
+
+        app.scrollViews.otherElements.buttons["My favorite song rn"].tap()
+        
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+
     }
 }
