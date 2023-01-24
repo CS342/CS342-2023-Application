@@ -7,6 +7,7 @@
 //
 
 import HamedHekmat
+import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari
@@ -28,6 +29,8 @@ extension Member {
                 RajPabari()
             case .hamedHekmat:
                 HamedHekmat()
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
             }
         }
         return memberView
