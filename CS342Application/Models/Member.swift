@@ -12,6 +12,7 @@ enum Member: String, Identifiable, CaseIterable {
     case vishnuRavi = "Vishnu Ravi, MD"
     case rajPabari = "Raj Pabari"
     case ashleyGriffin = "Ashley Griffin, Ph.D."
+    case jiahuiChen = "Jiahui Chen"
     
     
     static var allMembers: [Role: [Member]] {
@@ -44,6 +45,8 @@ enum Member: String, Identifiable, CaseIterable {
         case .oliverAalami:
             return .lead
         case .rajPabari:
+            return .student
+        case .jiahuiChen:
             return .student
         }
     }
