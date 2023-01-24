@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-struct InterestsView: View {
+public struct InterestsView: View {
     @Binding var accentColor: Color
     private let interests = [
         "sports", "country music", "yummy food", "comedy shows", "traveling", "dogs"

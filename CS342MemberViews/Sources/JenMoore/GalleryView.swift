@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct GalleryView: View {
+public struct GalleryView: View {
     @Binding var accentColor: Color
     @State private var detail: String?
     @State var showModal = false

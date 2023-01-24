@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-struct DescriptionView: View {
+public struct DescriptionView: View {
     public var body: some View {
         VStack(spacing: 8) {
             Text("Jen Moore")

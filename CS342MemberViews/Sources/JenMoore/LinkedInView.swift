@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-struct LinkedInView: View {
+public struct LinkedInView: View {
     @Environment(\.openURL) var openURL
     
     public var body: some View {

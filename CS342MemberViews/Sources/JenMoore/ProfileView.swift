@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-struct ProfileView: View {
+public struct ProfileView: View {
     @Binding var accentColor: Color
     
     public var body: some View {
