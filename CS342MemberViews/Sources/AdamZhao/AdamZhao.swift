@@ -25,6 +25,7 @@ public struct AdamZhao: View {
                             .frame(maxWidth: .infinity, idealHeight: 32)
                 }
                             .buttonStyle(.borderedProminent)
+                            .tint(.black)
                             .padding()
                             .offset(y: -175)
                 Button {
