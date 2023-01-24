@@ -20,12 +20,24 @@ class EmmyThamakaison: XCTestCase {
         app.launch()
         
         app.collectionViews.buttons["Emmy Thamakaison"].tap()
-        XCTAssert(app.staticTexts["Emmy Thamakaison"].waitForExistence(timeout: 2.0))
 
-        //app.scrollViews.otherElements.buttons["LinkedIn"].tap()
+        app.scrollViews.otherElements.buttons["LinkedIn"].tap()
         
-        //let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        //XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        
+    }
+    
+    func testEmmyThamakaisonandGitHubLink() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.collectionViews.buttons["Emmy Thamakaison"].tap()
+
+        app.scrollViews.otherElements.buttons["GitHub"].tap()
+        
+        let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
         
     }
 }
