@@ -20,11 +20,13 @@ struct DescriptionView: View {
             Text("Stanford CS Major")
                 .font(.title3)
                 .italic()
-            Text(description)
-                .font(.body)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal)
-                .padding(.bottom, -18)
+            HStack {
+                Text(description)
+                    .font(.body)
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, -18)
+                LinkedInView()
+            }.padding(.horizontal, 20)
         }
         .padding(.bottom, 0)
     }
