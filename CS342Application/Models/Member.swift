@@ -38,7 +38,7 @@ enum Member: String, Identifiable, CaseIterable {
     
     var role: Role {
         switch self {
-        case .paulSchmiedmayer, .vishnuRavi:
+        case .paulSchmiedmayer, .vishnuRavi, .ashleyGriffin:
             return .instructor
         case .oliverAalami:
             return .lead
