@@ -21,8 +21,8 @@ struct LinkedInButton: View {
                 Text("Add me on LinkedIn!")
                     .frame(maxWidth: .infinity, idealHeight: 32)
             }
-                .buttonStyle(.borderedProminent)
-                .padding()
+            .buttonStyle(.borderedProminent)
+            .padding()
         }
     }
     

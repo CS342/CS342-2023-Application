@@ -9,11 +9,11 @@
 import SwiftUI
 
 
-/// Displays project  image
 public struct ProjectImage: View {
     private let heroImage: Image
     private let title: String
     private let category: String
+    
     
     public var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -29,12 +29,10 @@ public struct ProjectImage: View {
     }
     
     
-    /// - Parameter backdropImage: The backdrop image that should be displayed.
     public init(heroImage: Image, title: String, category: String) {
         self.heroImage = heroImage
         self.title = title
         self.category = category
-
     }
 }
 

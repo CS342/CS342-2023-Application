@@ -27,30 +27,32 @@ public struct GriffinSomaratne: View {
                     description: Bundle.module.markdown(fromFileNamed: "GriffinSomaratneBio")
                 )
                 VStack(alignment: .leading) {
-                Text("Previous Projects")
-                    .font(.title2.bold())
-                
+                    Text("Previous Projects")
+                        .font(.title2.bold())
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"Blue Boy", category: "Art")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"FLOAT", category:"Engineering")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"FLOAT", category:"Design")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "GriffinSomaratne"), title:"FLOAT", category:"Engineering")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "BlueFace"), title:"Blue Boy", category: "Art")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "ME103"), title: "FLOAT", category: "Design, Engineering")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "ME104"), title: "Porky", category: "Engineering")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "imi"), title: "imi.guide", category: "Design")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "hia"), title: "Neckline", category: "Art")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "Tear"), title:"Starface", category: "Art")
+                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "StanfordApp"), title: "Stanford Mobile App", category: "Design")
                         }
                     }
-                }  .padding(.leading)
-                LinkedInButton()
                 }
+                .padding(.leading)
+                LinkedInButton()
             }
-        .navigationTitle("Griffin")
         }
-        
-        
-        public init(navigationPath: Binding<NavigationPath>) {
-            self._navigationPath = navigationPath
+        .navigationTitle("Griffin")
+    }
+    
+    
+    public init(navigationPath: Binding<NavigationPath>) {
+        self._navigationPath = navigationPath
     }
 }
-
 
 
 struct GriffinSomaratne_Previews: PreviewProvider {

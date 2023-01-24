@@ -9,7 +9,6 @@
 import SwiftUI
 
 
-/// Displays a profile image in a circular view using a white stroke and drop shaddow.
 public struct GriffinProfileView: View {
     private let profileImage: Image
     
@@ -28,7 +27,6 @@ public struct GriffinProfileView: View {
     }
     
     
-    /// - Parameter profileImage: The profile image that should be displayed.
     public init(profileImage: Image) {
         self.profileImage = profileImage
     }

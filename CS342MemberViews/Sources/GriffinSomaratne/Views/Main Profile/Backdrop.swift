@@ -9,7 +9,6 @@
 import SwiftUI
 
 
-/// Displays backdrop image
 public struct Backdrop: View {
     private let backdropImage: Image
     
@@ -22,7 +21,6 @@ public struct Backdrop: View {
     }
     
     
-    /// - Parameter backdropImage: The backdrop image that should be displayed.
     public init(backdropImage: Image) {
         self.backdropImage = backdropImage
     }
