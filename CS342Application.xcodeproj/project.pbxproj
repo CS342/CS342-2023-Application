@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2324B681297D972200C8D549 /* RajPabari in Frameworks */ = {isa = PBXBuildFile; productRef = 2324B680297D972200C8D549 /* RajPabari */; };
+		2372E53329808BD00096B6B8 /* JenMoore in Frameworks */ = {isa = PBXBuildFile; productRef = 2372E53229808BD00096B6B8 /* JenMoore */; };
 		23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
 		23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF504297EFFD7007386C6 /* RajPabari.swift */; };
 		2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */; };
@@ -74,9 +75,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
+				2372E53329808BD00096B6B8 /* JenMoore in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */
+				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +130,7 @@
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
-				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */
+				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -208,7 +210,8 @@
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
 				2324B680297D972200C8D549 /* RajPabari */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				2372E53229808BD00096B6B8 /* JenMoore */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -712,6 +715,10 @@
 		2324B680297D972200C8D549 /* RajPabari */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RajPabari;
+		};
+		2372E53229808BD00096B6B8 /* JenMoore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JenMoore;
 		};
 		2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;

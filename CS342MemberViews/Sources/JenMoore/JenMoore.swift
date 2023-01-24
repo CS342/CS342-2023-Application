@@ -16,7 +16,6 @@ public struct JenMoore: View {
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 32) {
-                Spacer(minLength: 1.0)
                 ProfileView(accentColor: $accentColor)
                 DescriptionView().padding(.bottom, -18)
                 InterestsView(accentColor: $accentColor)
@@ -28,6 +27,7 @@ public struct JenMoore: View {
             .aspectRatio(contentMode: .fill)
             .ignoresSafeArea()
         )
+        .navigationTitle("Jen")
     }
     
     private var profileImage: Image? {
