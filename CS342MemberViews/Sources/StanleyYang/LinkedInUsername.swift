@@ -8,33 +8,33 @@
 
 import SwiftUI
 
-struct InstagramUsername: View {
+struct LinkedInUsername: View {
     @Environment(\.openURL) var openURL
     
     
     var body: some View {
-        if let instagramURL {
+        if let LinkedInURL {
             Button {
-                openURL(instagramURL)
+                openURL(LinkedInURL)
             } label: {
-                Text("Instagram: @sjayyang")
+                Text("LinkedIn: Stanley Yang")
                     .frame(maxWidth: .infinity, idealHeight: 32)
             }
                 .buttonStyle(.borderedProminent)
                 .padding()
-                .tint(.pink)
+                .tint(.blue)
         }
     }
     
     
-    private var instagramURL: URL? {
-        URL(string: "https://www.instagram.com//sjayyang")
+    private var LinkedInURL: URL? {
+        URL(string: "https://www.linkedin.com/in/stanleyjyang")
     }
 }
 
 
-struct InstagramUsername_Previews: PreviewProvider {
+struct LinkedInUsername_Previews: PreviewProvider {
     static var previews: some View {
-        InstagramUsername()
+        LinkedInUsername()
     }
 }

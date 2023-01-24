@@ -15,13 +15,15 @@ public struct StanleyYang: View {
     
     public var body: some View {
         ScrollView(.vertical) {
-            VStack(spacing: 42) {
+            VStack() {
                 ProfileView()
                 DescriptionView()
                 InstagramUsername()
+                LinkedInUsername()
+                GithubUsername()
             }
         }
-            .navigationTitle("Stanley")
+            .navigationTitle("Stanley Yang")
     }
     
     
