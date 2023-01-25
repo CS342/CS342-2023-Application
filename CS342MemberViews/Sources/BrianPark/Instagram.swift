@@ -14,9 +14,9 @@ struct Instagram: View {
 
 
     var body: some View {
-        if let InstaURL {
+        if let instaURL {
             Button {
-                openURL(InstaURL)
+                openURL(instaURL)
             } label: {
                 Text("📸")
                     .frame(maxWidth: .infinity, idealHeight: 50)
@@ -28,7 +28,7 @@ struct Instagram: View {
     }
 
 
-    private var InstaURL: URL? {
+    private var instaURL: URL? {
         URL(string: "https://www.instagram.com/briannn__02/")
     }
 }

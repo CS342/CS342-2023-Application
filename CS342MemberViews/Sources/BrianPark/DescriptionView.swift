@@ -1,9 +1,9 @@
 //
-//  File.swift
-//  
+// This source file is part of the CS342 2023 Application project
 //
-//  Created by Jeongwoo Park on 2023/01/24.
+// SPDX-FileCopyrightText: 2023 Stanford University
 //
+// SPDX-License-Identifier: MIT
 
 import SwiftUI
 
