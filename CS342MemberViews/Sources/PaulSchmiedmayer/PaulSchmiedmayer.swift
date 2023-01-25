@@ -6,7 +6,6 @@
 // SPDX-License-Identifier: MIT
 //
 
-import InstructorViews
 import SwiftUI
 
 
@@ -17,12 +16,8 @@ public struct PaulSchmiedmayer: View {
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
-                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "PaulSchmiedmayer"))
-                DescriptionView(
-                    name: "Paul Schmiedmayer, Ph.D.",
-                    title: "Postdoctoral Researcher",
-                    description: Bundle.module.markdown(fromFileNamed: "PaulSchmiedmayerBio")
-                )
+                ProfileView()
+                DescriptionView()
                 TwitterUsername()
             }
         }

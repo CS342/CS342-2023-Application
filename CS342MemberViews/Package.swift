@@ -19,20 +19,10 @@ let package = Package(
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "JenniferXu", targets: ["JenniferXu"])
-        .library(name: "OliverAalami", targets: ["OliverAalami"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"])
-
     ],
     targets: [
         .target(
-            name: "InstructorViews"
-        ),
-        .target(
             name: "PaulSchmiedmayer",
-            dependencies: [
-                .target(name: "InstructorViews")
-            ],
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
@@ -42,52 +32,13 @@ let package = Package(
             ]
         ),
         .target(
-          name: "JenniferXu",
-          exclude: [
-                "Resources/Xu_profpic.jpg.license"],
-            resources: [
-                .process("Resources")
-            ]
-        ),
-        .target(
-            name: "OliverAalami",
-            dependencies: [
-                .target(name: "InstructorViews")
-            ],
+            name: "JenniferXu",
             exclude: [
-                "Resources/OliverAalami.jpeg.license",
-                "Resources/OliverAalamiBio.md.license"
+                "Resources/Xu_profpic.jpg.license",
             ],
             resources: [
                 .process("Resources")
             ]
         ),
-        .target(
-            name: "RajPabari",
-            dependencies: [
-                .target(name: "InstructorViews")
-            ],
-            exclude: [
-                "Resources/RajPabari.jpeg.license",
-                "Resources/RajPabariBio.md.license"
-            ],
-            resources: [
-                .process("Resources")
-            ]
-        ),
-        
-        .target(
-            name: "AshleyGriffin",
-            dependencies: [
-                .target(name: "InstructorViews")
-            ],
-            exclude: [
-                "Resources/AshleyGriffin.jpeg.license",
-                "Resources/AshleyGriffinBio.md.license"
-            ],
-            resources: [
-                .process("Resources")
-            ]
-            )
     ]
 )
