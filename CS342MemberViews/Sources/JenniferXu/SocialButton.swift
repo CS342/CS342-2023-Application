@@ -18,6 +18,7 @@ struct SocialButton: View {
     @Environment(\.openURL) var openURL
     var social: String? = "person"
     var url: String
+    var label: String
     
     
     var body: some View {
@@ -30,6 +31,7 @@ struct SocialButton: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: 32)
             }
+                .accessibilityLabel(label)
                 .padding()
         }
     }
@@ -52,6 +54,6 @@ struct SocialButton: View {
 
 struct SocialButton_Previews: PreviewProvider {
     static var previews: some View {
-        SocialButton(url: "https://jennxu.netlify.app/")
+        SocialButton(url: "https://jennxu.netlify.app/", label: "personal")
     }
 }

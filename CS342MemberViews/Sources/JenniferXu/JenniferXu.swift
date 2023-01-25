@@ -30,9 +30,9 @@ public struct JenniferXu: View {
                
                // Social Media links
                HStack {
-                   SocialButton(social: "LI-In-Bug", url: "https://www.linkedin.com/in/jenniferxu01/")
-                   SocialButton(social: "github-mark", url: "https://github.com/jennxu23" )
-                   SocialButton(url: "https://jennxu.netlify.app/")
+                   SocialButton(social: "LI-In-Bug", url: "https://www.linkedin.com/in/jenniferxu01/", label: "linkedin")
+                   SocialButton(social: "github-mark", url: "https://github.com/jennxu23", label: "github" )
+                   SocialButton(url: "https://jennxu.netlify.app/", label: "personal")
                }
                VStack(alignment: .leading, spacing: 8) {
                    Text("About Me")
