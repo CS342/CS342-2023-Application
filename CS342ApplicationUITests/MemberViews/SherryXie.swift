@@ -1,8 +1,9 @@
 //
-//  SherryXie.swift
-//  CS342ApplicationUITests
+// This source file is part of the CS342 2023 Application project
 //
-//  Created by Sherry X. on 1/23/23.
+// SPDX-FileCopyrightText: 2023 Stanford University
+//
+// SPDX-License-Identifier: MIT
 //
 
 import XCTest

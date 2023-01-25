@@ -61,7 +61,8 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        )
+        ),
+        .target(
             name: "RajPabari",
             dependencies: [
                 .target(name: "InstructorViews")
