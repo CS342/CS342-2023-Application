@@ -5,9 +5,12 @@
 //
 // SPDX-License-Identifier: MIT
 //
+
 import AbhinavAgarwal
+import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
+import RajPabari
 import SwiftUI
 
 
@@ -24,6 +27,10 @@ extension Member {
                 OliverAalami(navigationPath: navigationPath)
             case .abhinavAgarwal:
                 AbhinavAgarwal(navigationPath: navigationPath)
+            case .rajPabari:
+                RajPabari()
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
             }
         }
         return memberView
