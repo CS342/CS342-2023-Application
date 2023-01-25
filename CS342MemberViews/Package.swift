@@ -21,7 +21,7 @@ let package = Package(
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "RajPabari", targets: ["RajPabari"])
     ],
     targets: [
         .target(
