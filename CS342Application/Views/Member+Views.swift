@@ -7,7 +7,10 @@
 //
 
 import AdamZhao
+import AshleyGriffin
+import OliverAalami
 import PaulSchmiedmayer
+import RajPabari
 import SwiftUI
 
 
@@ -22,6 +25,12 @@ extension Member {
                 Text("Vishnu 👋")
             case .adamZhao:
                 AdamZhao(navigationPath: navigationPath)
+            case .oliverAalami:
+                OliverAalami(navigationPath: navigationPath)
+            case .rajPabari:
+                RajPabari()
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
             }
         }
         return memberView
