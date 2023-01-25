@@ -20,7 +20,8 @@ let package = Package(
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"])
+        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
+        .library(name: "BrianPark", targets: ["BrianPark"])
     ],
     targets: [
         .target(
@@ -77,6 +78,19 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-            )
+        ),
+        .target(
+            name: "BrianPark",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/BrianPark.jpeg.license",
+                "Resources/BrianParkBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        )
     ]
 )
