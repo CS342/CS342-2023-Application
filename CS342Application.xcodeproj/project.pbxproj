@@ -80,6 +80,7 @@
 				ADC4123729811ACE008E7C56 /* AbhinavAgarwal in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
 				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */
 			);
 			runOnlyForDeploymentPostprocessing = 0;
