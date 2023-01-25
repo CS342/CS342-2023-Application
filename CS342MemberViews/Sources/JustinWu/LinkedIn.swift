@@ -22,7 +22,6 @@ struct LinkedIn: View {
                     .frame(maxWidth: .infinity, idealHeight: 32)
             }.buttonStyle(.borderedProminent)
                 .padding()
-                
         }
     }
     

@@ -1,5 +1,5 @@
-import UIKit
 import SwiftUI
+import UIKit
 
 //
 // This source file is part of the CS342 2023 Application project
@@ -13,13 +13,15 @@ struct Quiz: View {
     @State private var showQuiz = false
     var body: some View {
         NavigationView {
-            VStack {
-                NavigationLink(destination: AboutMeQuizView().navigationBarTitle("", displayMode: .inline), isActive: $showQuiz) {
-                    Text("Take Quiz")
-                        .frame(maxWidth: .infinity, idealHeight: 32)
-                }.buttonStyle(.borderedProminent)
-                    .padding()
-            }
+                    NavigationStack {
+                        VStack {
+                            NavigationLink(destination: AboutMeQuizView()) {
+                                Text("Take Quiz")
+                                    .frame(maxWidth: .infinity, idealHeight: 32)
+                            }.buttonStyle(.borderedProminent)
+                                .padding()
+                        }
+                    }
         }
         .padding(.top)
         .frame(height: 100.0)
