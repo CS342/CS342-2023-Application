@@ -1,8 +1,13 @@
 //
-//  SwiftUIView.swift
-//  
+// This source file is part of the CS342 2023 Application project
+
+// SPDX-FileCopyrightText: 2023 Stanford University
 //
-//  Created by Jennifer Xu on 1/22/23.
+// SPDX-License-Identifier: MIT
+//
+// Singular timeline event.
+//
+// Created by Jennifer Xu on 1/22/23.
 //
 
 import SwiftUI
