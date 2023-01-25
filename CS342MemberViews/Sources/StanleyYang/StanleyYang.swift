@@ -15,7 +15,7 @@ public struct StanleyYang: View {
     
     public var body: some View {
         ScrollView(.vertical) {
-            VStack() {
+            VStack {
                 ProfileView()
                 DescriptionView()
                 InstagramUsername()

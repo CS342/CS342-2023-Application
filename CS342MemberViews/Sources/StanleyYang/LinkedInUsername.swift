@@ -13,9 +13,9 @@ struct LinkedInUsername: View {
     
     
     var body: some View {
-        if let LinkedInURL {
+        if let linkedInURL {
             Button {
-                openURL(LinkedInURL)
+                openURL(linkedInURL)
             } label: {
                 Text("LinkedIn: Stanley Yang")
                     .frame(maxWidth: .infinity, idealHeight: 32)
@@ -27,7 +27,7 @@ struct LinkedInUsername: View {
     }
     
     
-    private var LinkedInURL: URL? {
+    private var linkedInURL: URL? {
         URL(string: "https://www.linkedin.com/in/stanleyjyang")
     }
 }

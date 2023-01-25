@@ -13,9 +13,9 @@ struct GithubUsername: View {
     
     
     var body: some View {
-        if let GithubUsername {
+        if let githubUsername {
             Button {
-                openURL(GithubUsername)
+                openURL(githubUsername)
             } label: {
                 Text("Github: @sjayyang")
                     .frame(maxWidth: .infinity, idealHeight: 32)
@@ -27,7 +27,7 @@ struct GithubUsername: View {
     }
     
     
-    private var GithubUsername: URL? {
+    private var githubUsername: URL? {
         URL(string: "https://github.com/SJayYang")
     }
 }
