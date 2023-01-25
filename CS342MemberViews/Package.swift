@@ -33,9 +33,6 @@ let package = Package(
         ),
         .target(
             name: "JenniferXu",
-            exclude: [
-                "Resources/Xu_profpic.jpg.license",
-            ],
             resources: [
                 .process("Resources")
             ]

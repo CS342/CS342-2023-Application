@@ -1,15 +1,5 @@
 //
-// This source file is part of the CS342 2023 Application project
-//
-// SPDX-FileCopyrightText: 2023 Stanford University
-//
-// SPDX-License-Identifier: MIT
-//
-// Jennifer Xu Member View. Modeled partially after Paul Schmiedmayer's Member View.
-//
-// Cited:
-// GitHub Logo: GitHub Logos and Usage - https://github.com/logos
-// LinkedIn Logo: LinkedIn Brand Guidelines - https://brand.linkedin.com/downloads
+//  Jennifer Xu Profile page
 //
 //  Created by Jennifer Xu on 1/19/23.
 //
@@ -34,16 +24,14 @@ public struct JenniferXu: View {
                
                //Social Media links
                HStack(){
-                   SocialButton(social: "LI-In-Bug", url:"https://www.linkedin.com/in/jenniferxu01/", label: "linkedin")
-                   SocialButton(social: "github-mark", url:"https://github.com/jennxu23", label:"github" )
-                   SocialButton(url:"https://jennxu.netlify.app/", label: "personal")
+                   SocialButton(social: "LI-In-Bug", url:"https://www.linkedin.com/in/jenniferxu01/")
+                   SocialButton(social: "github-mark", url:"https://github.com/jennxu23" )
+                   SocialButton(url:"https://jennxu.netlify.app/")
                }
-               
-               // Timeline and more about me
                VStack(spacing: 8){
                    Text("About Me")
                        .font(.title2.bold())
-                   Text("Hi! Welcome to my View! I'm interested in Software Engineering, ML/AI, and Biotech. You can see some of my previous endeavors below.")
+                   Text("Hi! Welcome to my View! I'm interested in Software Engineering, ML/AI, and Biotech. You can see some of my previous endavors below.")
                        .font(.title3)
                    TLView()
                }
