@@ -13,9 +13,8 @@ struct KatieLiuView: View {
         UISegmentedControl.appearance().selectedSegmentTintColor = .brown
         UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
     }
-    
+
     @State private var selectedSide: WhichFact = .tofu
-    
     var body: some View {
         NavigationView {
             VStack {
@@ -31,14 +30,14 @@ struct KatieLiuView: View {
                 CappucinoView(selectedSide: selectedSide)
                 Spacer()
             }
-            .navigationTitle("Some Favorites")
+            .navigationTitle("My Favorite...")
         }
     }
 }
 
 enum WhichFact: String, CaseIterable {
-    case tofu = "Evening Snack"
-    case place = "Home"
+    case tofu = "Evening Meal"
+    case place = "City in the US"
     case cappucino = "Morning Drink"
     var id: String {
         rawValue
@@ -51,10 +50,28 @@ struct CappucinoView: View {
         switch selectedSide {
         case .tofu:
             Bundle.module.image(fromFileNamed: "Tofu", type: "jpg")
+                .resizable()
+                .frame(width: 500, height: 500)
+                .shadow(color: .yellow, radius: 0)
+            Spacer()
+            Text("...is Mapo Tofu!")
+                .font(.headline)
         case .place:
             Bundle.module.image(fromFileNamed: "Pittsburgh", type: "jpg")
+                .resizable()
+                .frame(width: 620, height: 500)
+                .shadow(color: .white, radius: 100)
+            Spacer()
+            Text("...is Pittsburgh!")
+                .font(.headline)
         case .cappucino:
-            Bundle.module.image(fromFileNamed: "Cappucino", type: "jpg")
+            Bundle.module.image(fromFileNamed: "Cappuccino", type: "jpg")
+                .resizable()
+                .frame(width: 400, height: 500)
+                .shadow(color: .white, radius: 100)
+            Spacer()
+            Text("...is a cappuccino!")
+                .font(.headline)
         }
     }
 }
