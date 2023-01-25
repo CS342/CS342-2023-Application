@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct Page: Identifiable, Equatable {
-    let id = UUID()
+public struct Page: Identifiable, Equatable {
+    public let id = UUID()
     var name: String
     var description: String
     var imageUrl: String
