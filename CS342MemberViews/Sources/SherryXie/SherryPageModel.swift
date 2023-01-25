@@ -9,12 +9,6 @@
 import Foundation
 
 struct Page: Identifiable, Equatable {
-    let id = UUID()
-    var name: String
-    var description: String
-    var imageUrl: String
-    var tag: Int
-    
     static var samplePage = Page(name: "Title Example", description: "This is a sample description", imageUrl: "work", tag: 0)
     
     static var samplePages: [Page] = [
@@ -23,4 +17,10 @@ struct Page: Identifiable, Equatable {
         Page(name: "Culver, Indiana", description: "CulverBio", imageUrl: "Culver", tag: 2),
         Page(name: "Paris, France", description: "ParisBio", imageUrl: "Paris", tag: 3)
     ]
+    
+    let id = UUID()
+    var name: String
+    var description: String
+    var imageUrl: String
+    var tag: Int
 }
