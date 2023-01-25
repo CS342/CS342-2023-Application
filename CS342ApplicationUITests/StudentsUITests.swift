@@ -9,17 +9,17 @@
 import XCTest
 
 
-class LeadsUITests: XCTestCase {
+class StudentsUITests: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
     
-    func testLeads() throws {
+    func testStudents() throws {
         let app = XCUIApplication()
         app.launch()
         
-        app.collectionViews.buttons["Prof. Oliver Aalami, MD"].tap()
-        XCTAssert(app.staticTexts["Prof. Oliver Aalami, MD"].waitForExistence(timeout: 0.5))
+        app.collectionViews.buttons["Raj Pabari"].tap()
+        XCTAssert(app.staticTexts["Raj Pabari"].waitForExistence(timeout: 0.5))
     }
 }

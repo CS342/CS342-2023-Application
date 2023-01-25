@@ -7,14 +7,10 @@
 //
 
 import AshleyGriffin
-import CarlosGuestrin
-import NicholasBernhardtLanier
 import OliverAalami
 import PaulSchmiedmayer
-import RaghavSamavedam
+import RajPabari
 import SwiftUI
-import VarunShenoy
-import VishnuRavi
 import StanleyYang
 
 
@@ -23,22 +19,14 @@ extension Member {
         @ViewBuilder
         var memberView: some View {
             switch self {
-            case .oliverAalami:
-                OliverAalami()
-            case .carlosGuestrin:
-                CarlosGuestrin()
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
-            case .vishnuRavi:
-                VishnuRavi()
+            case .oliverAalami:
+                OliverAalami(navigationPath: navigationPath)
+            case .rajPabari:
+                RajPabari()
             case .ashleyGriffin:
-                AshleyGriffin()
-            case .nicholasBernhardtLanier:
-                NicholasBernhardtLanier()
-            case .raghavSamavedam:
-                RaghavSamavedam()
-            case .varunShenoy:
-                VarunShenoy()
+                AshleyGriffin(navigationPath: navigationPath)
             case .stanleyYang:
                 StanleyYang(navigationPath: navigationPath)
             }

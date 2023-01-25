@@ -9,17 +9,23 @@
 import XCTest
 
 
-class LeadsUITests: XCTestCase {
+class OliverAalami: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
     
-    func testLeads() throws {
+    func testOliverAalamiAndMapView() throws {
         let app = XCUIApplication()
         app.launch()
         
         app.collectionViews.buttons["Prof. Oliver Aalami, MD"].tap()
         XCTAssert(app.staticTexts["Prof. Oliver Aalami, MD"].waitForExistence(timeout: 0.5))
+
+        app.staticTexts["Prof. Oliver Aalami, MD"].swipeUp()
+        XCTAssert(app.buttons["Office Location"].waitForExistence(timeout: 0.5))
+        app.buttons["Office Location"].tap()
+        
+        XCTAssert(app.otherElements["AnnotationContainer"].otherElements["Map pin"].waitForExistence(timeout: 0.5))
     }
 }

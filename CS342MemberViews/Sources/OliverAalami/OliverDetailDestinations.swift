@@ -6,14 +6,11 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
-
-
-public struct VarunShenoy: View {
-    public var body: some View {
-        Text("Varun Shenoy")
+enum OliverDetailDestinations: String, Identifiable {
+    case biodesignOffice
+    
+    
+    var id: String {
+        rawValue
     }
-    
-    
-    public init() { }
 }

@@ -30,6 +30,7 @@ struct MemberList: View {
     }
 }
 
+
 struct MemberList_Previews: PreviewProvider {
     static var previews: some View {
         MemberList()
