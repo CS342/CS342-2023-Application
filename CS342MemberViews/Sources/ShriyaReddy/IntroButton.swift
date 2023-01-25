@@ -13,9 +13,17 @@ import SwiftUI
 public struct IntroButton: View {
     @State private var showDetails = false
 
-    public var body: some View {
-        VStack() {
+    private var description: String {
+            guard let descriptionPath = Bundle.module.path(forResource: "IntroText", ofType: "txt"),
+                  let description = try? String(contentsOfFile: descriptionPath) else {
+                return ""
+            }
             
+            return description
+        }
+                                        
+    public var body: some View {
+        VStack {
             Button {
                 showDetails.toggle()
             } label: {
@@ -27,7 +35,7 @@ public struct IntroButton: View {
                 .padding()
             
             if showDetails {
-                Text("Shriya Reddy is a second-year undergraduate student at Stanford, with special interests in cancer biology, nanomaterials, tissue engineering, and genomics. She is especially motivated by needs-driven innovation since discovering Stanford Biodesign and is very excited about how medical device and digital health solutions can be developed from a biodesign perspective.")
+                Text(description)
                     .padding()
                     .multilineTextAlignment(.center)
             }

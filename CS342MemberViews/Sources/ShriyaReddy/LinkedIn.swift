@@ -13,7 +13,7 @@ struct Linkedin: View {
     @Environment(\.openURL) var openURL
     
     
-    public var body: some View {
+    var body: some View {
         if let linkedinURL {
             Button {
                 openURL(linkedinURL)

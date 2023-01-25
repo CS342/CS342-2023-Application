@@ -9,26 +9,26 @@
 import XCTest
 
 
-class StudentUITests: XCTestCase {
+class ShriyaReddy: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
     
-    func testInstructors() throws {
+    func testShriyaReddyandButtonsView() throws {
         let app = XCUIApplication()
         app.launch()
         
         app.collectionViews.buttons["Shriya Reddy"].tap()
         XCTAssert(app.staticTexts["Shriya Reddy"].waitForExistence(timeout: 0.5))
         
-        app.collectionViews.buttons["Information"].tap()
-        XCTAssert(app.staticTexts["Information"].waitForExistence(timeout: 0.5))
-
-        app.collectionViews.buttons["Hobbies"].tap()
-        XCTAssert(app.staticTexts["Hobbies"].waitForExistence(timeout: 0.5))
+        app.staticTexts["Shriya Reddy"].swipeUp()
+        app.scrollViews.otherElements.buttons["Information"].tap()
+        app.scrollViews.otherElements.buttons["Hobbies"].tap()
+        app.scrollViews.otherElements.buttons["Home"].tap()
+        app.scrollViews.otherElements.buttons["LinkedIn"].tap()
         
-        app.collectionViews.buttons["Home"].tap()
-        XCTAssert(app.staticTexts["Home"].waitForExistence(timeout: 0.5))
+        let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
     }
 }

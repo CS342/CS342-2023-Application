@@ -7,8 +7,9 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
+
 
 public struct HomeButton: View {
     @State private var showDetails = false
@@ -19,8 +20,7 @@ public struct HomeButton: View {
         )
 
     public var body: some View {
-        VStack() {
-            
+        VStack {
             Button {
                 showDetails.toggle()
             } label: {
@@ -32,7 +32,7 @@ public struct HomeButton: View {
                 .padding()
             
             if showDetails {
-                HStack{
+                HStack {
                     Text("Shriya was born and raised in southeastern Michigan.")
                         .padding()
                         .multilineTextAlignment(.center)
@@ -42,7 +42,6 @@ public struct HomeButton: View {
                         .clipShape(Circle().scale(0.7))
                 }
             }
-            
         }
     }
 }

@@ -7,14 +7,23 @@
 // SPDX-License-Identifier: MIT
 //
 
+import InstructorViews
 import SwiftUI
 
+private var description: String {
+        guard let descriptionPath = Bundle.module.path(forResource: "HobbyText", ofType: "txt"),
+              let description = try? String(contentsOfFile: descriptionPath) else {
+            return ""
+        }
+        
+        return description
+    }
 
 public struct HobbyButton: View {
     @State private var showDetails = false
-
+                                    
     public var body: some View {
-        HStack() {
+        HStack {
             Button {
                 showDetails.toggle()
             } label: {
@@ -26,7 +35,7 @@ public struct HobbyButton: View {
                 .padding()
             
             if showDetails {
-                Text("She loves to dance, and is part of Stanford’s premier competitive Garba Raas dance team. Recently, she has also started to crochet.")
+                Text(description)
                     .padding()
                     .multilineTextAlignment(.center)
             }
