@@ -25,6 +25,7 @@ struct SherryPageView: View {
     }
 }
 
+
 struct SherryPageView_Previews: PreviewProvider {
     static var previews: some View {
         SherryPageView(page: Page.samplePage)
