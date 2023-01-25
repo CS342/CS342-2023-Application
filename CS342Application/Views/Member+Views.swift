@@ -7,8 +7,10 @@
 //
 
 import BrookeKrajancich
+import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
+import RajPabari
 import SwiftUI
 
 
@@ -25,6 +27,10 @@ extension Member {
                 OliverAalami(navigationPath: navigationPath)
             case .brookeKrajancich:
                 BrookeKrajancich(navigationPath: navigationPath)
+            case .rajPabari:
+                RajPabari()
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
             }
         }
         return memberView
