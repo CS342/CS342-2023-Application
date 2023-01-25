@@ -47,17 +47,16 @@ public struct SherryXie: View {
         }
     }
     
+    public init(navigationPath: Binding<NavigationPath>) {
+        self._navigationPath = navigationPath
+    }
+    
     func incrementPage() {
         pageIndex += 1
     }
     
     func goToZero() {
         pageIndex = 0
-    }
-    
-    
-    public init(navigationPath: Binding<NavigationPath>) {
-        self._navigationPath = navigationPath
     }
 }
 
