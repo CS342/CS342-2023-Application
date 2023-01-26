@@ -6,6 +6,7 @@
 // SPDX-License-Identifier: MIT
 //
 
+import AndyWang
 import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
@@ -24,6 +25,8 @@ extension Member {
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .andyWang:
+                AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
             case .ashleyGriffin:
