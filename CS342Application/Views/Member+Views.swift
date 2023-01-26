@@ -6,6 +6,7 @@
 // SPDX-License-Identifier: MIT
 //
 
+import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
 import GriffinSomaratne
@@ -26,6 +27,8 @@ extension Member {
                 OliverAalami(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
             case .griffinSomaratne:
                 GriffinSomaratne(navigationPath: navigationPath)
             }

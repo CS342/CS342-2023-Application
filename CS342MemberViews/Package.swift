@@ -20,6 +20,7 @@ let package = Package(
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "GriffinSomaratne", targets: ["GriffinSomaratne"])
     ],
     targets: [
