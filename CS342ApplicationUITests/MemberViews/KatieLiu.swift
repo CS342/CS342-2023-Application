@@ -23,14 +23,14 @@ class KatieLiu: XCTestCase {
         XCTAssert(app.staticTexts["Katie Liu"].waitForExistence(timeout: 0.5))
         
         app.buttons["More About Me"].tap()
-        XCTAssert(app.staticTexts["Some Favorites"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["These are..."].waitForExistence(timeout: 0.5))
         
         XCTAssert(app.buttons["Morning Drink"].waitForExistence(timeout: 0.5))
-        XCTAssert(app.buttons["Pittsburgh"].waitForExistence(timeout: 0.5))
-        XCTAssert(app.buttons["Evening Snack"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.buttons["City in the US"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.buttons["Evening Meal"].waitForExistence(timeout: 0.5))
         
         app.buttons["Morning Drink"].tap()
         
-        app.buttons["Pittsburgh"].tap()
+        app.buttons["City in the US"].tap()
     }
 }
