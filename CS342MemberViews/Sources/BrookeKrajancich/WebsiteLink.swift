@@ -1,8 +1,11 @@
+// swift-tools-version: 5.7
+
 //
-//  SwiftUIView.swift
-//  
+// This source file is part of the CS342 2023 Application project
 //
-//  Created by Brooke Krajancich on 1/22/23.
+// SPDX-FileCopyrightText: 2023 Stanford University
+//
+// SPDX-License-Identifier: MIT
 //
 
 import SwiftUI
@@ -11,7 +14,7 @@ struct WebsiteLink: View {
     @Environment(\.openURL) var openURL
     
     private var websiteURL: URL? {
-        URL(string: "https://bkrajancich.me/")
+        URL(string: "https://bkrajancich.com/")
     }
     
     var body: some View {
