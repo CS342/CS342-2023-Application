@@ -84,7 +84,19 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
+        ),
+        .target(
+            name: "AshleyGriffin",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AshleyGriffin.jpeg.license",
+                "Resources/AshleyGriffinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
         )
-
     ]
 )
