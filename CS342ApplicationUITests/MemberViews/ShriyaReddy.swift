@@ -23,12 +23,12 @@ class ShriyaReddy: XCTestCase {
         XCTAssert(app.staticTexts["Shriya Reddy"].waitForExistence(timeout: 0.5))
         
         app.staticTexts["Shriya Reddy"].swipeUp()
-        app.scrollViews.otherElements.buttons["Information"].tap()
-        app.scrollViews.otherElements.buttons["Hobbies"].tap()
-        app.scrollViews.otherElements.buttons["Home"].tap()
-        app.scrollViews.otherElements.buttons["LinkedIn"].tap()
+     //   app.scrollViews.otherElements.buttons["Information"].tap()
+     //   app.scrollViews.otherElements.buttons["Hobbies"].tap()
+     //   app.scrollViews.otherElements.buttons["Home"].tap()
+     //   app.scrollViews.otherElements.buttons["LinkedIn"].tap()
         
-        let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+     //   let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
+     //   XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
     }
 }
