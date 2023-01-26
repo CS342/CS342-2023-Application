@@ -7,6 +7,7 @@
 //
 
 import AshleyGriffin
+import BrookeKrajancich
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari
@@ -28,6 +29,8 @@ extension Member {
                 RajPabari()
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .brookeKrajancich:
+                BrookeKrajancich(navigationPath: navigationPath)
             }
         }
         return memberView
