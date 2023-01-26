@@ -21,6 +21,11 @@ class BrookeKrajancich: XCTestCase {
         
         app.collectionViews.buttons["Brooke Krajancich"].tap()
         XCTAssert(app.staticTexts["Brooke Krajancich"].waitForExistence(timeout: 0.5))
+        
+        XCTAssert(app.staticTexts["In my spare time, you'll find me:"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["🏋🏼‍♀️ lifting heavy things"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["🐶 cuddling my pup Maxwell"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["🍷 enjoying a glass of wine"].waitForExistence(timeout: 0.5))
 
         app.scrollViews.otherElements.buttons["Visit my website!"].tap()
         
