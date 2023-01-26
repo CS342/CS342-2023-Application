@@ -15,7 +15,7 @@ class GriffinSomaratne: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testGriffinSomaratneAndLinkedInButton() throws {
+    func testGriffinSomaratneAndButtons() throws {
         let app = XCUIApplication()
         app.launch()
         
