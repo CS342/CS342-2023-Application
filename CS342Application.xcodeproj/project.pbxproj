@@ -136,8 +136,9 @@
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
 				A11A0B0D297FDA3D00E03791 /* AndyWang.swift */,
+				89E6BD5E297F685C007B3E04 /* AdamZhao.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
-				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */
+				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -189,7 +190,6 @@
 			children = (
 				2F23F6B329700C7F003FECF4 /* MemberViews */,
 				2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */,
-				89E6BD5E297F685C007B3E04 /* AdamZhao.swift */,
 				23FFF502297EFF88007386C6 /* StudentsUITests.swift */,
 				2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */,
 				2FC8A09C297A34C300479145 /* LeadsUITests.swift */,
@@ -220,7 +220,7 @@
 				2FC8A09A297A315300479145 /* OliverAalami */,
 				A11A0B09297F9C8600E03791 /* AndyWang */,
 				2324B680297D972200C8D549 /* RajPabari */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -719,22 +719,22 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = PaulSchmiedmayer;
 		};
-		89EC86C7297DEE3D00F2099A /* AdamZhao */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AdamZhao;
-		};
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		89EC86C7297DEE3D00F2099A /* AdamZhao */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdamZhao;
 		};
 		A11A0B09297F9C8600E03791 /* AndyWang */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AndyWang;
 		};
-        ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
-            isa = XCSwiftPackageProductDependency;
-            productName = AshleyGriffin;
-        };
+		ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AshleyGriffin;
+		};
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 653A2545283387FE005D4D48 /* Project object */;
