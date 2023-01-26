@@ -86,7 +86,7 @@ let package = Package(
             ],
             exclude: [
                 "Resources/AlexisLowber.jpeg.license",
-                "Resources/AlexisLowber.md.license"
+                "Resources/AlexisLowberBio.md.license"
             ],
             resources: [
                 .process("Resources")

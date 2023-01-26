@@ -8,17 +8,17 @@
 import SwiftUI
 import InstructorViews
 
-struct AlexisLowber: View {
+public struct AlexisLowber: View {
     
     @Binding var navigationPath: NavigationPath
     
-    var body: some View {
+    public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
                 ProfileView(profileImage: Bundle.module.image(fromFileNamed: "AlexisLowber"))
                 DescriptionView(
-                    name: "Alexis Lowber, MS",
-                    title: "Biocomputation",
+                    name: "Alexis Lowber",
+                    title: "Biocomputation, MS",
                     description: Bundle.module.markdown(fromFileNamed: "AlexisLowberBio")
                 )
             }
