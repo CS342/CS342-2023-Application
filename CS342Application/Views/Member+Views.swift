@@ -7,6 +7,7 @@
 //
 
 import AdamZhao
+import AndyWang
 import AshleyGriffin
 import OliverAalami
 import PaulSchmiedmayer
@@ -27,6 +28,8 @@ extension Member {
                 AdamZhao(navigationPath: navigationPath)
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .andyWang:
+                AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
             case .ashleyGriffin:
