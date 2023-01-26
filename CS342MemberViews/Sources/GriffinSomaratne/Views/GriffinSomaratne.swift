@@ -31,13 +31,41 @@ public struct GriffinSomaratne: View {
                         .font(.title2.bold())
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "BlueFace"), title:"Blue Boy", category: "Art")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "ME103"), title: "FLOAT", category: "Design, Engineering")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "ME104"), title: "Porky", category: "Engineering")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "imi"), title: "imi.guide", category: "Design")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "hia"), title: "Neckline", category: "Art")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "Tear"), title:"Starface", category: "Art")
-                            ProjectImage(heroImage:Bundle.module.image(fromFileNamed: "StanfordApp"), title: "Stanford Mobile App", category: "Design")
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "BlueFace"),
+                                title: "Blue Boy",
+                                category: "Art"
+                            )
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "ME103"),
+                                title: "FLOAT",
+                                category: "Design, Engineering"
+                            )
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "ME104"),
+                                title: "Porky",
+                                category: "Engineering"
+                            )
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "imi"),
+                                title: "imi.guide",
+                                category: "Design"
+                            )
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "hia"),
+                                title: "Neckline",
+                                category: "Art"
+                            )
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "Tear"),
+                                title: "Starface",
+                                category: "Art"
+                            )
+                            ProjectImage(
+                                heroImage: Bundle.module.image(fromFileNamed: "StanfordApp"),
+                                title: "Stanford Mobile App",
+                                category: "Design"
+                            )
                         }
                     }
                 }
@@ -64,4 +92,3 @@ struct GriffinSomaratne_Previews: PreviewProvider {
         }
     }
 }
-
