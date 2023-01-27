@@ -7,7 +7,6 @@
 // SPDX-License-Identifier: MIT
 //
 
-import InstructorViews
 import SwiftUI
 
 private var description: String {
