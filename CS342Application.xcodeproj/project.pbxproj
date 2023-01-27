@@ -24,6 +24,8 @@
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
+		A11A0B0A297F9C8600E03791 /* AndyWang in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* AndyWang */; };
+		A11A0B0E297FDA3D00E03791 /* AndyWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A0B0D297FDA3D00E03791 /* AndyWang.swift */; };
 		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
 		ADC4123529810F08008E7C56 /* AbhinavAgarwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */; };
 		ADC4123729811ACE008E7C56 /* AbhinavAgarwal in Frameworks */ = {isa = PBXBuildFile; productRef = ADC4123629811ACE008E7C56 /* AbhinavAgarwal */; };
@@ -66,6 +68,8 @@
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A0B0D297FDA3D00E03791 /* AndyWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndyWang.swift; sourceTree = "<group>"; };
+		ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshleyGriffin.swift; sourceTree = "<group>"; };
 		ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhinavAgarwal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,7 @@
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
 				ADC4123729811ACE008E7C56 /* AbhinavAgarwal in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
+				A11A0B0A297F9C8600E03791 /* AndyWang in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
 				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
 			);
@@ -129,7 +134,9 @@
 			children = (
 				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
+				A11A0B0D297FDA3D00E03791 /* AndyWang.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
+				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 				ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */,
 			);
 			path = MemberViews;
@@ -209,6 +216,7 @@
 			packageProductDependencies = (
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				2FC8A09A297A315300479145 /* OliverAalami */,
+				A11A0B09297F9C8600E03791 /* AndyWang */,
 				2324B680297D972200C8D549 /* RajPabari */,
 				ADC4123629811ACE008E7C56 /* AbhinavAgarwal */,
 			);
@@ -374,6 +382,7 @@
 				ADC4123529810F08008E7C56 /* AbhinavAgarwal.swift in Sources */,
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
+				A11A0B0E297FDA3D00E03791 /* AndyWang.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
 				2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */,
@@ -711,14 +720,18 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
 		};
-		ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
+		A11A0B09297F9C8600E03791 /* AndyWang */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AshleyGriffin;
+			productName = AndyWang;
 		};
 		ADC4123629811ACE008E7C56 /* AbhinavAgarwal */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AbhinavAgarwal;
 		};
+     ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
+       isa = XCSwiftPackageProductDependency;
+       productName = AshleyGriffin;
+     };
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 653A2545283387FE005D4D48 /* Project object */;
