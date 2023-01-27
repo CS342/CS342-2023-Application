@@ -35,6 +35,5 @@ class GriffinSomaratne: XCTestCase {
         app.scrollViews.otherElements.buttons["My favorite song rn"].tap()
         
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
-
     }
 }
