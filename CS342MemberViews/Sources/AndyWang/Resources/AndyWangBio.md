@@ -1,0 +1,1 @@
+Andy Wang is a freshman planning on studying Computer Science and is interested in the Computational Biology track. He is on the Dermatitis Allergen Testing App team and is super excited to work with the team and Dr. Golara Honari! Andy also has interests in medicine and biomedical research and plans to attend medical school after college.
