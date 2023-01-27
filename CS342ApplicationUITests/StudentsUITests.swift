@@ -15,7 +15,7 @@ class StudentsUITests: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testLeads() throws {
+    func testStudents() throws {
         let app = XCUIApplication()
         app.launch()
         
