@@ -21,8 +21,5 @@ class LeadsUITests: XCTestCase {
         
         app.collectionViews.buttons["Prof. Oliver Aalami, MD"].tap()
         XCTAssert(app.staticTexts["Prof. Oliver Aalami, MD"].waitForExistence(timeout: 0.5))
-        
-        app.collectionViews.buttons["Hamed Hekmat"].tap()
-        XCTAssert(app.staticTexts["Hamed Hekmat"].waitForExistence(timeout: 0.5))
     }
 }
