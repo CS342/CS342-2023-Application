@@ -27,8 +27,6 @@ let package = Package(
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"])
     ],
     targets: [
@@ -113,6 +111,7 @@ let package = Package(
                 .process("Resources")
             ]
         ),
+        
         .target(
             name: "HamedHekmat",
             dependencies: [
@@ -166,6 +165,12 @@ let package = Package(
                 "Resources/Sunset1.JPG.license",
                 "Resources/Sunset2.JPG.license",
                 "Resources/SunsetBackground.JPG.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
             name: "ParthavShergill",
             dependencies: [
                 .target(name: "InstructorViews")
