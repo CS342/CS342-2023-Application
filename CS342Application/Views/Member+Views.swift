@@ -5,10 +5,10 @@
 //
 // SPDX-License-Identifier: MIT
 //
-
 import AndyWang
 import AshleyGriffin
 import AudreyLin
+import JustinWu
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari
@@ -32,6 +32,8 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .justinWu:
+                JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
             }
