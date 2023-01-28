@@ -12,6 +12,7 @@ import InstructorViews
 
 public struct ReadsRow: View {
     
+    // swiftlint:disable closure_body_length
     public var body: some View {
         ZStack {
             Color(hue: 0, saturation: 0.0, brightness: 1)

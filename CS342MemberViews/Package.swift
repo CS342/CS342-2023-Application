@@ -58,7 +58,21 @@ let package = Package(
             ],
             exclude: [
                 "Resources/CaitlinKunchur.jpeg.license",
-                "Resources/CaitlinKunchurBio.md.license"
+                "Resources/CaitlinKunchur-bio.md.license",
+                "Resources/0151-cover.jpeg.license",
+                "Resources/1975-cover.jpeg.license",
+                "Resources/artemis-cover.jpeg.license",
+                "Resources/car-cover.jpeg.license",
+                "Resources/hobbit-cover.jpeg.license",
+                "Resources/misery-cover.jpeg.license",
+                "Resources/movement-cover.jpeg.license",
+                "Resources/network-compressed.jpeg.license",
+                "Resources/white-tiger.jpeg.license",
+                "Resources/Instagram.jpeg.license",
+                "Resources/Github.jpeg.license",
+                "Resources/LinkedIn.jpeg.license",
+
+
             ],
             resources: [
                 .process("Resources")
