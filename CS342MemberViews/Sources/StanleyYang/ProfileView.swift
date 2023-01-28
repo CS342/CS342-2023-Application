@@ -9,20 +9,19 @@
 import SwiftUI
 
 
-struct ProfileView: View {
-    var body: some View {
+public struct ProfileView: View {
+    public var body: some View {
         profileImage
             .resizable()
             .aspectRatio(1.0, contentMode: .fit)
             .clipShape(Circle())
             .shadow(radius: 10)
-            .padding(.horizontal, 32)
-            .frame(maxWidth: 300)
+            .padding(.horizontal, 100)
     }
     
     
     private var profileImage: Image {
-        guard let imagePath = Bundle.module.path(forResource: "PaulSchmiedmayer", ofType: "jpeg"),
+        guard let imagePath = Bundle.module.path(forResource: "StanleyYang", ofType: "jpeg"),
            let image = UIImage(contentsOfFile: imagePath) else {
             return Image(systemName: "person.fill")
         }
