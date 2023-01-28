@@ -11,8 +11,7 @@
 import SwiftUI
 
 public struct BioView: View {
-    private let description:
-        LocalizedStringKey
+    private let description: LocalizedStringKey
     
     
     public var body: some View {

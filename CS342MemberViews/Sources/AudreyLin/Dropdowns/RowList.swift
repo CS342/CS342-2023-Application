@@ -12,7 +12,6 @@ import SwiftUI
 
 struct RowListView: View {
     
-    
     var body: some View {
         ZStack {
             Color("Sepia Blue").edgesIgnoringSafeArea(.all)

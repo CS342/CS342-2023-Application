@@ -34,6 +34,5 @@ class StudentsUITests: XCTestCase {
 
         app.collectionViews.buttons["Audrey Lin"].tap()
         XCTAssert(app.staticTexts["Audrey Lin"].waitForExistence(timeout: 0.5))
-
     }
 }

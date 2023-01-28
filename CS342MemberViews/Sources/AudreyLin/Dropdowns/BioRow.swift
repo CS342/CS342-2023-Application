@@ -8,8 +8,8 @@
 
 // Source
 
-import SwiftUI
 import StudentViews
+import SwiftUI
 
 struct BioRowView: View {
     @State private var showDetail = false
