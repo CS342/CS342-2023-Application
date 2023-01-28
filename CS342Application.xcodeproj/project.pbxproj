@@ -167,8 +167,7 @@
 				1A8C31D9297FCFF6002D6F2F /* HamedHekmat.swift */,
 				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 				F72C387F2980761200528574 /* ParthavShergill.swift */,
-				F565FA50297F19820043DB25 /* JustinWu.swift */,
-				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */
+				F565FA50297F19820043DB25 /* JustinWu.swift */
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
