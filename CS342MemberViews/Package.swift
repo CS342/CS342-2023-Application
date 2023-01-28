@@ -26,9 +26,8 @@ let package = Package(
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
-        .library(name: "ParthavShergill", targets: ["ParthavShergill"])
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
+        .library(name: "RachelWu", targets: ["RachelWu"])
     ],
     targets: [
         .target(
@@ -159,6 +158,15 @@ let package = Package(
             exclude: [
                 "Resources/ParthavShergill.jpeg.license",
                 "Resources/ParthavShergillBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "RachelWu",
+            dependencies: [
+                .target(name: "InstructorViews")
             ],
             resources: [
                 .process("Resources")

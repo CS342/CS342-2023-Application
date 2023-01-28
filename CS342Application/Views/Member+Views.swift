@@ -13,6 +13,7 @@ import JustinWu
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
+import RachelWu
 import RajPabari
 import StanleyYang
 import SwiftUI
@@ -45,6 +46,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .rachelWu:
+                RachelWu(navigationPath: navigationPath)
             }
         }
         return memberView
