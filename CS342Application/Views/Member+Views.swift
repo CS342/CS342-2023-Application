@@ -5,26 +5,49 @@
 //
 // SPDX-License-Identifier: MIT
 //
-
-import OliverAalami
-import PaulSchmiedmayer
+import AndyWang
+import AshleyGriffin
+import AudreyLin
 import CaitlinKunchur
+import HamedHekmat
+import JustinWu
+import OliverAalami
+import ParthavShergill
+import PaulSchmiedmayer
+import RajPabari
+import StanleyYang
 import SwiftUI
 
-
 extension Member {
+    // swiftlint:disable:next cyclomatic_complexity
     func memberView(with navigationPath: Binding<NavigationPath>) -> some View {
         @ViewBuilder
         var memberView: some View {
             switch self {
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
+            case .audreyLin:
+                AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
             case .caitlinKunchur:
                 CaitlinKunchur(navigationPath: navigationPath)
+            case .andyWang:
+                AndyWang(navigationPath: navigationPath)
+            case .rajPabari:
+                RajPabari()
+            case .hamedHekmat:
+                HamedHekmat()
+            case .justinWu:
+                JustinWu(navigationPath: navigationPath)
+            case .ashleyGriffin:
+                AshleyGriffin(navigationPath: navigationPath)
+            case .stanleyYang:
+                StanleyYang(navigationPath: navigationPath)
+            case .parthavShergill:
+                ParthavShergill(navigationPath: navigationPath)
             }
         }
         return memberView

@@ -96,7 +96,7 @@ public struct HobbiesRow: View {
     public var body: some View {
         ZStack {
             Color(hue: 0.5639, saturation: 0.0, brightness: 1).ignoresSafeArea()
-            VStack (alignment: .leading){
+            VStack(alignment: .leading) {
                 Text("Hobbies").font(.custom(
                     "GillSans",
                     fixedSize: 25))
@@ -111,7 +111,6 @@ public struct HobbiesRow: View {
     }
     
 }
-
 
 
 struct Hobbies_Previews: PreviewProvider {

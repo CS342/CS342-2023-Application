@@ -6,8 +6,8 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
 import InstructorViews
+import SwiftUI
 
 
 struct ProfileRow: View {
@@ -36,7 +36,6 @@ struct ProfileRow: View {
             
             Text(bioText).multilineTextAlignment(.center).font(.caption) .padding(15).offset(y: -150).foregroundStyle(.white)
             Divider()
-            
         }
     }
 }
