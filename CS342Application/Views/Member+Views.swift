@@ -5,18 +5,21 @@
 //
 // SPDX-License-Identifier: MIT
 //
-
 import AndyWang
 import AshleyGriffin
 import AudreyLin
+import HamedHekmat
+import JustinWu
 import OliverAalami
+import ParthavShergill
 import PaulSchmiedmayer
 import RajPabari
 import SherryXie
+import StanleyYang
 import SwiftUI
 
-
 extension Member {
+    // swiftlint:disable:next cyclomatic_complexity
     func memberView(with navigationPath: Binding<NavigationPath>) -> some View {
         @ViewBuilder
         var memberView: some View {
@@ -35,8 +38,16 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .hamedHekmat:
+                HamedHekmat()
+            case .justinWu:
+                JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .stanleyYang:
+                StanleyYang(navigationPath: navigationPath)
+            case .parthavShergill:
+                ParthavShergill(navigationPath: navigationPath)
             }
         }
         return memberView

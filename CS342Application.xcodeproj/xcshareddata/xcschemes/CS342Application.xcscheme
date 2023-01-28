@@ -47,6 +47,11 @@
                BlueprintName = "CS342ApplicationUITests"
                ReferencedContainer = "container:CS342Application.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "StanleyYang/testPaulSchmiedmayerAndLinks()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
