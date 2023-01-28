@@ -6,7 +6,9 @@
 // SPDX-License-Identifier: MIT
 //
 
+import AndyWang
 import AshleyGriffin
+import AudreyLin
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
@@ -21,10 +23,14 @@ extension Member {
             switch self {
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
+            case .audreyLin:
+                AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .andyWang:
+                AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
             case .ashleyGriffin:

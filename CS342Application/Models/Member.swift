@@ -9,7 +9,9 @@
 enum Member: String, Identifiable, CaseIterable {
     case oliverAalami = "Prof. Oliver Aalami, MD"
     case paulSchmiedmayer = "Paul Schmiedmayer, Ph.D."
+    case audreyLin = "Audrey Lin"
     case vishnuRavi = "Vishnu Ravi, MD"
+    case andyWang = "Andy Wang"
     case rajPabari = "Raj Pabari"
     case ashleyGriffin = "Ashley Griffin, Ph.D."
     case parthavShergill = "Parthav Shergill"
@@ -44,7 +46,7 @@ enum Member: String, Identifiable, CaseIterable {
             return .instructor
         case .oliverAalami:
             return .lead
-        case .rajPabari:
+        case .audreyLin, .andyWang, .rajPabari:
             return .student
         case .parthavShergill:
             return .student
