@@ -1,0 +1,1 @@
+I am an undergrad at Stanford interested in the intersection of computer science and healthcare. I currently intern at Roche, the world's largest biotech company, on sequencing workflows and applications. I'm interested in the application of AI in healthcare, digital health applications, and computational biology.
