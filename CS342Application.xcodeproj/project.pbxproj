@@ -167,8 +167,7 @@
 				1A8C31D9297FCFF6002D6F2F /* HamedHekmat.swift */,
 				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 				F72C387F2980761200528574 /* ParthavShergill.swift */,
-				F565FA50297F19820043DB25 /* JustinWu.swift */,
-				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */
+				F565FA50297F19820043DB25 /* JustinWu.swift */
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -262,10 +261,8 @@
 				A11A0B09297F9C8600E03791 /* AndyWang */,
 				2324B680297D972200C8D549 /* RajPabari */,
 				1A8C31D7297F95E1002D6F2F /* HamedHekmat */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
 				F7E62790297FA45B00200446 /* ParthavShergill */,
 				F565FA52297F29700043DB25 /* JustinWu */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
