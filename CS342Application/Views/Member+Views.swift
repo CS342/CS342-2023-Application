@@ -8,6 +8,7 @@
 import AndyWang
 import AshleyGriffin
 import AudreyLin
+import HamedHekmat
 import JustinWu
 import OliverAalami
 import ParthavShergill
@@ -33,6 +34,8 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .hamedHekmat:
+                HamedHekmat()
             case .justinWu:
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
