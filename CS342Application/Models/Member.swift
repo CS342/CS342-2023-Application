@@ -48,6 +48,8 @@ enum Member: String, Identifiable, CaseIterable {
             return .lead
         case .ashleyGriffin:
             return .instructor
+        case .audreyLin:
+            return .student
         case .sherryXie:
             return .student
         case .rajPabari:
