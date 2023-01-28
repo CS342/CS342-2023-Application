@@ -5,17 +5,21 @@
 //
 // SPDX-License-Identifier: MIT
 //
-
 import SwiftUI
 
 
 struct DescriptionView: View {
     var body: some View {
-        VStack(spacing: 8) {
-            Text("Paul Schmiedmayer, Ph.D.")
-                .font(.title2.bold())
-            Text("Postdoctoral Researcher")
-                .font(.title3)
+        VStack(spacing: 25) {
+            HStack(spacing: 30) {
+                ProfileView()
+                VStack(spacing: 8) {
+                    Text("Andy Wang")
+                        .font(.title2.bold())
+                    Text("Student")
+                        .font(.title3)
+                }
+            }
             Text(description)
                 .padding()
         }
@@ -23,7 +27,7 @@ struct DescriptionView: View {
     
     
     private var description: String {
-        guard let descriptionPath = Bundle.module.path(forResource: "PaulSchmiedmayerBio", ofType: "md"),
+        guard let descriptionPath = Bundle.module.path(forResource: "AndyWangBio", ofType: "md"),
               let description = try? String(contentsOfFile: descriptionPath) else {
             return ""
         }

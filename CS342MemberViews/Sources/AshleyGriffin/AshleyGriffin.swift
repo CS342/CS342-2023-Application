@@ -10,23 +10,23 @@ import InstructorViews
 import SwiftUI
 
 
-public struct PaulSchmiedmayer: View {
+public struct AshleyGriffin: View {
     @Binding var navigationPath: NavigationPath
     
     
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
-                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "PaulSchmiedmayer"))
+                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "AshleyGriffin"))
                 DescriptionView(
-                    name: "Paul Schmiedmayer, Ph.D.",
+                    name: "Ashley Griffin, Ph.D.",
                     title: "Postdoctoral Researcher",
-                    description: Bundle.module.markdown(fromFileNamed: "PaulSchmiedmayerBio")
+                    description: Bundle.module.markdown(fromFileNamed: "AshleyGriffinBio")
                 )
                 TwitterUsername()
             }
         }
-            .navigationTitle("Paul")
+            .navigationTitle("Ashley")
     }
     
     
@@ -36,10 +36,10 @@ public struct PaulSchmiedmayer: View {
 }
 
 
-struct PaulSchmiedmayer_Previews: PreviewProvider {
+struct AshleyGriffin_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            PaulSchmiedmayer(navigationPath: .constant(NavigationPath()))
+            AshleyGriffin(navigationPath: .constant(NavigationPath()))
         }
     }
 }
