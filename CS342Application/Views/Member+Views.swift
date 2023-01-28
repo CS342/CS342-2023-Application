@@ -8,6 +8,7 @@
 
 import AndyWang
 import AshleyGriffin
+import AudreyLin
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari
@@ -21,6 +22,8 @@ extension Member {
             switch self {
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
+            case .audreyLin:
+                AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
             case .oliverAalami:
