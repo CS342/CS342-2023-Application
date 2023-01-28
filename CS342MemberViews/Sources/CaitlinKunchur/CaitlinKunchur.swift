@@ -6,16 +6,12 @@
 // SPDX-License-Identifier: MIT
 //
 
-
 import InstructorViews
 import SwiftUI
-
 
 /// View displaying information about Caitlin Kunchur
 public struct CaitlinKunchur: View {
     @Binding var navigationPath: NavigationPath
-   
-    
     public var body: some View {
         ZStack {
             Color(hue: 0, saturation: 0, brightness: 0).ignoresSafeArea()
@@ -25,9 +21,10 @@ public struct CaitlinKunchur: View {
                     ReadsRow().offset(y: -150)
                     ListensRow().offset(y: -150)
                     HobbiesRow().offset(y: -150)
-                    Text("\"Dream big and dare to fail.\"").offset(y: -80).font(.custom(
-                        "Georgia-Italic",
-                        fixedSize: 25)).foregroundColor(.white)
+                    Text("\"Dream big and dare to fail.\"")
+                        .offset(y: -80)
+                        .font(.custom("Georgia-Italic", fixedSize: 25))
+                        .foregroundColor(.white)
                     Bundle.module.image(fromFileNamed: "network-compressed")
                         .resizable()
                         .ignoresSafeArea(edges: .bottom)

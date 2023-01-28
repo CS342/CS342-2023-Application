@@ -11,19 +11,16 @@ import SwiftUI
 
 
 public struct ReadsRow: View {
-    
     // swiftlint:disable closure_body_length
     public var body: some View {
         ZStack {
             Color(hue: 0, saturation: 0.0, brightness: 1)
             VStack(alignment: .leading) {
-                Text("Recent Reads").font(.custom(
-                    "GillSans",
-                    fixedSize: 25))
+                Text("Recent Reads")
+                    .font(.custom("GillSans", fixedSize: 25))
                     .padding(.leading, 15)
                     .padding(.top, 5)
                     .foregroundStyle(.blue.gradient)
-                
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
                         VStack {
@@ -33,11 +30,12 @@ public struct ReadsRow: View {
                                 .frame(width: 45, height: 90)
                                 .border(Color.blue, width: 4)
                                 .cornerRadius(5)
-                            
                             VStack {
                                 Text("Artemis")
-                                Text("Andy Weir").foregroundColor(.primary)
-                                    .font(.caption).padding([.bottom], 10)
+                                Text("Andy Weir")
+                                    .foregroundColor(.primary)
+                                    .font(.caption)
+                                    .padding([.bottom], 10)
                             }
                         }
                         .padding(.leading, 18)
@@ -49,8 +47,10 @@ public struct ReadsRow: View {
                                 .cornerRadius(5)
                             VStack {
                                 Text("Misery")
-                                Text("Stephen King").foregroundColor(.primary)
-                                    .font(.caption).padding([.bottom], 10)
+                                Text("Stephen King")
+                                    .foregroundColor(.primary)
+                                    .font(.caption)
+                                    .padding([.bottom], 10)
                             }
                         }
                         .padding(.leading, 18)
@@ -62,8 +62,10 @@ public struct ReadsRow: View {
                                 .cornerRadius(5)
                             VStack {
                                 Text("The Hobbit")
-                                Text("J.R.R. Tolkien").foregroundColor(.primary)
-                                    .font(.caption).padding([.bottom], 10)
+                                Text("J.R.R. Tolkien")
+                                    .foregroundColor(.primary)
+                                    .font(.caption)
+                                    .padding([.bottom], 10)
                             }
                         }
                         .padding(.leading, 18)
@@ -75,8 +77,10 @@ public struct ReadsRow: View {
                                 .cornerRadius(5)
                             VStack {
                                 Text("The White Tiger")
-                                Text("Aravind Adiga").foregroundColor(.primary)
-                                    .font(.caption).padding([.bottom], 10)
+                                Text("Aravind Adiga")
+                                    .foregroundColor(.primary)
+                                    .font(.caption)
+                                    .padding([.bottom], 10)
                             }
                         }
                         .padding(.leading, 18)

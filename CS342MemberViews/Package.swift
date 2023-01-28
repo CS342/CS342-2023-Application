@@ -157,7 +157,7 @@ let package = Package(
             ],
             exclude: [
                 "Resources/CaitlinKunchur.jpeg.license",
-                "Resources/CaitlinKunchur-bio.md.license",
+                "Resources/CaitlinKunchur-bio.license",
                 "Resources/0151-cover.jpeg.license",
                 "Resources/1975-cover.jpeg.license",
                 "Resources/artemis-cover.jpeg.license",
@@ -169,7 +169,7 @@ let package = Package(
                 "Resources/white-tiger.jpeg.license",
                 "Resources/Instagram.jpeg.license",
                 "Resources/Github.jpeg.license",
-                "Resources/LinkedIn.jpeg.license",
+                "Resources/LinkedIn.jpeg.license"
             ],
             resources: [
                 .process("Resources")

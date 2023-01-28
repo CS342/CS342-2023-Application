@@ -21,14 +21,17 @@ struct ProfileRow: View {
             HStack {
                 ProfileView(profileImage: Bundle.module.image(fromFileNamed: "CaitlinKunchur")).frame(width: 200)
                 VStack {
-                    Text("Caitlin Kunchur").font(.custom(
-                        "Helvetica",
-                        fixedSize: 22))
-                    .multilineTextAlignment(.center).foregroundStyle(.white).fontWeight(.bold)
-                    Text("Stanford University").font(.custom(
-                        "Helvetica", fixedSize: 18)).foregroundStyle(.white)
-                    Text("Class of 2024").font(.custom(
-                        "Helvetica", fixedSize: 18)).foregroundStyle(.white)
+                    Text("Caitlin Kunchur")
+                        .font(.custom( "Helvetica", fixedSize: 22))
+                        .multilineTextAlignment(.center)
+                        .foregroundStyle(.white)
+                        .fontWeight(.bold)
+                    Text("Stanford University")
+                        .font(.custom("Helvetica", fixedSize: 18))
+                        .foregroundStyle(.white)
+                    Text("Class of 2024")
+                        .font(.custom("Helvetica", fixedSize: 18))
+                        .foregroundStyle(.white)
                     SocialButtons()
                 }.frame(width: 170)
                 Spacer()

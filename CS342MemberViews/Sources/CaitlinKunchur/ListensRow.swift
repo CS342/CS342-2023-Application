@@ -17,9 +17,8 @@ public struct ListensRow: View {
             Color(hue: 0.5639, saturation: 0.0, brightness: 1)
             
             VStack(alignment: .leading) {
-                Text("Recent Listens").font(.custom(
-                    "GillSans",
-                    fixedSize: 25))
+                Text("Recent Listens")
+                    .font(.custom( "GillSans", fixedSize: 25))
                     .padding(.leading, 15)
                     .padding(.top, 5)
                     .foregroundStyle(.blue.gradient)
