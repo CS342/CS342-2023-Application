@@ -157,7 +157,7 @@ let package = Package(
             ],
             exclude: [
                 "Resources/CaitlinKunchur.jpeg.license",
-                "Resources/CaitlinKunchur-bio.license",
+                "Resources/CaitlinKunchur-bio.md.license",
                 "Resources/0151-cover.jpeg.license",
                 "Resources/1975-cover.jpeg.license",
                 "Resources/artemis-cover.jpeg.license",
