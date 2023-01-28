@@ -20,12 +20,19 @@ let package = Package(
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
+        .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
+        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"])
+        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"])
     ],
     targets: [
+        .target(
+            name: "StudentViews"
+        ),
         .target(
             name: "InstructorViews"
         ),
@@ -47,6 +54,19 @@ let package = Package(
             exclude: [
                 "Resources/StanleyYang.jpeg.license",
                 "Resources/StanleyYangBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AudreyLin",
+            dependencies: [
+                .target(name: "StudentViews")
+            ],
+            exclude: [
+                "Resources/AudreyLin.jpeg.license",
+                "Resources/AudreyLinBio.md.license"
             ],
             resources: [
                 .process("Resources")
@@ -92,6 +112,19 @@ let package = Package(
             ]
         ),
         .target(
+            name: "JustinWu",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/JustinWu.jpeg.license",
+                "Resources/JustinWuBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
             name: "AshleyGriffin",
             dependencies: [
                 .target(name: "InstructorViews")
@@ -99,6 +132,19 @@ let package = Package(
             exclude: [
                 "Resources/AshleyGriffin.jpeg.license",
                 "Resources/AshleyGriffinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "ParthavShergill",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/ParthavShergill.jpeg.license",
+                "Resources/ParthavShergillBio.md.license"
             ],
             resources: [
                 .process("Resources")
