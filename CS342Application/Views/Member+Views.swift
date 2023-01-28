@@ -14,10 +14,11 @@ import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
 import RajPabari
+import StanleyYang
 import SwiftUI
 
-
 extension Member {
+    // swiftlint:disable:next cyclomatic_complexity
     func memberView(with navigationPath: Binding<NavigationPath>) -> some View {
         @ViewBuilder
         var memberView: some View {
@@ -40,6 +41,8 @@ extension Member {
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .stanleyYang:
+                StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
             }
