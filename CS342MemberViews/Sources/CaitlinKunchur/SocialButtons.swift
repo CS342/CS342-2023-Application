@@ -6,15 +6,15 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
 import InstructorViews
+import SwiftUI
 
 
 public struct SocialButtons: View {
     @Environment(\.openURL) var openURL
     
     public var body: some View {
-        HStack(spacing: 1){
+        HStack(spacing: 1) {
         if let instaURL {
             Button {
                 openURL(instaURL)
@@ -50,8 +50,7 @@ public struct SocialButtons: View {
                 .frame(width: 60, height: 35)
             }
         }
-    }
-        
+        }
     }
     private var instaURL: URL? {
         URL(string: "https://instagram.com/caitlinkunchur")
@@ -62,7 +61,6 @@ public struct SocialButtons: View {
     private var githubURL: URL? {
         URL(string: "https://github.com/ckunchur")
     }
-    
 }
 
 

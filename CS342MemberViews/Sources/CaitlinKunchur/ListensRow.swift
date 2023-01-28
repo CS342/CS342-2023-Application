@@ -7,16 +7,15 @@
 //
 
 
-import SwiftUI
 import InstructorViews
+import SwiftUI
 
 public struct ListensRow: View {
-   
         public var body: some View {
             ZStack {
             Color(hue: 0.5639, saturation: 0.0, brightness: 1)
             
-            VStack (alignment: .leading){
+            VStack(alignment: .leading) {
                 Text("Recent Listens").font(.custom(
                     "GillSans",
                     fixedSize: 25))
@@ -25,7 +24,7 @@ public struct ListensRow: View {
                     .foregroundStyle(.blue.gradient)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack{
+                    HStack {
                         VStack {
                             Bundle.module.image(fromFileNamed: "car-cover")
                                 .resizable()
@@ -77,13 +76,12 @@ public struct ListensRow: View {
                                 Text("The 1975").foregroundColor(.primary)
                                     .font(.caption)
                             }
-                            
                         }
                         .padding(.leading, 18)
                     }
                 }
             }
-        }
+            }
     }
 }
 

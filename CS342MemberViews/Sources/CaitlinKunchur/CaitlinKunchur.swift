@@ -7,7 +7,6 @@
 //
 
 
-
 import InstructorViews
 import SwiftUI
 
@@ -20,7 +19,7 @@ public struct CaitlinKunchur: View {
     public var body: some View {
         ZStack {
             Color(hue: 0, saturation: 0, brightness: 0).ignoresSafeArea()
-            ScrollView(.vertical){
+            ScrollView(.vertical) {
                 VStack(spacing: 7) {
                     ProfileRow()
                     ReadsRow().offset(y: -150)
