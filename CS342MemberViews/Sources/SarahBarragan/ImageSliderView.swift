@@ -14,7 +14,7 @@ struct ImageSlider: View {
     var body: some View {
         TabView {
             ForEach(images, id: \.self) { item in
-                 Image(item)
+                Image(item)
                     .resizable()
                     .scaledToFill()
             }
