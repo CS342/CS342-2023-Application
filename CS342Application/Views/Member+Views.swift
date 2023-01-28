@@ -5,14 +5,10 @@
 //
 // SPDX-License-Identifier: MIT
 //
-<<<<<<< HEAD
 import JustinWu
-=======
-
 import AndyWang
 import AshleyGriffin
 import AudreyLin
->>>>>>> 1721ea69bba3fa8c1cca40f66751db1cb2fa86c4
 import OliverAalami
 import PaulSchmiedmayer
 import RajPabari

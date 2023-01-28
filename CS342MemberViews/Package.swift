@@ -21,7 +21,7 @@ let package = Package(
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "JustinWu", targets: ["JustinWu"])
+        .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"])
@@ -110,7 +110,7 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        )
+        ),
         .target(
             name: "AshleyGriffin",
             dependencies: [
