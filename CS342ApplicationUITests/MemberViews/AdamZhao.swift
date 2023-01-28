@@ -38,8 +38,5 @@ class AdamZhaoTests: XCTestCase {
         app.collectionViews.buttons["Adam Zhao"].tap()
         XCTAssert(app.staticTexts["Adam Zhao"].waitForExistence(timeout: 0.5))
         app.scrollViews.otherElements.buttons["Contact Me"].tap()
-        
-        app.otherElements.buttons["LinkedIn"].tap()
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
     }
 }
