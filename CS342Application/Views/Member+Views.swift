@@ -8,6 +8,7 @@
 import AndyWang
 import AshleyGriffin
 import AudreyLin
+import CaitlinKunchur
 import HamedHekmat
 import JustinWu
 import OliverAalami
@@ -32,6 +33,8 @@ extension Member {
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .caitlinKunchur:
+                CaitlinKunchur(navigationPath: navigationPath)
             case .sherryXie:
                 SherryXie(navigationPath: navigationPath)
             case .andyWang:
