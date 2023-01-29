@@ -16,6 +16,7 @@ import ParthavShergill
 import PaulSchmiedmayer
 import EmmyThamakaison
 import RajPabari
+import SherryXie
 import StanleyYang
 import SwiftUI
 
@@ -36,6 +37,8 @@ extension Member {
                 EmmyThamakaison(navigationPath: navigationPath)
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .sherryXie:
+                SherryXie(navigationPath: navigationPath)
             case .andyWang:
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
