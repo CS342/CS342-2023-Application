@@ -723,6 +723,7 @@
 		A673C85B297CDAE400D0E9A6 /* AnushehChaudry */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AnushehChaudry;
+		};
 		ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AshleyGriffin;
