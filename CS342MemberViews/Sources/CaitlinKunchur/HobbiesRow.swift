@@ -10,7 +10,7 @@
 import SwiftUI
 
 
-public struct HobbiesRow: View {
+struct HobbiesRow: View {
     struct ImageOptions: ViewModifier {
         func body(content: Content) -> some View {
             content.frame(width: 35, height: 35)
@@ -24,8 +24,6 @@ public struct HobbiesRow: View {
     }
     
     struct ScrollContent: View {
-        let imageNames = ["camera.circle", "pencil.line", "moon.stars.circle", "dumbbell.fill", "headphones.circle.fill"]
-        let hobbyNames = ["Photography", "Graphic Design", "Stargazing", "Fitness", "Music"]
         let hobbies = [
             Hobby(imageName: "camera.circle", hobbyName: "Photography"),
             Hobby(imageName: "pencil.line", hobbyName: "Graphic Design"),
