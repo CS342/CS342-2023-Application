@@ -16,6 +16,7 @@ import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
 import RajPabari
+import SherryXie
 import StanleyYang
 import SwiftUI
 
@@ -34,6 +35,8 @@ extension Member {
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .sherryXie:
+                SherryXie(navigationPath: navigationPath)
             case .andyWang:
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
