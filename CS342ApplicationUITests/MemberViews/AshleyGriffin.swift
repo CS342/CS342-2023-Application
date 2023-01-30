@@ -22,6 +22,8 @@ class AshleyGriffin: XCTestCase {
         app.collectionViews.buttons["Ashley Griffin, Ph.D."].tap()
         XCTAssert(app.staticTexts["Ashley Griffin, Ph.D."].waitForExistence(timeout: 0.5))
 
+        app.swipeUp()
+        
         app.scrollViews.otherElements.buttons["@griffinashleyc"].tap()
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
