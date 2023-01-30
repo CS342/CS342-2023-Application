@@ -28,6 +28,9 @@ let package = Package(
         .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
+        .library(name: "AndyWang", targets: ["AndyWang"]),
+        .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"])
     ],
     targets: [
@@ -101,6 +104,15 @@ let package = Package(
             ]
         ),
         .target(
+            name: "SherryXie",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
             name: "AndyWang",
             exclude: [
                 "Resources/AndyWang.jpg.license",
@@ -160,6 +172,31 @@ let package = Package(
             exclude: [
                 "Resources/AshleyGriffin.jpeg.license",
                 "Resources/AshleyGriffinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "CaitlinKunchur",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/CaitlinKunchur.jpeg.license",
+                "Resources/CaitlinKunchur-bio.md.license",
+                "Resources/0151-cover.jpeg.license",
+                "Resources/1975-cover.jpeg.license",
+                "Resources/artemis-cover.jpeg.license",
+                "Resources/car-cover.jpeg.license",
+                "Resources/hobbit-cover.jpeg.license",
+                "Resources/misery-cover.jpeg.license",
+                "Resources/movement-cover.jpeg.license",
+                "Resources/network-compressed.jpeg.license",
+                "Resources/white-tiger.jpeg.license",
+                "Resources/Instagram.jpeg.license",
+                "Resources/Github.jpeg.license",
+                "Resources/LinkedIn.jpeg.license"
             ],
             resources: [
                 .process("Resources")

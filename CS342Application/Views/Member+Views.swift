@@ -9,6 +9,7 @@
 import AndyWang
 import AshleyGriffin
 import AudreyLin
+import CaitlinKunchur
 import HamedHekmat
 import JustinWu
 import OliverAalami
@@ -16,6 +17,7 @@ import ParthavShergill
 import PaulSchmiedmayer
 import RajPabari
 import SarahBarragan
+import SherryXie
 import StanleyYang
 import SwiftUI
 
@@ -35,6 +37,10 @@ extension Member {
                 OliverAalami(navigationPath: navigationPath)
             case .sarahBarragan:
                 SarahBarragan(navigationPath: navigationPath)
+            case .caitlinKunchur:
+                CaitlinKunchur(navigationPath: navigationPath)
+            case .sherryXie:
+                SherryXie(navigationPath: navigationPath)
             case .andyWang:
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
