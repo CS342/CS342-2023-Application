@@ -5,13 +5,11 @@
 //  Created by Alexis Lowber on 1/24/23.
 //
 
-import SwiftUI
 import InstructorViews
+import SwiftUI
+
 
 public struct AlexisLowber: View {
-    
-    @Binding var navigationPath: NavigationPath
-    
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
@@ -26,15 +24,15 @@ public struct AlexisLowber: View {
         .navigationTitle("Alexis")
     }
     
-    public init(navigationPath: Binding<NavigationPath>) {
-        self._navigationPath = navigationPath
-    }
+    
+    public init() { }
 }
+
 
 struct AlexisLowber_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            AlexisLowber(navigationPath: .constant(NavigationPath()))
+            AlexisLowber()
         }
     }
 }

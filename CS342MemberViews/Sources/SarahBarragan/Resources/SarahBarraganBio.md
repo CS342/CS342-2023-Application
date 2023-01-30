@@ -1,0 +1,1 @@
+Sarah Barragan is a second year undergraduate student at Stanford University majoring in Computer Science with a concentration in AI and minoring in Data Science (but also considering pursuing a minor in Mechanical Engineering for fun). On her free time she likes to go on morning runs, bake muffins, build with Legos and is a big soccer fan.

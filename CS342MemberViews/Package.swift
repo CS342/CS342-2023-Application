@@ -19,11 +19,23 @@ let package = Package(
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
+        .library(name: "StanleyYang", targets: ["StanleyYang"]),
+        .library(name: "AudreyLin", targets: ["AudreyLin"]),
+        .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
+        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
+        .library(name: "JustinWu", targets: ["JustinWu"]),
+        .library(name: "AndyWang", targets: ["AndyWang"]),
+        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
+        .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"])
     ],
     targets: [
+        .target(
+            name: "StudentViews"
+        ),
         .target(
             name: "InstructorViews"
         ),
@@ -35,6 +47,29 @@ let package = Package(
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "StanleyYang",
+            exclude: [
+                "Resources/StanleyYang.jpeg.license",
+                "Resources/StanleyYangBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AudreyLin",
+            dependencies: [
+                .target(name: "StudentViews")
+            ],
+            exclude: [
+                "Resources/AudreyLin.jpeg.license",
+                "Resources/AudreyLinBio.md.license"
             ],
             resources: [
                 .process("Resources")
@@ -54,6 +89,42 @@ let package = Package(
             ]
         ),
         .target(
+            name: "SarahBarragan",
+            exclude: [
+                "Resources/SarahBarragan.jpeg.license",
+                "Resources/SarahBarraganBio.md.license",
+                "Resources/beach.jpeg.license",
+                "Resources/city.jpeg.license",
+                "Resources/hike.jpeg.license",
+                "Resources/stadium.jpeg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "SherryXie",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AndyWang",
+            exclude: [
+                "Resources/AndyWang.jpg.license",
+                "Resources/AndyWangBio.md.license",
+                "Resources/Premiere.png.license",
+                "Resources/Saxophone.jpg.license",
+                "Resources/Volleyball.png.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
             name: "RajPabari",
             dependencies: [
                 .target(name: "InstructorViews")
@@ -61,6 +132,32 @@ let package = Package(
             exclude: [
                 "Resources/RajPabari.jpeg.license",
                 "Resources/RajPabariBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "HamedHekmat",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/HamedHekmat.jpeg.license",
+                "Resources/HamedHekmatBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "JustinWu",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/JustinWu.jpeg.license",
+                "Resources/JustinWuBio.md.license"
             ],
             resources: [
                 .process("Resources")
@@ -87,6 +184,44 @@ let package = Package(
             exclude: [
                 "Resources/AlexisLowber.jpeg.license",
                 "Resources/AlexisLowberBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "CaitlinKunchur",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/CaitlinKunchur.jpeg.license",
+                "Resources/CaitlinKunchur-bio.md.license",
+                "Resources/0151-cover.jpeg.license",
+                "Resources/1975-cover.jpeg.license",
+                "Resources/artemis-cover.jpeg.license",
+                "Resources/car-cover.jpeg.license",
+                "Resources/hobbit-cover.jpeg.license",
+                "Resources/misery-cover.jpeg.license",
+                "Resources/movement-cover.jpeg.license",
+                "Resources/network-compressed.jpeg.license",
+                "Resources/white-tiger.jpeg.license",
+                "Resources/Instagram.jpeg.license",
+                "Resources/Github.jpeg.license",
+                "Resources/LinkedIn.jpeg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "ParthavShergill",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/ParthavShergill.jpeg.license",
+                "Resources/ParthavShergillBio.md.license"
             ],
             resources: [
                 .process("Resources")
