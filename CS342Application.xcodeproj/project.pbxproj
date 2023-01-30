@@ -64,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2372E534298090C00096B6B8 /* JenMoore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenMoore.swift; sourceTree = "<group>"; };
 		1A8C31D9297FCFF6002D6F2F /* HamedHekmat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamedHekmat.swift; sourceTree = "<group>"; };
 		23FFF502297EFF88007386C6 /* StudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUITests.swift; sourceTree = "<group>"; };
 		23FFF504297EFFD7007386C6 /* RajPabari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajPabari.swift; sourceTree = "<group>"; };
@@ -168,6 +169,8 @@
 				F9FB666D297EE749008CE0DE /* AudreyLin.swift */,
 				A11A0B0D297FDA3D00E03791 /* AndyWang.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
+				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
+				2372E534298090C00096B6B8 /* JenMoore.swift */,
 				1A8C31D9297FCFF6002D6F2F /* HamedHekmat.swift */,
 				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
 				F72C387F2980761200528574 /* ParthavShergill.swift */,
@@ -256,6 +259,8 @@
 				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
 				A11A0B09297F9C8600E03791 /* AndyWang */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				2372E53229808BD00096B6B8 /* JenMoore */,
 				1A8C31D7297F95E1002D6F2F /* HamedHekmat */,
 				F7E62790297FA45B00200446 /* ParthavShergill */,
 				F565FA52297F29700043DB25 /* JustinWu */,
@@ -337,6 +342,7 @@
 			);
 			mainGroup = 653A2544283387FE005D4D48;
 			packageReferences = (
+				23A443A7297CD7D500CCA34B /* XCRemoteSwiftPackageReference "WrappingHStack" */,
 			);
 			productRefGroup = 653A254E283387FE005D4D48 /* Products */;
 			projectDirPath = "";
@@ -755,6 +761,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23A443A7297CD7D500CCA34B /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dkk/WrappingHStack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		1A8C31D7297F95E1002D6F2F /* HamedHekmat */ = {
