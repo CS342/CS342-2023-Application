@@ -11,6 +11,7 @@
 		1A8C31DA297FCFF6002D6F2F /* HamedHekmat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C31D9297FCFF6002D6F2F /* HamedHekmat.swift */; };
 		2324B681297D972200C8D549 /* RajPabari in Frameworks */ = {isa = PBXBuildFile; productRef = 2324B680297D972200C8D549 /* RajPabari */; };
 		2383279B29885644001822D6 /* JenMoore in Frameworks */ = {isa = PBXBuildFile; productRef = 2383279A29885644001822D6 /* JenMoore */; };
+		23E9D5412988602700C6A53D /* JenMoore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372E534298090C00096B6B8 /* JenMoore.swift */; };
 		23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
 		23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF504297EFFD7007386C6 /* RajPabari.swift */; };
 		2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */; };
@@ -433,6 +434,7 @@
 				2F7FC3FD2985DC5D005EDB04 /* SherryXie.swift in Sources */,
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */,
+				23E9D5412988602700C6A53D /* JenMoore.swift in Sources */,
 				F72C38802980761200528574 /* ParthavShergill.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
 				1A8C31DA297FCFF6002D6F2F /* HamedHekmat.swift in Sources */,
