@@ -24,18 +24,22 @@ class ShriyaReddy: XCTestCase {
         
         app.swipeUp()
         
+        XCTAssert(app.buttons["Introduction"].waitForExistence(timeout: 0.5))
         app.buttons["Introduction"].tap()
         
         app.swipeUp()
         
+        XCTAssert(app.buttons["Hobbies"].waitForExistence(timeout: 0.5))
         app.buttons["Hobbies"].tap()
         
         app.swipeUp()
         
+        XCTAssert(app.buttons["Home"].waitForExistence(timeout: 0.5))
         app.buttons["Home"].tap()
         
         app.swipeUp()
         
+        XCTAssert(app.buttons["LinkedIn"].waitForExistence(timeout: 0.5))
         app.buttons["LinkedIn"].tap()
 
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
