@@ -6,14 +6,23 @@
 // SPDX-License-Identifier: MIT
 //
 
+
 enum Member: String, Identifiable, CaseIterable {
     case oliverAalami = "Prof. Oliver Aalami, MD"
     case paulSchmiedmayer = "Paul Schmiedmayer, Ph.D."
+    case audreyLin = "Audrey Lin"
     case vishnuRavi = "Vishnu Ravi, MD"
+    case sarahBarragan = "Sarah Barragan"
+    case caitlinKunchur = "Caitlin Kunchur"
+    case sherryXie = "Sherry Xie"
     case andyWang = "Andy Wang"
     case rajPabari = "Raj Pabari"
+    case hamedHekmat = "Hamed Hekmat"
+    case justinWu = "Justin Wu"
     case ashleyGriffin = "Ashley Griffin, Ph.D."
     case abhinavAgarwal = "Abhinav Agarwal"
+    case stanleyYang = "Stanley Yang"
+    case parthavShergill = "Parthav Shergill"
     
     
     static var allMembers: [Role: [Member]] {
@@ -41,11 +50,11 @@ enum Member: String, Identifiable, CaseIterable {
     
     var role: Role {
         switch self {
-        case .paulSchmiedmayer, .vishnuRavi, .ashleyGriffin:
+        case .paulSchmiedmayer, .ashleyGriffin, .vishnuRavi:
             return .instructor
         case .oliverAalami:
             return .lead
-        case .rajPabari, .abhinavAgarwal, .andyWang:
+        default:
             return .student
         }
     }
