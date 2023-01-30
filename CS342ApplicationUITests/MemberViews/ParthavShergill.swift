@@ -18,6 +18,8 @@ class ParthavShergill: XCTestCase {
     func testParthavShergillAndRandomQuoteView() throws {
         let app = XCUIApplication()
         app.launch()
+
+        app.swipeUp()
         
         app.swipeUp()
         

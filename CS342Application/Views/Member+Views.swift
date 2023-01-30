@@ -16,6 +16,7 @@ import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
 import RajPabari
+import SarahBarragan
 import SherryXie
 import ShriyaReddy
 import StanleyYang
@@ -38,6 +39,8 @@ extension Member {
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .sarahBarragan:
+                SarahBarragan(navigationPath: navigationPath)
             case .caitlinKunchur:
                 CaitlinKunchur(navigationPath: navigationPath)
             case .sherryXie:

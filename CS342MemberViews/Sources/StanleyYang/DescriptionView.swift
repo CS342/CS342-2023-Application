@@ -17,7 +17,8 @@ struct DescriptionView: View {
             Text("Undergraduate at Stanford")
                 .font(.title3)
             Text(description)
-                .padding()
+                .font(.system(size: 16, design: .serif))
+                .padding(50)
         }
     }
     
