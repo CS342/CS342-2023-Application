@@ -14,4 +14,12 @@ class AudreyLin: XCTestCase {
         try super.setUpWithError()
         continueAfterFailure = false
     }
+    
+    func testAudrey() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.collectionViews.buttons["Audrey Lin"].tap()
+        XCTAssert(app.staticTexts["Audrey Lin"].waitForExistence(timeout: 0.5))
+    }
 }
