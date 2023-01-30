@@ -205,7 +205,7 @@ let package = Package(
             dependencies: [
                 .target(name: "InstructorViews")
             ],
-            exclude:
+            exclude: [
                 "Resources/CaitlinKunchur.jpeg.license",
                 "Resources/CaitlinKunchur-bio.md.license",
                 "Resources/0151-cover.jpeg.license",
