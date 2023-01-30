@@ -30,4 +30,20 @@ class StudentsUITests: XCTestCase {
         app.collectionViews.buttons["Andy Wang"].tap()
         XCTAssert(app.staticTexts["Andy Wang"].waitForExistence(timeout: 0.5))
     }
+
+    func testSarah() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.collectionViews.buttons["Sarah Barragan"].tap()
+        XCTAssert(app.staticTexts["Sarah Barragan"].waitForExistence(timeout: 0.5))
+    }
+
+    func testAudrey() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.collectionViews.buttons["Audrey Lin"].tap()
+        XCTAssert(app.staticTexts["Audrey Lin"].waitForExistence(timeout: 0.5))
+    }
 }

@@ -32,6 +32,10 @@
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
+		75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */ = {isa = PBXBuildFile; productRef = 75CF1E92297CCD1000E7E71B /* SarahBarragan */; };
+		F9FB666E297EE749008CE0DE /* AudreyLin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB666D297EE749008CE0DE /* AudreyLin.swift */; };
+		F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */ = {isa = PBXBuildFile; productRef = F9FB666F297F14C4008CE0DE /* AudreyLin */; };
+		F9FB667D297FCAE5008CE0DE /* CormorantGaramond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9FB667C297FCAE5008CE0DE /* CormorantGaramond-Medium.ttf */; };
 		A11A0B0A297F9C8600E03791 /* AndyWang in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* AndyWang */; };
 		A11A0B0E297FDA3D00E03791 /* AndyWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A0B0D297FDA3D00E03791 /* AndyWang.swift */; };
 		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
@@ -40,8 +44,6 @@
 		F565FA53297F29700043DB25 /* JustinWu in Frameworks */ = {isa = PBXBuildFile; productRef = F565FA52297F29700043DB25 /* JustinWu */; };
 		F72C38802980761200528574 /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C387F2980761200528574 /* ParthavShergill.swift */; };
 		F7E62791297FA45B00200446 /* ParthavShergill in Frameworks */ = {isa = PBXBuildFile; productRef = F7E62790297FA45B00200446 /* ParthavShergill */; };
-		F9FB666E297EE749008CE0DE /* AudreyLin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB666D297EE749008CE0DE /* AudreyLin.swift */; };
-		F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */ = {isa = PBXBuildFile; productRef = F9FB666F297F14C4008CE0DE /* AudreyLin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */,
+				2F23F6A8296FF973003FECF4 /* VarunShenoy in Frameworks */,
+				2F23F6AA296FF973003FECF4 /* VishnuRavi in Frameworks */,
 				31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */,
 				1A8C31D8297F95E1002D6F2F /* HamedHekmat in Frameworks */,
 				F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */,
@@ -247,9 +252,14 @@
 			name = CS342Application;
 			packageProductDependencies = (
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
+				75CF1E92297CCD1000E7E71B /* SarahBarragan */,
+				2F23F69D296FF973003FECF4 /* AshleyGriffin */,
+				2F23F6A3296FF973003FECF4 /* OliverAalami */,
+				2F23F6A5296FF973003FECF4 /* RaghavSamavedam */,
+				2F23F6A7296FF973003FECF4 /* VarunShenoy */,
+				2F23F6A9296FF973003FECF4 /* VishnuRavi */,
 				31AD2F0C297FBFBE00880C3F /* StanleyYang */,
 				F9FB666F297F14C4008CE0DE /* AudreyLin */,
-				2FC8A09A297A315300479145 /* OliverAalami */,
 				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
 				A11A0B09297F9C8600E03791 /* AndyWang */,
 				2324B680297D972200C8D549 /* RajPabari */,
@@ -772,6 +782,10 @@
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		75CF1E92297CCD1000E7E71B /* SarahBarragan */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SarahBarragan;
 		};
 		31AD2F0C297FBFBE00880C3F /* StanleyYang */ = {
 			isa = XCSwiftPackageProductDependency;
