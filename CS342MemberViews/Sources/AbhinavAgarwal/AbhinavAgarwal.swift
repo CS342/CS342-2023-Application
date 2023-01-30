@@ -9,6 +9,7 @@
 import InstructorViews
 import SwiftUI
 
+
 /// View displaying information about Abhinav Agarwal
 public struct AbhinavAgarwal: View {
     private let timer = Timer.publish(every: 1.5, on: .main, in: .common).autoconnect()
