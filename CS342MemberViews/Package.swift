@@ -197,6 +197,7 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
+        )
             name: "CaitlinKunchur",
             dependencies: [
                 .target(name: "InstructorViews")
