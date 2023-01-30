@@ -54,7 +54,9 @@ enum Member: String, Identifiable, CaseIterable {
             return .instructor
         case .oliverAalami:
             return .lead
-        case .andyWang, .rajPabari, .stanleyYang, .audreyLin, .parthavShergill, .justinWu, .sarahBarragan, .hamedHekmat, .caitlinKunchur, .sherryXie, .adamZhao:
+        case .andyWang, .rajPabari, .stanleyYang, .audreyLin, .parthavShergill,
+                .justinWu, .sarahBarragan, .hamedHekmat, .caitlinKunchur,
+                .sherryXie, .adamZhao:
             return .student
         }
     }

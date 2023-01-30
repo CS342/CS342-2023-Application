@@ -24,10 +24,8 @@ let package = Package(
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
@@ -197,7 +195,8 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        )
+        ),
+        .target(
             name: "CaitlinKunchur",
             dependencies: [
                 .target(name: "InstructorViews")
