@@ -9,9 +9,9 @@
 import SwiftUI
 
 public struct GalleryView: View {
-    @Binding var accentColor: Color
+    let accentColor: Color
     @State private var detail: String?
-    @State var showModal = false
+    @State private var showModal = false
     
     private let imageNames = ["NewYork", "Riggy", "Stanford"]
     private let imageDetails = [
@@ -92,6 +92,6 @@ public struct GalleryView: View {
 struct GalleryView_Previews: PreviewProvider {
     static var previews: some View {
         let accentColor = Color(red: 191 / 255, green: 127 / 255, blue: 110 / 255)
-        GalleryView(accentColor: .constant(accentColor), showModal: false)
+        GalleryView(accentColor: accentColor)
     }
 }

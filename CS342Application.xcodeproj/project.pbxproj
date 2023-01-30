@@ -291,7 +291,6 @@
 			);
 			mainGroup = 653A2544283387FE005D4D48;
 			packageReferences = (
-				23A443A7297CD7D500CCA34B /* XCRemoteSwiftPackageReference "WrappingHStack" */,
 			);
 			productRefGroup = 653A254E283387FE005D4D48 /* Products */;
 			projectDirPath = "";
@@ -703,17 +702,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		23A443A7297CD7D500CCA34B /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dkk/WrappingHStack";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		2324B680297D972200C8D549 /* RajPabari */ = {

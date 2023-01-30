@@ -10,12 +10,13 @@ import SwiftUI
 
 
 public struct InterestsView: View {
-    @Binding var accentColor: Color
     private let interests = [
         "sports", "country music", "yummy food", "comedy shows", "traveling", "dogs"
     ]
-    
-    @Environment(\.openURL) var openURL
+    let accentColor: Color
+    @Environment(\.openURL) private var openURL
+
+
     public var body: some View {
         VStack {
             Text("Interests")
@@ -57,6 +58,6 @@ public struct InterestsView: View {
 struct InterestsView_Previews: PreviewProvider {
     static var previews: some View {
         let accentColor = Color(red: 191 / 255, green: 127 / 255, blue: 110 / 255)
-        InterestsView(accentColor: .constant(accentColor))
+        InterestsView(accentColor: accentColor)
     }
 }

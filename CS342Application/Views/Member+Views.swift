@@ -30,7 +30,7 @@ extension Member {
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
             case .jenMoore:
-                JenMoore(navigationPath: navigationPath)
+                JenMoore()
             }
         }
         return memberView

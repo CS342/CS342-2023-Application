@@ -10,16 +10,15 @@ import SwiftUI
 
 
 public struct JenMoore: View {
-    @Binding var navigationPath: NavigationPath
-    @State var accentColor = Color(red: 134 / 255, green: 89 / 255, blue: 77 / 255)
+    let accentColor = Color(red: 134 / 255, green: 89 / 255, blue: 77 / 255)
 
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 32) {
-                ProfileView(accentColor: $accentColor)
+                ProfileView(accentColor: accentColor)
                 DescriptionView().padding(.bottom, -18)
-                InterestsView(accentColor: $accentColor)
-                GalleryView(accentColor: $accentColor, showModal: false).frame(maxWidth: .infinity, maxHeight: .infinity)
+                InterestsView(accentColor: accentColor)
+                GalleryView(accentColor: accentColor).frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }.background(
             profileImage?
@@ -38,16 +37,14 @@ public struct JenMoore: View {
         return Image(uiImage: image)
     }
     
-    public init(navigationPath: Binding<NavigationPath>) {
-        self._navigationPath = navigationPath
-    }
+    public init() { }
 }
 
 
 struct JenMoore_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            JenMoore(navigationPath: .constant(NavigationPath()))
+            JenMoore()
         }
     }
 }

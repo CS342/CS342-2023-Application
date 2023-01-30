@@ -10,7 +10,7 @@ import SwiftUI
 
 
 public struct ProfileView: View {
-    @Binding var accentColor: Color
+    let accentColor: Color
     
     public var body: some View {
         profileImage
@@ -35,6 +35,6 @@ public struct ProfileView: View {
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         let accentColor = Color(red: 191 / 255, green: 127 / 255, blue: 110 / 255)
-        ProfileView(accentColor: .constant(accentColor))
+        ProfileView(accentColor: accentColor)
     }
 }
