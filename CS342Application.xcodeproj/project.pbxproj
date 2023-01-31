@@ -798,6 +798,7 @@
 		5A410274298383D3006D1303 /* GriffinSomaratne */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GriffinSomaratne;
+		};
 		75CF1E92297CCD1000E7E71B /* SarahBarragan */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SarahBarragan;
