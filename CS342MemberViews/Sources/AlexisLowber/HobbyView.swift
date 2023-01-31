@@ -41,8 +41,8 @@ struct Hobby {
     var emojiStr: String
     var description: String
     
-    var emojiImg: UIImage {
-        return emojiStr.image()!
+    var emojiImg: UIImage? {
+        return emojiStr.image()
     }
 }
 
@@ -51,9 +51,16 @@ struct HobbyView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Image(uiImage: hobby.emojiImg)
-                .resizable()
-                .frame(width: 100, height: 100)
+            if let img = hobby.emojiImg  {
+                Image(uiImage: img)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+            } else {
+                Rectangle()
+                    .foregroundColor(Color.clear)
+                    .frame(width: 100, height: 100)
+            }
+            
             Text(hobby.description)
                 .font(.caption)
         }
