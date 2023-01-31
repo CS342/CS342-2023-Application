@@ -5,18 +5,24 @@
 //
 // SPDX-License-Identifier: MIT
 //
+
 import AndyWang
 import AshleyGriffin
 import AudreyLin
 import BrookeKrajancich
+import CaitlinKunchur
 import HamedHekmat
+import JenMoore
 import JustinWu
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
 import RajPabari
+import SarahBarragan
+import SherryXie
 import StanleyYang
 import SwiftUI
+
 
 extension Member {
     // swiftlint:disable:next cyclomatic_complexity
@@ -32,6 +38,12 @@ extension Member {
                 Text("Vishnu 👋")
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .sarahBarragan:
+                SarahBarragan(navigationPath: navigationPath)
+            case .caitlinKunchur:
+                CaitlinKunchur(navigationPath: navigationPath)
+            case .sherryXie:
+                SherryXie(navigationPath: navigationPath)
             case .andyWang:
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
@@ -48,6 +60,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .jenMoore:
+                JenMoore()
             }
         }
         return memberView
