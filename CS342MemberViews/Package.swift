@@ -27,11 +27,8 @@ let package = Package(
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
-        .library(name: "GriffinSomaratne", targets: ["GriffinSomaratne"])
+        .library(name: "GriffinSomaratne", targets: ["GriffinSomaratne"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
-        .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"])
     ],
