@@ -12,8 +12,11 @@ import SwiftUI
 
 /// View displaying information about Abhinav Agarwal
 public struct AbhinavAgarwal: View {
+    @Binding var navigationPath: NavigationPath
     private let timer = Timer.publish(every: 1.5, on: .main, in: .common).autoconnect()
     @State private var animationTick = true
+    
+
     public var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 42) {
