@@ -12,6 +12,7 @@ import AudreyLin
 import CaitlinKunchur
 import GriffinSomaratne
 import HamedHekmat
+import JenMoore
 import JustinWu
 import OliverAalami
 import ParthavShergill
@@ -21,6 +22,7 @@ import SarahBarragan
 import SherryXie
 import StanleyYang
 import SwiftUI
+
 
 extension Member {
     // swiftlint:disable:next cyclomatic_complexity
@@ -58,6 +60,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .jenMoore:
+                JenMoore()
             }
         }
         return memberView

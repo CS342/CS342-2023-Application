@@ -30,7 +30,8 @@ let package = Package(
         .library(name: "GriffinSomaratne", targets: ["GriffinSomaratne"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
-        .library(name: "ParthavShergill", targets: ["ParthavShergill"])
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
+        .library(name: "JenMoore", targets: ["JenMoore"])
     ],
     targets: [
         .target(
@@ -230,6 +231,20 @@ let package = Package(
             exclude: [
                 "Resources/ParthavShergill.jpeg.license",
                 "Resources/ParthavShergillBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "JenMoore",
+            exclude: [
+                "Resources/Background.jpg.license",
+                "Resources/JenMoore.jpg.license",
+                "Resources/JenMooreBio.md.license",
+                "Resources/NewYork.jpeg.license",
+                "Resources/Riggy.jpeg.license",
+                "Resources/Stanford.jpeg.license"
             ],
             resources: [
                 .process("Resources")
