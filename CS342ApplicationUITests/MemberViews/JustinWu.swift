@@ -23,7 +23,9 @@ class JustinWu: XCTestCase {
         
         app.collectionViews.buttons["Justin Wu"].tap()
         XCTAssert(app.staticTexts["Justin Wu"].waitForExistence(timeout: 0.5))
-
+        
+        
+        XCTAssert(app.scrollViews.otherElements.buttons["LinkedIn"].waitForExistence(timeout: 1.0))
         app.scrollViews.otherElements.buttons["LinkedIn"].tap()
 
         

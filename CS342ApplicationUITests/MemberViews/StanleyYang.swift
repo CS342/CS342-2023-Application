@@ -21,9 +21,12 @@ class StanleyYang: XCTestCase {
         
         app.swipeUp()
         
+        XCTAssert(app.collectionViews.buttons["Stanley Yang"].waitForExistence(timeout: 1.0))
+        
         app.collectionViews.buttons["Stanley Yang"].tap()
         XCTAssert(app.staticTexts["Stanley Yang"].waitForExistence(timeout: 0.5))
         
+        XCTAssert(app.scrollViews.otherElements.buttons["Instagram: @sjayyang"].waitForExistence(timeout: 1.0))
         app.scrollViews.otherElements.buttons["Instagram: @sjayyang"].tap()
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
@@ -32,6 +35,7 @@ class StanleyYang: XCTestCase {
         
         app.swipeUp()
         
+        XCTAssert(app.scrollViews.otherElements.buttons["LinkedIn: Stanley Yang"].waitForExistence(timeout: 1.0))
         app.scrollViews.otherElements.buttons["LinkedIn: Stanley Yang"].tap()
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
     }
