@@ -11,12 +11,14 @@
 import SwiftUI
 
 struct ProfilePanel: View {
+    let highlightColor = Color(red: 0.96, green: 0.45, blue: 0.71)
+    
     private var profileImage: Image {
         guard let imagePath = Bundle.module.path(forResource: "BrookeKrajancich", ofType: "png"),
            let image = UIImage(contentsOfFile: imagePath) else {
             return Image(systemName: "person.fill")
         }
-        
+
         return Image(uiImage: image)
     }
     
@@ -28,10 +30,6 @@ struct ProfilePanel: View {
         
         return Image(uiImage: image)
     }
-    
-    var backgroundColor = Color(red: 0.067, green: 0.094, blue: 0.153)
-//    var highlightColor2: Color = Color(hue: 0.827, saturation: 0.669, brightness: 0.908)
-    var highlightColor = Color(red: 0.96, green: 0.45, blue: 0.71)
     
     var body: some View {
         ZStack {
