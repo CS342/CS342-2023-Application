@@ -13,13 +13,15 @@ import SwiftUI
 public struct AlexisLowber: View {
     public var body: some View {
         ScrollView(.vertical) {
-            VStack(spacing: 42) {
+            VStack() {
                 ProfileView(profileImage: Bundle.module.image(fromFileNamed: "AlexisLowber"))
                 DescriptionView(
                     name: "Alexis Lowber",
                     title: "Biocomputation, MS",
                     description: Bundle.module.markdown(fromFileNamed: "AlexisLowberBio")
                 )
+                HobbiesRow()
+                Spacer()
             }
         }
         .navigationTitle("Alexis")
