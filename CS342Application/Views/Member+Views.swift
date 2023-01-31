@@ -10,6 +10,7 @@ import AndyWang
 import AshleyGriffin
 import AudreyLin
 import CaitlinKunchur
+import DanielGuo
 import HamedHekmat
 import JustinWu
 import OliverAalami
@@ -55,6 +56,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .danielGuo:
+                DanielGuo(navigationPath: navigationPath)
             }
         }
         return memberView

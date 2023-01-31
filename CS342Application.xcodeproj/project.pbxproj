@@ -29,13 +29,12 @@
 		31AD2F0F297FCBE600880C3F /* StanleyYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD2F0E297FCBE600880C3F /* StanleyYang.swift */; };
 		3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */ = {isa = PBXBuildFile; productRef = 3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */; };
 		3648E0E5297F0EF700ADE5C2 /* CaitlinKunchur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */; };
+		4A2F0CBB2989CFB4001195D4 /* DanielGuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */; };
+		4ACE27D82989229A00092FF8 /* DanielGuo in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACE27D72989229A00092FF8 /* DanielGuo */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
 		75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */ = {isa = PBXBuildFile; productRef = 75CF1E92297CCD1000E7E71B /* SarahBarragan */; };
-		F9FB666E297EE749008CE0DE /* AudreyLin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB666D297EE749008CE0DE /* AudreyLin.swift */; };
-		F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */ = {isa = PBXBuildFile; productRef = F9FB666F297F14C4008CE0DE /* AudreyLin */; };
-		F9FB667D297FCAE5008CE0DE /* CormorantGaramond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9FB667C297FCAE5008CE0DE /* CormorantGaramond-Medium.ttf */; };
 		A11A0B0A297F9C8600E03791 /* AndyWang in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* AndyWang */; };
 		A11A0B0E297FDA3D00E03791 /* AndyWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A0B0D297FDA3D00E03791 /* AndyWang.swift */; };
 		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
@@ -44,6 +43,8 @@
 		F565FA53297F29700043DB25 /* JustinWu in Frameworks */ = {isa = PBXBuildFile; productRef = F565FA52297F29700043DB25 /* JustinWu */; };
 		F72C38802980761200528574 /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C387F2980761200528574 /* ParthavShergill.swift */; };
 		F7E62791297FA45B00200446 /* ParthavShergill in Frameworks */ = {isa = PBXBuildFile; productRef = F7E62790297FA45B00200446 /* ParthavShergill */; };
+		F9FB666E297EE749008CE0DE /* AudreyLin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB666D297EE749008CE0DE /* AudreyLin.swift */; };
+		F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */ = {isa = PBXBuildFile; productRef = F9FB666F297F14C4008CE0DE /* AudreyLin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,12 +76,12 @@
 		2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsUITests.swift; sourceTree = "<group>"; };
 		2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationUITests.swift; sourceTree = "<group>"; };
 		2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaulSchmiedmayer.swift; sourceTree = "<group>"; };
+		2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
 		2FC8A09C297A34C300479145 /* LeadsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadsUITests.swift; sourceTree = "<group>"; };
 		2FC8A09E297A34C900479145 /* OliverAalami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OliverAalami.swift; sourceTree = "<group>"; };
 		31AD2F0E297FCBE600880C3F /* StanleyYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanleyYang.swift; sourceTree = "<group>"; };
 		3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaitlinKunchur.swift; sourceTree = "<group>"; };
-		2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
-		31AD2F0E297FCBE600880C3F /* StanleyYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanleyYang.swift; sourceTree = "<group>"; };
+		4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanielGuo.swift; sourceTree = "<group>"; };
 		653A254D283387FE005D4D48 /* CS342Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS342Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A2550283387FE005D4D48 /* CS342Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342Application.swift; sourceTree = "<group>"; };
 		653A255428338800005D4D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,8 +102,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */,
-				2F23F6A8296FF973003FECF4 /* VarunShenoy in Frameworks */,
-				2F23F6AA296FF973003FECF4 /* VishnuRavi in Frameworks */,
 				31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */,
 				1A8C31D8297F95E1002D6F2F /* HamedHekmat in Frameworks */,
 				F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */,
@@ -115,6 +114,7 @@
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
 				2F7FC3FF2985DC89005EDB04 /* SherryXie in Frameworks */,
 				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
+				4ACE27D82989229A00092FF8 /* DanielGuo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +175,7 @@
 				F72C387F2980761200528574 /* ParthavShergill.swift */,
 				F565FA50297F19820043DB25 /* JustinWu.swift */,
 				2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */,
+				4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -253,11 +254,6 @@
 			packageProductDependencies = (
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				75CF1E92297CCD1000E7E71B /* SarahBarragan */,
-				2F23F69D296FF973003FECF4 /* AshleyGriffin */,
-				2F23F6A3296FF973003FECF4 /* OliverAalami */,
-				2F23F6A5296FF973003FECF4 /* RaghavSamavedam */,
-				2F23F6A7296FF973003FECF4 /* VarunShenoy */,
-				2F23F6A9296FF973003FECF4 /* VishnuRavi */,
 				31AD2F0C297FBFBE00880C3F /* StanleyYang */,
 				F9FB666F297F14C4008CE0DE /* AudreyLin */,
 				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
@@ -267,6 +263,7 @@
 				F7E62790297FA45B00200446 /* ParthavShergill */,
 				F565FA52297F29700043DB25 /* JustinWu */,
 				2F7FC3FE2985DC89005EDB04 /* SherryXie */,
+				4ACE27D72989229A00092FF8 /* DanielGuo */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -437,6 +434,7 @@
 				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
 				ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */,
 				F72C38802980761200528574 /* ParthavShergill.swift in Sources */,
+				4A2F0CBB2989CFB4001195D4 /* DanielGuo.swift in Sources */,
 				2F23F6AE296FFBAA003FECF4 /* InstructorsUITests.swift in Sources */,
 				1A8C31DA297FCFF6002D6F2F /* HamedHekmat.swift in Sources */,
 				F9FB666E297EE749008CE0DE /* AudreyLin.swift in Sources */,
@@ -783,10 +781,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
 		};
-		75CF1E92297CCD1000E7E71B /* SarahBarragan */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SarahBarragan;
-		};
 		31AD2F0C297FBFBE00880C3F /* StanleyYang */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = StanleyYang;
@@ -794,6 +788,14 @@
 		3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CaitlinKunchur;
+		};
+		4ACE27D72989229A00092FF8 /* DanielGuo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DanielGuo;
+		};
+		75CF1E92297CCD1000E7E71B /* SarahBarragan */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SarahBarragan;
 		};
 		A11A0B09297F9C8600E03791 /* AndyWang */ = {
 			isa = XCSwiftPackageProductDependency;
