@@ -13,7 +13,7 @@ import SwiftUI
 public struct AlexisLowber: View {
     public var body: some View {
         ScrollView(.vertical) {
-            VStack() {
+            VStack {
                 ProfileView(profileImage: Bundle.module.image(fromFileNamed: "AlexisLowber"))
                 DescriptionView(
                     name: "Alexis Lowber",

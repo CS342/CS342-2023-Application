@@ -11,7 +11,7 @@ import UIKit
 
 
 func getHobbies() -> [Hobby] {
-    return [
+    let hobbiesArray = [
         Hobby(emojiStr: "🎤", description: "singing"),
         Hobby(emojiStr: "🥘", description: "cooking"),
         Hobby(emojiStr: "👟", description: "running"),
@@ -20,6 +20,8 @@ func getHobbies() -> [Hobby] {
         Hobby(emojiStr: "📖", description: "reading"),
         Hobby(emojiStr: "🎧", description: "listening to music/podcasts")
     ]
+    
+    return hobbiesArray
 }
 
 struct HobbiesRow: View {
@@ -41,7 +43,6 @@ struct HobbiesRow: View {
             }
             .frame(height: 150)
         }
-        
     }
 }
 
