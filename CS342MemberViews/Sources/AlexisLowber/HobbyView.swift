@@ -41,13 +41,6 @@ struct HobbyView: View {
     }
 }
 
-
-struct HobbyView_Previews: PreviewProvider {
-    static var previews: some View {
-        HobbyView(hobby: getHobbies()[2])
-    }
-}
-
 extension String {
     func isValidEmoji() -> Bool {
         let scalars = self.unicodeScalars
@@ -58,7 +51,6 @@ extension String {
     }
     
     func image() -> UIImage? {
-        
         guard self.count == 1 && self.isValidEmoji() else {
             return nil
         }
@@ -72,5 +64,11 @@ extension String {
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return image
+    }
+}
+
+struct HobbyView_Previews: PreviewProvider {
+    static var previews: some View {
+        HobbyView(hobby: getHobbies()[2])
     }
 }
