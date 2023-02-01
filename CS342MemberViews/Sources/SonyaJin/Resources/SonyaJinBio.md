@@ -1,1 +1,1 @@
-
+Sonya Jin is a freshman at Stanford studying CS (AI track) and Design (AI and Visual Systems). She's interested in studying machine learning applications to healthcare to improve efficiency and accessibility. On campus, she's part of SENSA VC, ASES VC, Stanford Students in Biodesign, and Stanford Baroque Soloists. A winner of multiple international music competitions, Sonya has played in Carnegie Hall six times, with solo debuts in Austria and Germany. In her free time, she enjoys playing violin and hiking.
