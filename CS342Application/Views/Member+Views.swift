@@ -5,7 +5,9 @@
 //
 // SPDX-License-Identifier: MIT
 //
+
 import AbhinavAgarwal
+import AlexisLowber
 import AndyWang
 import AshleyGriffin
 import AudreyLin
@@ -20,6 +22,7 @@ import RajPabari
 import SarahBarragan
 import SherryXie
 import ShriyaReddy
+import SonyaJin
 import StanleyYang
 import SwiftUI
 
@@ -50,12 +53,16 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .sonyaJin:
+                SonyaJin(navigationPath: navigationPath)
             case .hamedHekmat:
                 HamedHekmat()
             case .justinWu:
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .alexisLowber:
+               AlexisLowber()
             case .abhinavAgarwal:
                 AbhinavAgarwal(navigationPath: navigationPath)
             case .stanleyYang:
