@@ -25,6 +25,7 @@ class StudentsUITests: XCTestCase {
         
         app.collectionViews.buttons["Hamed Hekmat"].tap()
         XCTAssert(app.staticTexts["Hamed Hekmat"].waitForExistence(timeout: 0.5))
+        
         app.navigationBars.firstMatch.buttons["CS342"].tap()
 
         app.collectionViews.buttons["Shriya Reddy"].tap()
@@ -50,5 +51,14 @@ class StudentsUITests: XCTestCase {
 
         app.collectionViews.buttons["Audrey Lin"].tap()
         XCTAssert(app.staticTexts["Audrey Lin"].waitForExistence(timeout: 0.5))
+    }
+    
+    func testJen() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.swipeUp()
+        app.collectionViews.buttons["Jen Moore"].tap()
+        XCTAssert(app.staticTexts["Jen Moore"].waitForExistence(timeout: 0.5))
     }
 }
