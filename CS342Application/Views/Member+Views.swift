@@ -7,11 +7,13 @@
 //
 
 import AlexisLowber
+import AbhinavAgarwal
 import AndyWang
 import AshleyGriffin
 import AudreyLin
 import CaitlinKunchur
 import HamedHekmat
+import JenMoore
 import JustinWu
 import OliverAalami
 import ParthavShergill
@@ -55,10 +57,14 @@ extension Member {
                 AshleyGriffin(navigationPath: navigationPath)
             case .alexisLowber:
                AlexisLowber()
+            case .abhinavAgarwal:
+                AbhinavAgarwal(navigationPath: navigationPath)
             case .stanleyYang:
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .jenMoore:
+                JenMoore()
             }
         }
         return memberView
