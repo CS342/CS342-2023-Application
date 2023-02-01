@@ -25,10 +25,12 @@ let package = Package(
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "BrookeKrajancich", targets: ["BrookeKrajancich"]),
+        .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
+        .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
+        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "JenMoore", targets: ["JenMoore"])
@@ -182,6 +184,32 @@ let package = Package(
             exclude: [
                 "Resources/BrookeKrajancich.png.license",
                 "Resources/Background.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AlexisLowber",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AlexisLowber.jpeg.license",
+                "Resources/AlexisLowberBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AbhinavAgarwal",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AbhinavAgarwal.jpeg.license",
+                "Resources/AbhinavAgarwalBio.md.license"
             ],
             resources: [
                 .process("Resources")
