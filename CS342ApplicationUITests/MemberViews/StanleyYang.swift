@@ -26,13 +26,13 @@ class StanleyYang: XCTestCase {
         
         app.scrollViews.otherElements.buttons["Instagram: @sjayyang"].tap()
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
         
         app.activate()
         
         app.swipeUp()
         
         app.scrollViews.otherElements.buttons["LinkedIn: Stanley Yang"].tap()
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 }

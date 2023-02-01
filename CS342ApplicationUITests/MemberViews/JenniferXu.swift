@@ -23,6 +23,8 @@ class JenniferXu: XCTestCase {
         let app = XCUIApplication()
 
         app.launch()
+        app.swipeUp()
+        
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
         XCTAssert(app.staticTexts["Jennifer Xu"].waitForExistence(timeout: 0.5))
@@ -35,7 +37,8 @@ class JenniferXu: XCTestCase {
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
 
         app.launch()
-
+        app.swipeUp()
+        
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
         app.scrollViews.otherElements.buttons["personal"].tap()
@@ -48,7 +51,8 @@ class JenniferXu: XCTestCase {
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
 
         app.launch()
-
+        app.swipeUp()
+        
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
         app.scrollViews.otherElements.buttons["github"].tap()
@@ -61,9 +65,9 @@ class JenniferXu: XCTestCase {
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
 
         app.launch()
-
+        app.swipeUp()
+        
         app.collectionViews.buttons["Jennifer Xu"].tap()
-
 
         app.scrollViews.otherElements.buttons["linkedin"].tap()
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
