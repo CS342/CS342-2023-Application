@@ -22,13 +22,13 @@ enum Member: String, Identifiable, CaseIterable {
     case hamedHekmat = "Hamed Hekmat"
     case justinWu = "Justin Wu"
     case ashleyGriffin = "Ashley Griffin, Ph.D."
+    case brookeKrajancich = "Brooke Krajancich"
     case alexisLowber = "Alexis Lowber, MS"
     case abhinavAgarwal = "Abhinav Agarwal"
     case stanleyYang = "Stanley Yang"
     case parthavShergill = "Parthav Shergill"
     case jenMoore = "Jen Moore"
-    
-    
+
     static var allMembers: [Role: [Member]] {
         var allMembers: [Role: [Member]] = [:]
         
