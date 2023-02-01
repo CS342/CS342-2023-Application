@@ -43,7 +43,7 @@ class StudentsUITests: XCTestCase {
         XCTAssert(app.staticTexts["Shriya Reddy"].waitForExistence(timeout: 0.5))
     }
     
-    func testAny() throws {
+    func testAndy() throws {
         let app = XCUIApplication()
         app.launch()
         
