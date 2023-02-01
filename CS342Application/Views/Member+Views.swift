@@ -22,6 +22,8 @@ import PaulSchmiedmayer
 import RajPabari
 import SarahBarragan
 import SherryXie
+import ShriyaReddy
+import SonyaJin
 import StanleyYang
 import SwiftUI
 
@@ -34,6 +36,8 @@ extension Member {
             switch self {
             case .paulSchmiedmayer:
                 PaulSchmiedmayer(navigationPath: navigationPath)
+            case .shriyaReddy:
+                ShriyaReddy(navigationPath: navigationPath)
             case .audreyLin:
                 AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
@@ -50,6 +54,8 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .sonyaJin:
+                SonyaJin(navigationPath: navigationPath)
             case .hamedHekmat:
                 HamedHekmat()
             case .justinWu:

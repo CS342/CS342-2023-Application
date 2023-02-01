@@ -14,6 +14,8 @@
 		23E9D5412988602700C6A53D /* JenMoore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372E534298090C00096B6B8 /* JenMoore.swift */; };
 		23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
 		23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF504297EFFD7007386C6 /* RajPabari.swift */; };
+		27B7629A297F8398007F1029 /* SonyaJin in Frameworks */ = {isa = PBXBuildFile; productRef = 27B76299297F8398007F1029 /* SonyaJin */; };
+		27E807922989F128008EA3FC /* SonyaJin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E807912989F128008EA3FC /* SonyaJin.swift */; };
 		2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */; };
 		2F23F694296FBA8B003FECF4 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F693296FBA8B003FECF4 /* Role.swift */; };
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
@@ -27,6 +29,9 @@
 		2FC8A09B297A315300479145 /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC8A09A297A315300479145 /* OliverAalami */; };
 		2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09C297A34C300479145 /* LeadsUITests.swift */; };
 		2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09E297A34C900479145 /* OliverAalami.swift */; };
+		545E150A2980E787001AEDAB /* ShriyaReddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E15092980E787001AEDAB /* ShriyaReddy.swift */; };
+		549CDC42297A3D8800769FDD /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC41297A3D8800769FDD /* PaulSchmiedmayer */; };
+		549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC43297A3D8800769FDD /* ShriyaReddy */; };
 		5E67C7D32981ECF000171843 /* AlexisLowber in Frameworks */ = {isa = PBXBuildFile; productRef = 5E67C7D22981ECF000171843 /* AlexisLowber */; };
 		31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */ = {isa = PBXBuildFile; productRef = 31AD2F0C297FBFBE00880C3F /* StanleyYang */; };
 		31AD2F0F297FCBE600880C3F /* StanleyYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD2F0E297FCBE600880C3F /* StanleyYang.swift */; };
@@ -73,6 +78,7 @@
 		2372E534298090C00096B6B8 /* JenMoore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenMoore.swift; sourceTree = "<group>"; };
 		23FFF502297EFF88007386C6 /* StudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUITests.swift; sourceTree = "<group>"; };
 		23FFF504297EFFD7007386C6 /* RajPabari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajPabari.swift; sourceTree = "<group>"; };
+		27E807912989F128008EA3FC /* SonyaJin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonyaJin.swift; sourceTree = "<group>"; };
 		2F23F690296FB11D003FECF4 /* CS342MemberViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CS342MemberViews; sourceTree = "<group>"; };
 		2F23F693296FBA8B003FECF4 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		2F23F695296FBA92003FECF4 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 		2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
 		2FC8A09C297A34C300479145 /* LeadsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadsUITests.swift; sourceTree = "<group>"; };
 		2FC8A09E297A34C900479145 /* OliverAalami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OliverAalami.swift; sourceTree = "<group>"; };
+		545E15092980E787001AEDAB /* ShriyaReddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriyaReddy.swift; sourceTree = "<group>"; };
 		5E67C7CD2981CBD800171843 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = CS342MemberViews/AlexisLowber/Package.swift; sourceTree = "<group>"; };
 		5E67C7CE2981CBF000171843 /* AlexisLowber */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AlexisLowber; path = CS342MemberViews/AlexisLowber/Sources/AlexisLowber; sourceTree = "<group>"; };
 		31AD2F0E297FCBE600880C3F /* StanleyYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanleyYang.swift; sourceTree = "<group>"; };
@@ -96,6 +103,7 @@
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933C8F6D29824F5C008E69BC /* BrookeKrajancich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrookeKrajancich.swift; sourceTree = "<group>"; };
+		72E1FBB2297E1A1500C3A106 /* CS342MemberViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CS342MemberViews; sourceTree = "<group>"; };
 		A11A0B0D297FDA3D00E03791 /* AndyWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndyWang.swift; sourceTree = "<group>"; };
 		ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhinavAgarwal.swift; sourceTree = "<group>"; };
 		F565FA50297F19820043DB25 /* JustinWu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustinWu.swift; sourceTree = "<group>"; };
@@ -108,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CDC42297A3D8800769FDD /* PaulSchmiedmayer in Frameworks */,
+				549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */,
 				75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */,
 				31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */,
 				1A8C31D8297F95E1002D6F2F /* HamedHekmat in Frameworks */,
@@ -117,6 +127,7 @@
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				A11A0B0A297F9C8600E03791 /* AndyWang in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				27B7629A297F8398007F1029 /* SonyaJin in Frameworks */,
 				3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */,
 				F7E62791297FA45B00200446 /* ParthavShergill in Frameworks */,
 				F565FA53297F29700043DB25 /* JustinWu in Frameworks */,
@@ -186,7 +197,10 @@
 				A11A0B0D297FDA3D00E03791 /* AndyWang.swift */,
 				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
 				933C8F6D29824F5C008E69BC /* BrookeKrajancich.swift */,
+				545E15092980E787001AEDAB /* ShriyaReddy.swift */,
 				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
+				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
+				27E807912989F128008EA3FC /* SonyaJin.swift */,
 				ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */,
 				2372E534298090C00096B6B8 /* JenMoore.swift */,
 				1A8C31D9297FCFF6002D6F2F /* HamedHekmat.swift */,
@@ -200,6 +214,7 @@
 		653A2544283387FE005D4D48 = {
 			isa = PBXGroup;
 			children = (
+				72E1FBB1297E1A1500C3A106 /* Packages */,
 				2F23F690296FB11D003FECF4 /* CS342MemberViews */,
 				653A254F283387FE005D4D48 /* CS342Application */,
 				653A256028338800005D4D48 /* CS342ApplicationTests */,
@@ -251,6 +266,14 @@
 			path = CS342ApplicationUITests;
 			sourceTree = "<group>";
 		};
+		72E1FBB1297E1A1500C3A106 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				72E1FBB2297E1A1500C3A106 /* CS342MemberViews */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,6 +285,7 @@
 				653A254A283387FE005D4D48 /* Frameworks */,
 				653A254B283387FE005D4D48 /* Resources */,
 				2F3815C0297943EF00B8755D /* ShellScript */,
+				545E150B2981B0E1001AEDAB /* SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -269,6 +293,8 @@
 			);
 			name = CS342Application;
 			packageProductDependencies = (
+				549CDC41297A3D8800769FDD /* PaulSchmiedmayer */,
+				549CDC43297A3D8800769FDD /* ShriyaReddy */,
 				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
 				75CF1E92297CCD1000E7E71B /* SarahBarragan */,
 				31AD2F0C297FBFBE00880C3F /* StanleyYang */,
@@ -276,6 +302,9 @@
 				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
 				A11A0B09297F9C8600E03791 /* AndyWang */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				27B76299297F8398007F1029 /* SonyaJin */,
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				ADC4123629811ACE008E7C56 /* AbhinavAgarwal */,
 				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
 				933C8F6B29824E0A008E69BC /* BrookeKrajancich */,
 				5E67C7D22981ECF000171843 /* AlexisLowber */,
@@ -448,6 +477,7 @@
 				23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */,
 				ADC4123529810F08008E7C56 /* AbhinavAgarwal.swift in Sources */,
 				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
+				27E807922989F128008EA3FC /* SonyaJin.swift in Sources */,
 				3648E0E5297F0EF700ADE5C2 /* CaitlinKunchur.swift in Sources */,
 				F565FA51297F19820043DB25 /* JustinWu.swift in Sources */,
 				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
@@ -461,6 +491,7 @@
 				1A8C31DA297FCFF6002D6F2F /* HamedHekmat.swift in Sources */,
 				F9FB666E297EE749008CE0DE /* AudreyLin.swift in Sources */,
 				2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */,
+				545E150A2980E787001AEDAB /* ShriyaReddy.swift in Sources */,
 				23FFF503297EFF88007386C6 /* StudentsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -791,6 +822,10 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = RajPabari;
 		};
+		27B76299297F8398007F1029 /* SonyaJin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonyaJin;
+		};
 		2383279A29885644001822D6 /* JenMoore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = JenMoore;
@@ -810,6 +845,18 @@
 		933C8F6B29824E0A008E69BC /* BrookeKrajancich */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BrookeKrajancich;
+		};
+		549CDC41297A3D8800769FDD /* PaulSchmiedmayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PaulSchmiedmayer;
+		};
+		549CDC43297A3D8800769FDD /* ShriyaReddy */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShriyaReddy;
+		};
+		75CF1E92297CCD1000E7E71B /* SarahBarragan */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SarahBarragan;
 		};
 		5E67C7D22981ECF000171843 /* AlexisLowber */ = {
 			isa = XCSwiftPackageProductDependency;

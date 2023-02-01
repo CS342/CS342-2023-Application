@@ -18,7 +18,10 @@ let package = Package(
     ],
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
+        .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
+        .library(name: "SonyaJin", targets: ["SonyaJin"]),
+        .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
@@ -28,7 +31,6 @@ let package = Package(
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
@@ -50,6 +52,17 @@ let package = Package(
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "ShriyaReddy",
+            exclude: [
+                "Resources/ShriyaReddy.jpg.license",
+                "Resources/IntroText.txt.license",
+                "Resources/HobbyText.txt.license"
             ],
             resources: [
                 .process("Resources")
@@ -181,9 +194,25 @@ let package = Package(
         ),
         .target(
             name: "BrookeKrajancich",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
             exclude: [
                 "Resources/BrookeKrajancich.png.license",
                 "Resources/Background.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "SonyaJin",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/SonyaJin.jpg.license",
+                "Resources/SonyaJinBio.md.license"
             ],
             resources: [
                 .process("Resources")
