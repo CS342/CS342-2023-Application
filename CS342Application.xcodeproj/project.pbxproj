@@ -29,6 +29,7 @@
 		2FC8A09B297A315300479145 /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC8A09A297A315300479145 /* OliverAalami */; };
 		2FC8A09D297A34C300479145 /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09C297A34C300479145 /* LeadsUITests.swift */; };
 		2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09E297A34C900479145 /* OliverAalami.swift */; };
+		5E67C7D32981ECF000171843 /* AlexisLowber in Frameworks */ = {isa = PBXBuildFile; productRef = 5E67C7D22981ECF000171843 /* AlexisLowber */; };
 		31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */ = {isa = PBXBuildFile; productRef = 31AD2F0C297FBFBE00880C3F /* StanleyYang */; };
 		31AD2F0F297FCBE600880C3F /* StanleyYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD2F0E297FCBE600880C3F /* StanleyYang.swift */; };
 		3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */ = {isa = PBXBuildFile; productRef = 3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */; };
@@ -84,6 +85,8 @@
 		2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
 		2FC8A09C297A34C300479145 /* LeadsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadsUITests.swift; sourceTree = "<group>"; };
 		2FC8A09E297A34C900479145 /* OliverAalami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OliverAalami.swift; sourceTree = "<group>"; };
+		5E67C7CD2981CBD800171843 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = CS342MemberViews/AlexisLowber/Package.swift; sourceTree = "<group>"; };
+		5E67C7CE2981CBF000171843 /* AlexisLowber */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AlexisLowber; path = CS342MemberViews/AlexisLowber/Sources/AlexisLowber; sourceTree = "<group>"; };
 		31AD2F0E297FCBE600880C3F /* StanleyYang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanleyYang.swift; sourceTree = "<group>"; };
 		3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaitlinKunchur.swift; sourceTree = "<group>"; };
 		653A254D283387FE005D4D48 /* CS342Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS342Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,9 +125,10 @@
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				A11A0B0A297F9C8600E03791 /* AndyWang in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
+				5E67C7D32981ECF000171843 /* AlexisLowber in Frameworks */,
 				2383279B29885644001822D6 /* JenMoore in Frameworks */,
 				2F7FC3FF2985DC89005EDB04 /* SherryXie in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +152,8 @@
 		2324B67F297D972200C8D549 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E67C7CE2981CBF000171843 /* AlexisLowber */,
+				5E67C7CD2981CBD800171843 /* Package.swift */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -284,6 +290,8 @@
 				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
 				ADC4123629811ACE008E7C56 /* AbhinavAgarwal */,
 				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				5E67C7D22981ECF000171843 /* AlexisLowber */,
+				ADC4123629811ACE008E7C56 /* AbhinavAgarwal */,
 				1A8C31D7297F95E1002D6F2F /* HamedHekmat */,
 				F7E62790297FA45B00200446 /* ParthavShergill */,
 				F565FA52297F29700043DB25 /* JustinWu */,
@@ -814,6 +822,10 @@
 		2FC8A09A297A315300479145 /* OliverAalami */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OliverAalami;
+		};
+		5E67C7D22981ECF000171843 /* AlexisLowber */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlexisLowber;
 		};
 		31AD2F0C297FBFBE00880C3F /* StanleyYang */ = {
 			isa = XCSwiftPackageProductDependency;
