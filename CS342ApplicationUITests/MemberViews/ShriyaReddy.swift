@@ -19,8 +19,6 @@ class ShriyaReddy: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        app.swipeUp()
-        
         app.collectionViews.buttons["Shriya Reddy"].tap()
         XCTAssert(app.staticTexts["Shriya Reddy"].waitForExistence(timeout: 0.5))
         
