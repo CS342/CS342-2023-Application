@@ -9,17 +9,19 @@
 
 import SwiftUI
 
-private var description: String {
+
+public struct HobbyButton: View {
+    @State private var showDetails = false
+    
+    private var description: String {
         guard let descriptionPath = Bundle.module.path(forResource: "HobbyText", ofType: "txt"),
               let description = try? String(contentsOfFile: descriptionPath) else {
             return ""
         }
         
         return description
+        
     }
-
-public struct HobbyButton: View {
-    @State private var showDetails = false
                                     
     public var body: some View {
         HStack {

@@ -14,13 +14,13 @@ public struct IntroButton: View {
     @State private var showDetails = false
 
     private var description: String {
-            guard let descriptionPath = Bundle.module.path(forResource: "IntroText", ofType: "txt"),
-                  let description = try? String(contentsOfFile: descriptionPath) else {
-                return ""
-            }
-            
-            return description
+        guard let descriptionPath = Bundle.module.path(forResource: "IntroText", ofType: "txt"),
+              let description = try? String(contentsOfFile: descriptionPath) else {
+            return ""
         }
+        
+        return description
+    }
                                         
     public var body: some View {
         VStack {

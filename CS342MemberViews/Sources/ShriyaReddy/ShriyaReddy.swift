@@ -9,17 +9,18 @@
 
 import SwiftUI
 
-let backgroundGradient = LinearGradient(
-    colors: [
-        Color.purple,
-        Color.white
-    ],
-    startPoint: .top,
-    endPoint: .center
-)
 
 public struct ShriyaReddy: View {
     @Binding var navigationPath: NavigationPath
+    
+    let backgroundGradient = LinearGradient(
+        colors: [
+            Color.purple,
+            Color.white
+        ],
+        startPoint: .top,
+        endPoint: .center
+    )
     
     public var body: some View {
         ZStack {

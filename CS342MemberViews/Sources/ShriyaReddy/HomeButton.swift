@@ -15,9 +15,9 @@ public struct HomeButton: View {
     @State private var showDetails = false
     
     @State private var region = MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 44.182205, longitude: -84.506836),
-            span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10)
-        )
+        center: CLLocationCoordinate2D(latitude: 44.182205, longitude: -84.506836),
+        span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10)
+    )
 
     public var body: some View {
         VStack {
