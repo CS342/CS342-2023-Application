@@ -20,7 +20,6 @@ public struct HobbyButton: View {
         }
         
         return description
-        
     }
                                     
     public var body: some View {
