@@ -15,7 +15,7 @@ class JiahuiChen: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testRajPabariAndFunFactView() throws {
+    func testJiahuiChenAndFunFactView() throws {
         let app = XCUIApplication()
         app.launch()
         
