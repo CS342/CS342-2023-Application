@@ -99,7 +99,7 @@ let package = Package(
                 .target(name: "InstructorViews")
             ],
             exclude: [
-                "Resources/SonyaJin.jpeg.license",
+                "Resources/SonyaJin.jpg.license",
                 "Resources/SonyaJin.md.license"
             ],
             resources: [
