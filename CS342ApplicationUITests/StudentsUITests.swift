@@ -15,23 +15,37 @@ class StudentsUITests: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testStudents() throws {
+    func testRaj() throws {
         let app = XCUIApplication()
         app.launch()
         
+        app.swipeUp()
+        
         app.collectionViews.buttons["Raj Pabari"].tap()
         XCTAssert(app.staticTexts["Raj Pabari"].waitForExistence(timeout: 0.5))
-        app.navigationBars.firstMatch.buttons["CS342"].tap()
+    }
+    
+    func testHamed() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.swipeUp()
         
         app.collectionViews.buttons["Hamed Hekmat"].tap()
         XCTAssert(app.staticTexts["Hamed Hekmat"].waitForExistence(timeout: 0.5))
-        
-        app.navigationBars.firstMatch.buttons["CS342"].tap()
+    }
+    
+    func testShriya() throws {
+        let app = XCUIApplication()
+        app.launch()
 
         app.collectionViews.buttons["Shriya Reddy"].tap()
         XCTAssert(app.staticTexts["Shriya Reddy"].waitForExistence(timeout: 0.5))
-
-        app.navigationBars.firstMatch.buttons["CS342"].tap()
+    }
+    
+    func testAny() throws {
+        let app = XCUIApplication()
+        app.launch()
         
         app.collectionViews.buttons["Andy Wang"].tap()
         XCTAssert(app.staticTexts["Andy Wang"].waitForExistence(timeout: 0.5))

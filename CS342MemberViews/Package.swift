@@ -18,8 +18,9 @@ let package = Package(
     ],
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
-        .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
+        .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
+        .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
         .library(name: "SonyaJin", targets: ["SonyaJin"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
@@ -31,10 +32,10 @@ let package = Package(
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
-        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "JenMoore", targets: ["JenMoore"])
     ],
     targets: [
@@ -99,6 +100,17 @@ let package = Package(
             exclude: [
                 "Resources/OliverAalami.jpeg.license",
                 "Resources/OliverAalamiBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AnanyaVasireddy",
+            exclude: [
+                "Resources/AnanyaVasireddy.jpg.license",
+                "Resources/AnanyaVasireddyBio.md.license",
+                "Resources/Raag.jpg.license"
             ],
             resources: [
                 .process("Resources")
