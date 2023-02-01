@@ -10,12 +10,12 @@ import AbhinavAgarwal
 import AlexisLowber
 import AndyWang
 import AshleyGriffin
-import JiahuiChen
 import AudreyLin
 import BrookeKrajancich
 import CaitlinKunchur
 import HamedHekmat
 import JenMoore
+import JiahuiChen
 import JustinWu
 import OliverAalami
 import ParthavShergill
