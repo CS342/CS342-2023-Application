@@ -297,15 +297,16 @@ let package = Package(
                 .process("Resources")
             ]
         ),
-      .target(
-        name: "JenniferXu",
-        exclude: [
-            "Resources/github-mark.png.license",
-            "Resources/LI-In-Bug.png.license",
-            "Resources/Xu_profpic.jpg.license"],
-        resources: [
-            .process("Resources")
-        ]
+        .target(
+            name: "JenniferXu",
+            exclude: [
+                "Resources/github-mark.png.license",
+                "Resources/LI-In-Bug.png.license",
+                "Resources/Xu_profpic.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
       )
     ]
 )
