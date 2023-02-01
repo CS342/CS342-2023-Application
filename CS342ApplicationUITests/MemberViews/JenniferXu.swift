@@ -42,7 +42,7 @@ class JenniferXu: XCTestCase {
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
         app.scrollViews.otherElements.buttons["personal"].tap()
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 
     // Tests Github button
@@ -56,7 +56,7 @@ class JenniferXu: XCTestCase {
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
         app.scrollViews.otherElements.buttons["github"].tap()
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 
     // Tests LinkedIn button
@@ -70,6 +70,6 @@ class JenniferXu: XCTestCase {
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
         app.scrollViews.otherElements.buttons["linkedin"].tap()
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 }
