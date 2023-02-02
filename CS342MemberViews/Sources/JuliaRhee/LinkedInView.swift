@@ -1,8 +1,9 @@
 //
-//  SwiftUIView.swift
-//  
+// This source file is part of the CS342 2023 Application project
 //
-//  Created by Julia Rhee on 2/1/23.
+// SPDX-FileCopyrightText: 2023 Stanford University
+//
+// SPDX-License-Identifier: MIT
 //
 
 import SwiftUI
@@ -12,6 +13,13 @@ struct LinkedInView: View {
     
     
     var body: some View {
+        HStack {
+            Text(bio)
+                .font(.body)
+                .multilineTextAlignment(.leading)
+                .padding(.bottom, -15)
+        }.padding(.horizontal, 20)
+        
         if let linkedinURL {
             Button {
                 openURL(linkedinURL)
@@ -25,6 +33,14 @@ struct LinkedInView: View {
         }
     }
     
+    private var bio: String {
+        guard let descriptionPath = Bundle.module.path(forResource: "JuliaRheeBio", ofType: "md"),
+              let description = try? String(contentsOfFile: descriptionPath) else {
+            return ""
+        }
+        
+        return description
+    }
     
     private var linkedinURL: URL? {
         URL(string: "https://www.linkedin.com/in/julia-rhee")

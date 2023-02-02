@@ -17,6 +17,7 @@ import CaitlinKunchur
 import HamedHekmat
 import JenMoore
 import JenniferXu
+import JuliaRhee
 import JustinWu
 import OliverAalami
 import ParthavShergill
@@ -27,12 +28,11 @@ import SherryXie
 import ShriyaReddy
 import SonyaJin
 import StanleyYang
-import JuliaRhee
 import SwiftUI
 
 
 extension Member {
-    // swiftlint:disable:next cyclomatic_complexity
+    // swiftlint:disable:next cyclomatic_complexity function_body_length
     func memberView(with navigationPath: Binding<NavigationPath>) -> some View {
         @ViewBuilder
         var memberView: some View {
