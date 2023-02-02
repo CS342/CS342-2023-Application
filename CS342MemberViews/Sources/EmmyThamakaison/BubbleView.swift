@@ -15,7 +15,11 @@ struct IdentifiableFact: Identifiable {
 
 struct BubbleView: View {
     
-    let facts = [IdentifiableFact(fact:"ROLES 💫: PM, Developer, Researcher"), IdentifiableFact(fact:"HOME 🐘: Bangkok, Thailand"), IdentifiableFact(fact:"INTERESTS 💥: HealthTech, entrepreneurship, longevity")]
+    let facts = [
+        IdentifiableFact(fact:"ROLES 💫: PM, Developer, Researcher"),
+        IdentifiableFact(fact:"HOME 🐘: Bangkok, Thailand"),
+        IdentifiableFact(fact:"INTERESTS 💥: HealthTech, entrepreneurship, longevity")
+    ]
     
     var body: some View {
         VStack(spacing: 8) {

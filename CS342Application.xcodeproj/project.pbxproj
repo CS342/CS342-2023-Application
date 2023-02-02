@@ -420,6 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FB667D297FCAE5008CE0DE /* CormorantGaramond-Medium.ttf in Resources */,
+				653A255528338800005D4D48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
