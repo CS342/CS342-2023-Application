@@ -32,6 +32,7 @@
 		2FC94CDA298B1173009C8209 /* JustinWu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565FA50297F19820043DB25 /* JustinWu.swift */; };
 		31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */ = {isa = PBXBuildFile; productRef = 31AD2F0C297FBFBE00880C3F /* StanleyYang */; };
 		549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC43297A3D8800769FDD /* ShriyaReddy */; };
+		64FE8AA7298B4825007E3FEF /* JuliaRhee in Frameworks */ = {isa = PBXBuildFile; productRef = 64FE8AA6298B4825007E3FEF /* JuliaRhee */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
@@ -135,6 +136,7 @@
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
 				6659C223298AEAFE0014D85B /* CaitlinKunchur in Frameworks */,
+				64FE8AA7298B4825007E3FEF /* JuliaRhee in Frameworks */,
 				6659C231298AEAFE0014D85B /* ShriyaReddy in Frameworks */,
 				6659C227298AEAFE0014D85B /* JenMoore in Frameworks */,
 				6659C235298AEAFE0014D85B /* StanleyYang in Frameworks */,
@@ -312,6 +314,7 @@
 				6659C230298AEAFE0014D85B /* ShriyaReddy */,
 				6659C232298AEAFE0014D85B /* SonyaJin */,
 				6659C234298AEAFE0014D85B /* StanleyYang */,
+				64FE8AA6298B4825007E3FEF /* JuliaRhee */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -831,6 +834,10 @@
 		549CDC43297A3D8800769FDD /* ShriyaReddy */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ShriyaReddy;
+		};
+		64FE8AA6298B4825007E3FEF /* JuliaRhee */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JuliaRhee;
 		};
 		66087F0E2980CA6500EA5F65 /* JenniferXu */ = {
 			isa = XCSwiftPackageProductDependency;

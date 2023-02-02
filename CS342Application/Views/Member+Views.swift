@@ -27,6 +27,7 @@ import SherryXie
 import ShriyaReddy
 import SonyaJin
 import StanleyYang
+import JuliaRhee
 import SwiftUI
 
 
@@ -80,6 +81,8 @@ extension Member {
                 ParthavShergill(navigationPath: navigationPath)
             case .jenMoore:
                 JenMoore()
+            case .juliaRhee:
+                JuliaRhee(navigationPath: navigationPath)
             }
         }
         return memberView
