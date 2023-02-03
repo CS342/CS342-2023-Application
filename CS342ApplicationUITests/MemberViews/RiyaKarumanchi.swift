@@ -28,4 +28,3 @@ class RiyaKarumanchi: XCTestCase {
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
     }
 }
-
