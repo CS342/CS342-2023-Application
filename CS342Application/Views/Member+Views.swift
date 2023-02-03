@@ -32,7 +32,7 @@ import SwiftUI
 
 
 extension Member {
-    // swiftlint:disable:next cyclomatic_complexity
+    // swiftlint:disable:next cyclomatic_complexity function_body_length
     func memberView(with navigationPath: Binding<NavigationPath>) -> some View {
         @ViewBuilder
         var memberView: some View {
