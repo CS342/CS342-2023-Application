@@ -28,8 +28,8 @@ public struct NatashaKacharia: View {
                     description: Bundle.module.markdown(fromFileNamed: "NatashaKachariaBio")
                 )
                 Test()
-                }
             }
+        }
             .navigationTitle("Natasha")
             .background(Color.pink.opacity(0.07).edgesIgnoringSafeArea(.all))
     }

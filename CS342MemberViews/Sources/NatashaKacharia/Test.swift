@@ -7,13 +7,14 @@
 //
 
 import SwiftUI
-struct Test: View {
 
+struct Test: View {
     @State private var showDetails = false
     @State var counter = 0
-    
+
+    // swiftlint:disable:next closure_body_length
     var body: some View {
-        VStack (alignment: .leading)  {
+        VStack(alignment: .leading) {
             Button("Can you guess my favorite color?") {
                 showDetails.toggle()
             }
@@ -54,7 +55,6 @@ struct Test: View {
                             .tint(.pink)
                     )
             }
-            
         }
     }
 }

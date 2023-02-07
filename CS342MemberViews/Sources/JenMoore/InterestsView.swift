@@ -41,7 +41,8 @@ public struct InterestsView: View {
     }
     
     private func createInterest(interest: String) -> some View {
-        Button {}
+        Button {
+        }
         label: {
             Text(verbatim: interest)
                 .frame(minWidth: 70)
