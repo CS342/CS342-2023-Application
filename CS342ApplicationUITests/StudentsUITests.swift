@@ -15,18 +15,37 @@ class StudentsUITests: XCTestCase {
         continueAfterFailure = false
     }
     
-    func testStudents() throws {
+    func testRaj() throws {
         let app = XCUIApplication()
         app.launch()
         
+        app.swipeUp()
+        
         app.collectionViews.buttons["Raj Pabari"].tap()
         XCTAssert(app.staticTexts["Raj Pabari"].waitForExistence(timeout: 0.5))
-        app.navigationBars.firstMatch.buttons["CS342"].tap()
+    }
+    
+    func testHamed() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.swipeUp()
         
         app.collectionViews.buttons["Hamed Hekmat"].tap()
         XCTAssert(app.staticTexts["Hamed Hekmat"].waitForExistence(timeout: 0.5))
-        
-        app.navigationBars.firstMatch.buttons["CS342"].tap()
+    }
+    
+    func testShriya() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.collectionViews.buttons["Shriya Reddy"].tap()
+        XCTAssert(app.staticTexts["Shriya Reddy"].waitForExistence(timeout: 0.5))
+    }
+    
+    func testAndy() throws {
+        let app = XCUIApplication()
+        app.launch()
         
         app.collectionViews.buttons["Andy Wang"].tap()
         XCTAssert(app.staticTexts["Andy Wang"].waitForExistence(timeout: 0.5))
@@ -36,7 +55,7 @@ class StudentsUITests: XCTestCase {
         app.collectionViews.buttons["Griffin Somaratne"].tap()
         XCTAssert(app.staticTexts["Griffin Somaratne"].waitForExistence(timeout: 0.5))
     }
-
+    
     func testSarah() throws {
         let app = XCUIApplication()
         app.launch()
@@ -53,11 +72,22 @@ class StudentsUITests: XCTestCase {
         XCTAssert(app.staticTexts["Audrey Lin"].waitForExistence(timeout: 0.5))
     }
     
+    func testAlexis() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.swipeUp()
+        
+        app.collectionViews.buttons["Alexis Lowber, MS"].tap()
+        XCTAssert(app.staticTexts["Alexis Lowber"].waitForExistence(timeout: 0.5))
+    }
+
     func testJen() throws {
         let app = XCUIApplication()
         app.launch()
 
         app.swipeUp()
+        
         app.collectionViews.buttons["Jen Moore"].tap()
         XCTAssert(app.staticTexts["Jen Moore"].waitForExistence(timeout: 0.5))
     }

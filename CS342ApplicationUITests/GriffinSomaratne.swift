@@ -18,6 +18,8 @@ class GriffinSomaratne: XCTestCase {
     func testGriffinSomaratneAndButtons() throws {
         let app = XCUIApplication()
         app.launch()
+
+        app.swipeUp()
         
         app.collectionViews.buttons["Griffin Somaratne"].tap()
         XCTAssert(app.staticTexts["Griffin Somaratne"].waitForExistence(timeout: 0.5))

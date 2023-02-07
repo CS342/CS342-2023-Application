@@ -19,11 +19,18 @@ let package = Package(
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
+        .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
+        .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
+        .library(name: "SonyaJin", targets: ["SonyaJin"]),
+        .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
+        .library(name: "JenniferXu", targets: ["JenniferXu"]),
+        .library(name: "BrookeKrajancich", targets: ["BrookeKrajancich"]),
+        .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
@@ -31,6 +38,9 @@ let package = Package(
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
+        .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
+        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
+        .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "JenMoore", targets: ["JenMoore"])
     ],
     targets: [
@@ -48,6 +58,17 @@ let package = Package(
             exclude: [
                 "Resources/PaulSchmiedmayer.jpeg.license",
                 "Resources/PaulSchmiedmayerBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "ShriyaReddy",
+            exclude: [
+                "Resources/ShriyaReddy.jpg.license",
+                "Resources/IntroText.txt.license",
+                "Resources/HobbyText.txt.license"
             ],
             resources: [
                 .process("Resources")
@@ -84,6 +105,17 @@ let package = Package(
             exclude: [
                 "Resources/OliverAalami.jpeg.license",
                 "Resources/OliverAalamiBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AnanyaVasireddy",
+            exclude: [
+                "Resources/AnanyaVasireddy.jpg.license",
+                "Resources/AnanyaVasireddyBio.md.license",
+                "Resources/Raag.jpg.license"
             ],
             resources: [
                 .process("Resources")
@@ -178,6 +210,19 @@ let package = Package(
             ]
         ),
         .target(
+            name: "BrookeKrajancich",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/BrookeKrajancich.png.license",
+                "Resources/Background.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
             name: "GriffinSomaratne",
             dependencies: [
                 .target(name: "InstructorViews")
@@ -192,7 +237,47 @@ let package = Package(
                 "Resources/ME103.jpeg.license",
                 "Resources/ME104.jpeg.license",
                 "Resources/StanfordApp.jpeg.license",
-                "Resources/Tear.jpeg.license"
+                "Resources/Tear.jpeg.license",
+                "Resources/Background.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "SonyaJin",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/SonyaJin.jpg.license",
+                "Resources/SonyaJinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AlexisLowber",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AlexisLowber.jpeg.license",
+                "Resources/AlexisLowberBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AbhinavAgarwal",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AbhinavAgarwal.jpeg.license",
+                "Resources/AbhinavAgarwalBio.md.license"
             ],
             resources: [
                 .process("Resources")
@@ -249,6 +334,17 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        )
+        ),
+        .target(
+            name: "JenniferXu",
+            exclude: [
+                "Resources/github-mark.png.license",
+                "Resources/LI-In-Bug.png.license",
+                "Resources/Xu_profpic.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+      )
     ]
 )

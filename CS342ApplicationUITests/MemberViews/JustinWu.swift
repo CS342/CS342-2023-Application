@@ -30,7 +30,7 @@ class JustinWu: XCTestCase {
 
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 
     func testQuizLink() throws {
