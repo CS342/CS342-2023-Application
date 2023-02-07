@@ -30,6 +30,7 @@ enum Member: String, Identifiable, CaseIterable {
     case abhinavAgarwal = "Abhinav Agarwal"
     case stanleyYang = "Stanley Yang"
     case parthavShergill = "Parthav Shergill"
+    case danielGuo = "Daniel Guo"
     case jenMoore = "Jen Moore"
 
 
