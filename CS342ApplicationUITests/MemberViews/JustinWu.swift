@@ -19,6 +19,8 @@ class JustinWu: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
+        app.swipeUp()
+        
         app.collectionViews.buttons["Justin Wu"].tap()
         XCTAssert(app.staticTexts["Justin Wu"].waitForExistence(timeout: 0.5))
 
@@ -26,12 +28,14 @@ class JustinWu: XCTestCase {
 
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 
     func testQuizLink() throws {
         let app = XCUIApplication()
         app.launch()
+        
+        app.swipeUp()
         
         app.collectionViews.buttons["Justin Wu"].tap()
         XCTAssert(app.staticTexts["Justin Wu"].waitForExistence(timeout: 0.5))

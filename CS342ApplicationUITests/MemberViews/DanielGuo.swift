@@ -15,7 +15,7 @@ class DanielGuo: XCTestCase {
         continueAfterFailure = false
     }
     
-    func DanielGuoInstagram() throws {
+    func testDanielGuoInstagram() throws {
         let app = XCUIApplication()
         app.launch()
         app.swipeUp()
