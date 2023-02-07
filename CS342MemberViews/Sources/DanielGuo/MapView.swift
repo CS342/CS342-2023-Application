@@ -6,8 +6,8 @@
 // SPDX-License-Identifier: MIT
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
 
 struct MapView: View {
     @State private var region = MKCoordinateRegion(

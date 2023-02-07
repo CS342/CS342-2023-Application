@@ -16,12 +16,12 @@ public struct DanielGuo: View {
     public var body: some View {
         ScrollView(.vertical) {
             VStack {
-                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "DanGuo")
-                )
+                ProfileView(profileImage: Bundle.module.image(fromFileNamed: "DanGuo"))
                 DescriptionView(
                     name: "Daniel Guo",
                     title: "Sophomore Studying CS + BioE",
-                    description: Bundle.module.markdown(fromFileNamed: "DanGuoBio"))
+                    description: Bundle.module.markdown(fromFileNamed: "DanGuoBio")
+                )
                 InstagramView()
                     .padding()
                 Text("Hometown: Vancouver, Canada")
