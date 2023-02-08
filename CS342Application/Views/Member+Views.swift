@@ -14,6 +14,7 @@ import AshleyGriffin
 import AudreyLin
 import BrookeKrajancich
 import CaitlinKunchur
+import DanielGuo
 import HamedHekmat
 import JenMoore
 import JenniferXu
@@ -79,6 +80,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .danielGuo:
+                DanielGuo(navigationPath: navigationPath)
             case .jenMoore:
                 JenMoore()
             case .juliaRhee:

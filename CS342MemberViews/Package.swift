@@ -37,8 +37,14 @@ let package = Package(
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
+<<<<<<< HEAD
         .library(name: "JenMoore", targets: ["JenMoore"]),
         .library(name: "JuliaRhee", targets: ["JuliaRhee"])
+=======
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
+        .library(name: "DanielGuo", targets: ["DanielGuo"]),
+        .library(name: "JenMoore", targets: ["JenMoore"])
+>>>>>>> 5ec71ba (Added DanielGuoView (#53))
     ],
     targets: [
         .target(
@@ -291,6 +297,19 @@ let package = Package(
             exclude: [
                 "Resources/ParthavShergill.jpeg.license",
                 "Resources/ParthavShergillBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "DanielGuo",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/DanielGuo.jpeg.license",
+                "Resources/DanielGuoBio.md.license"
             ],
             resources: [
                 .process("Resources")
