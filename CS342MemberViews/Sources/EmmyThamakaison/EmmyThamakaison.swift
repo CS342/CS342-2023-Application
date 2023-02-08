@@ -19,14 +19,13 @@ public struct EmmyThamakaison: View {
                 ProfileView()
                 DescriptionView()
                 BubbleView()
-                    .offset(y:-30)
+                    .offset(y: -30)
                 HStack(spacing: 40) {
                     LinkedIn()
                     GitHub()
                 }
                     .offset(y: -50)
                     .padding([.bottom], 50)
-                
             }
             .offset(y: 80)
         }
@@ -46,4 +45,3 @@ struct EmmyThamakaison_Previews: PreviewProvider {
         }
     }
 }
-

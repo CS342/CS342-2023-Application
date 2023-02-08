@@ -25,7 +25,6 @@ class EmmyThamakaison: XCTestCase {
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
-        
     }
     
     func testEmmyThamakaisonandGitHubLink() throws {
@@ -38,6 +37,5 @@ class EmmyThamakaison: XCTestCase {
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
         XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
-        
     }
 }

@@ -25,10 +25,11 @@ let package = Package(
         .library(name: "SonyaJin", targets: ["SonyaJin"]),
         .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
+        .library(name: "JenniferXu", targets: ["JenniferXu"]),
         .library(name: "BrookeKrajancich", targets: ["BrookeKrajancich"]),
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
@@ -37,6 +38,7 @@ let package = Package(
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "DanielGuo", targets: ["DanielGuo"]),
         .library(name: "JenMoore", targets: ["JenMoore"])
     ],
     targets: [
@@ -96,8 +98,9 @@ let package = Package(
         .target(
             name: "EmmyThamakaison",
             exclude: [
-                "Resources/EmmyThamakaison.jpeg.license",
-                "Resources/EmmyThamakaisonBio.md.license"
+                "Resources/EmmyThamakaison.png.license",
+                "Resources/EmmyThamakaisonBio.md.license",
+                "Resources/LinkedInIcon.png.license"
             ],
             resources: [
                 .process("Resources")
@@ -306,6 +309,19 @@ let package = Package(
             ]
         ),
         .target(
+            name: "DanielGuo",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/DanGuo.jpeg.license",
+                "Resources/DanGuoBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
             name: "JenMoore",
             exclude: [
                 "Resources/Background.jpg.license",
@@ -318,6 +334,17 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-        )
+        ),
+        .target(
+            name: "JenniferXu",
+            exclude: [
+                "Resources/github-mark.png.license",
+                "Resources/LI-In-Bug.png.license",
+                "Resources/Xu_profpic.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+      )
     ]
 )

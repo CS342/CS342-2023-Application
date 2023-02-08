@@ -9,17 +9,20 @@
 import XCTest
 
 
-class CaitlinKunchur: XCTestCase {
+class DanielGuo: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         continueAfterFailure = false
     }
-
-    func testCaitlinKunchur() throws {
+    
+    func testDanielGuoInstagram() throws {
         let app = XCUIApplication()
         app.launch()
+        app.swipeUp()
         
-        app.collectionViews.buttons["Caitlin Kunchur"].tap()
-        XCTAssert(app.staticTexts["Caitlin Kunchur"].waitForExistence(timeout: 0.5))
+        app.collectionViews.buttons["Daniel Guo"].tap()
+        XCTAssert(app.staticTexts["Daniel Guo"].waitForExistence(timeout: 0.5))
+        
+        app.scrollViews.otherElements.buttons["Tap for Instagram: @dan_guo_"].tap()
     }
 }
