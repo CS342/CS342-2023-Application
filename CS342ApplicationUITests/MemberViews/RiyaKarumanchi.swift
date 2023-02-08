@@ -19,12 +19,16 @@ class RiyaKarumanchi: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
+        app.swipeUp()
+        
         app.collectionViews.buttons["Riya Karumanchi"].tap()
         XCTAssert(app.staticTexts["Riya Karumanchi"].waitForExistence(timeout: 0.5))
+        
+        app.swipeUp()
 
         app.scrollViews.otherElements.buttons["@riyakarumnchi"].tap()
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 }
