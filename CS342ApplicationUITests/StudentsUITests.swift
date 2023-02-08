@@ -98,6 +98,8 @@ class StudentsUITests: XCTestCase {
     func testJuliaRhee() throws {
         let app = XCUIApplication()
         app.launch()
+        
+        app.swipeUp()
 
         app.collectionViews.buttons["Julia Rhee"].tap()
         XCTAssert(app.staticTexts["Julia Rhee"].waitForExistence(timeout: 0.5))
