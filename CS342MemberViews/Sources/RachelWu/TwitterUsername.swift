@@ -38,4 +38,3 @@ struct TwitterUsername_Previews: PreviewProvider {
         TwitterUsername()
     }
 }
-
