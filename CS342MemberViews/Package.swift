@@ -18,6 +18,7 @@ let package = Package(
     ],
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
+        .library(name: "EmmyThamakaison", targets: ["EmmyThamakaison"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
         .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
@@ -38,6 +39,7 @@ let package = Package(
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "DanielGuo", targets: ["DanielGuo"]),
         .library(name: "JenMoore", targets: ["JenMoore"])
     ],
     targets: [
@@ -89,6 +91,17 @@ let package = Package(
             exclude: [
                 "Resources/AudreyLin.jpeg.license",
                 "Resources/AudreyLinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "EmmyThamakaison",
+            exclude: [
+                "Resources/EmmyThamakaison.png.license",
+                "Resources/EmmyThamakaisonBio.md.license",
+                "Resources/LinkedInIcon.png.license"
             ],
             resources: [
                 .process("Resources")
@@ -304,6 +317,19 @@ let package = Package(
             exclude: [
                 "Resources/ParthavShergill.jpeg.license",
                 "Resources/ParthavShergillBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "DanielGuo",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/DanGuo.jpeg.license",
+                "Resources/DanGuoBio.md.license"
             ],
             resources: [
                 .process("Resources")

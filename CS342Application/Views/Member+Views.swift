@@ -14,6 +14,8 @@ import AshleyGriffin
 import AudreyLin
 import BrookeKrajancich
 import CaitlinKunchur
+import DanielGuo
+import EmmyThamakaison
 import HamedHekmat
 import JenMoore
 import JenniferXu
@@ -45,6 +47,8 @@ extension Member {
                 AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
+            case .emmyThamakaison:
+                EmmyThamakaison(navigationPath: navigationPath)
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
             case .ananyaVasireddy:
@@ -81,6 +85,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .danielGuo:
+                DanielGuo(navigationPath: navigationPath)
             case .jenMoore:
                 JenMoore()
             }
