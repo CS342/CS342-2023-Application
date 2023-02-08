@@ -18,6 +18,7 @@ let package = Package(
     ],
     products: [
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
+        .library(name: "EmmyThamakaison", targets: ["EmmyThamakaison"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
         .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
@@ -37,14 +38,9 @@ let package = Package(
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
-<<<<<<< HEAD
         .library(name: "JenMoore", targets: ["JenMoore"]),
-        .library(name: "JuliaRhee", targets: ["JuliaRhee"])
-=======
-        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
-        .library(name: "DanielGuo", targets: ["DanielGuo"]),
-        .library(name: "JenMoore", targets: ["JenMoore"])
->>>>>>> 5ec71ba (Added DanielGuoView (#53))
+        .library(name: "JuliaRhee", targets: ["JuliaRhee"]),
+        .library(name: "DanielGuo", targets: ["DanielGuo"])
     ],
     targets: [
         .target(
@@ -95,6 +91,17 @@ let package = Package(
             exclude: [
                 "Resources/AudreyLin.jpeg.license",
                 "Resources/AudreyLinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "EmmyThamakaison",
+            exclude: [
+                "Resources/EmmyThamakaison.png.license",
+                "Resources/EmmyThamakaisonBio.md.license",
+                "Resources/LinkedInIcon.png.license"
             ],
             resources: [
                 .process("Resources")
@@ -308,8 +315,8 @@ let package = Package(
                 .target(name: "InstructorViews")
             ],
             exclude: [
-                "Resources/DanielGuo.jpeg.license",
-                "Resources/DanielGuoBio.md.license"
+                "Resources/DanGuo.jpeg.license",
+                "Resources/DanGuoBio.md.license"
             ],
             resources: [
                 .process("Resources")
