@@ -26,7 +26,7 @@ class RiyaKarumanchi: XCTestCase {
         
         app.swipeUp()
 
-        app.scrollViews.otherElements.buttons["@riyakarumnchi"].tap()
+        app.buttons["@riyakarumanchi"].tap()
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
         XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
