@@ -18,6 +18,8 @@ class DanielGuo: XCTestCase {
     func testDanielGuoInstagram() throws {
         let app = XCUIApplication()
         app.launch()
+        
+        app.swipeUp()
         app.swipeUp()
         
         app.collectionViews.buttons["Daniel Guo"].tap()
