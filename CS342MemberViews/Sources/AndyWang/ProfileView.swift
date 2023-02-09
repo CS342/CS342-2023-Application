@@ -8,8 +8,8 @@
 import SwiftUI
 
 
-struct ProfileView: View {
-    var body: some View {
+public struct ProfileView: View {
+    public var body: some View {
         profileImage
             .resizable()
             .aspectRatio(1.0, contentMode: .fit)
