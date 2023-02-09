@@ -26,6 +26,7 @@ import ParthavShergill
 import PaulSchmiedmayer
 import RachelWu
 import RajPabari
+import RiyaKarumanchi
 import SarahBarragan
 import SherryXie
 import ShriyaReddy
@@ -72,6 +73,8 @@ extension Member {
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .riyaKarumanchi:
+                RiyaKarumanchi(navigationPath: navigationPath)
             case .jenniferXu:
                 JenniferXu(navigationPath: navigationPath)
             case .brookeKrajancich:
