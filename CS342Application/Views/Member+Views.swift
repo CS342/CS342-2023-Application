@@ -10,6 +10,7 @@ import AbhinavAgarwal
 import AlexisLowber
 import AnanyaVasireddy
 import AndyWang
+import AnushehChaudry
 import AshleyGriffin
 import AudreyLin
 import BrookeKrajancich
@@ -53,6 +54,8 @@ extension Member {
                 EmmyThamakaison(navigationPath: navigationPath)
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .anushehChaudry:
+                AnushehChaudry(navigationPath: navigationPath)
             case .ananyaVasireddy:
                 AnanyaVasireddy(navigationPath: navigationPath)
             case .sarahBarragan:
