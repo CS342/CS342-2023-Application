@@ -7,6 +7,7 @@
 //
 
 import AbhinavAgarwal
+import AdamZhao
 import AlexisLowber
 import AnanyaVasireddy
 import AndyWang
@@ -50,6 +51,8 @@ extension Member {
                 AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
+            case .adamZhao:
+                AdamZhao(navigationPath: navigationPath)
             case .emmyThamakaison:
                 EmmyThamakaison(navigationPath: navigationPath)
             case .oliverAalami:
