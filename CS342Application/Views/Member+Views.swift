@@ -19,6 +19,7 @@ import EmmyThamakaison
 import HamedHekmat
 import JenMoore
 import JenniferXu
+import JuliaRhee
 import JustinWu
 import OliverAalami
 import ParthavShergill
@@ -89,6 +90,8 @@ extension Member {
                 DanielGuo(navigationPath: navigationPath)
             case .jenMoore:
                 JenMoore()
+            case .juliaRhee:
+                JuliaRhee(navigationPath: navigationPath)
             }
         }
         return memberView
