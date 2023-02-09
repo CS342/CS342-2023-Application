@@ -28,13 +28,14 @@ let package = Package(
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
+        .library(name: "JustinWu", targets: ["JustinWu"]),
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
+        .library(name: "RachelWu", targets: ["RachelWu"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "JenniferXu", targets: ["JenniferXu"]),
         .library(name: "BrookeKrajancich", targets: ["BrookeKrajancich"]),
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
-        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
-        .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
@@ -304,6 +305,15 @@ let package = Package(
             exclude: [
                 "Resources/ParthavShergill.jpeg.license",
                 "Resources/ParthavShergillBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "RachelWu",
+            dependencies: [
+                .target(name: "InstructorViews")
             ],
             resources: [
                 .process("Resources")

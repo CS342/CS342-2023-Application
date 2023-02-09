@@ -24,6 +24,7 @@ import JustinWu
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
+import RachelWu
 import RajPabari
 import SarahBarragan
 import SherryXie
@@ -83,6 +84,8 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .rachelWu:
+                RachelWu(navigationPath: navigationPath)
             case .danielGuo:
                 DanielGuo(navigationPath: navigationPath)
             case .jenMoore:
