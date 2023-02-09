@@ -28,11 +28,12 @@ let package = Package(
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
-        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
-        .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "AnushehChaudry", targets: ["AnushehChaudry"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "BrianPark", targets: ["BrianPark"]),
+        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
+        .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "RachelWu", targets: ["RachelWu"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
@@ -229,6 +230,19 @@ let package = Package(
             exclude: [
                 "Resources/AshleyGriffin.jpeg.license",
                 "Resources/AshleyGriffinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "BrianPark",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/BrianPark.jpeg.license",
+                "Resources/BrianParkBio.md.license"
             ],
             resources: [
                 .process("Resources")

@@ -14,6 +14,7 @@ import AndyWang
 import AnushehChaudry
 import AshleyGriffin
 import AudreyLin
+import BrianPark
 import BrookeKrajancich
 import CaitlinKunchur
 import DanielGuo
@@ -79,6 +80,8 @@ extension Member {
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .brianPark:
+                BrianPark(navigationPath: navigationPath)
             case .riyaKarumanchi:
                 RiyaKarumanchi(navigationPath: navigationPath)
             case .jenniferXu:

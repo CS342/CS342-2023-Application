@@ -71,6 +71,8 @@
 		A63D237B297FADCF00342971 /* AnushehChaudry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D237A297FADCF00342971 /* AnushehChaudry.swift */; };
 		A673C85C297CDAE400D0E9A6 /* AnushehChaudry in Frameworks */ = {isa = PBXBuildFile; productRef = A673C85B297CDAE400D0E9A6 /* AnushehChaudry */; };
 		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
+		ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */; };
+		C6DA125F297FCCB50073C7A3 /* BrianPark in Frameworks */ = {isa = PBXBuildFile; productRef = C6DA125E297FCCB50073C7A3 /* BrianPark */; };
 		B96C6160297DA17300D25FBA /* EmmyThamakaison in Frameworks */ = {isa = PBXBuildFile; productRef = B96C615F297DA17300D25FBA /* EmmyThamakaison */; };
 		B9D23CB7298B22C00024943E /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = B9D23CB6298B22C00024943E /* SherryXie */; };
 		F565FA51297F19820043DB25 /* JustinWu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565FA50297F19820043DB25 /* JustinWu.swift */; };
@@ -166,7 +168,9 @@
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
 				6DF9E946298105CA00911234 /* RiyaKarumanchi in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
+				C6DA125F297FCCB50073C7A3 /* BrianPark in Frameworks */,
 				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
 				6659C22F298AEAFE0014D85B /* ShriyaReddy in Frameworks */,
 				6659C22D298AEAFE0014D85B /* SarahBarragan in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
@@ -357,6 +361,8 @@
 				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
 				A11A0B09297F9C8600E03791 /* SherryXie */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				C6DA125E297FCCB50073C7A3 /* BrianPark */,
 				F7E62790297FA45B00200446 /* ParthavShergill */,
 				F565FA52297F29700043DB25 /* JustinWu */,
 				F7E62790297FA45B00200446 /* ParthavShergill */,
@@ -1014,6 +1020,10 @@
 		ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AshleyGriffin;
+		};
+		C6DA125E297FCCB50073C7A3 /* BrianPark */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrianPark;
 		};
 		B96C615F297DA17300D25FBA /* EmmyThamakaison */ = {
 			isa = XCSwiftPackageProductDependency;
