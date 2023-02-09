@@ -38,8 +38,9 @@ let package = Package(
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
-        .library(name: "DanielGuo", targets: ["DanielGuo"]),
-        .library(name: "JenMoore", targets: ["JenMoore"])
+        .library(name: "JenMoore", targets: ["JenMoore"]),
+        .library(name: "JuliaRhee", targets: ["JuliaRhee"]),
+        .library(name: "DanielGuo", targets: ["DanielGuo"])
     ],
     targets: [
         .target(
@@ -341,6 +342,15 @@ let package = Package(
                 "Resources/github-mark.png.license",
                 "Resources/LI-In-Bug.png.license",
                 "Resources/Xu_profpic.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+      ),
+        .target(
+            name: "JuliaRhee",
+            exclude: [
+                "Resources/JuliaRheeHeadshot.jpg.license"
             ],
             resources: [
                 .process("Resources")
