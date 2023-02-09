@@ -21,11 +21,6 @@ class StanleyYang: XCTestCase {
         
         app.swipeUp()
         
-<<<<<<< HEAD
-        XCTAssert(app.collectionViews.buttons["Stanley Yang"].waitForExistence(timeout: 1.0))
-        
-=======
->>>>>>> b4ba7c09a8a955ecd6945a04b9523c83378c8e02
         app.collectionViews.buttons["Stanley Yang"].tap()
         XCTAssert(app.staticTexts["Stanley Yang"].waitForExistence(timeout: 0.5))
         
@@ -40,10 +35,6 @@ class StanleyYang: XCTestCase {
         
         XCTAssert(app.scrollViews.otherElements.buttons["LinkedIn: Stanley Yang"].waitForExistence(timeout: 1.0))
         app.scrollViews.otherElements.buttons["LinkedIn: Stanley Yang"].tap()
-<<<<<<< HEAD
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
-=======
         XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
->>>>>>> b4ba7c09a8a955ecd6945a04b9523c83378c8e02
     }
 }
