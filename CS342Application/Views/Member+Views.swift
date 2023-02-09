@@ -25,6 +25,7 @@ import JenMoore
 import JenniferXu
 import JuliaRhee
 import JustinWu
+import NatashaKacharia
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
@@ -73,6 +74,8 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .natashaKacharia:
+                NatashaKacharia(navigationPath: navigationPath)
             case .aliMottaghi:
                 AliMottaghi(navigationPath: navigationPath)
             case .sonyaJin:

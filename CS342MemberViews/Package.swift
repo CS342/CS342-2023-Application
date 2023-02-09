@@ -22,6 +22,7 @@ let package = Package(
         .library(name: "EmmyThamakaison", targets: ["EmmyThamakaison"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "NatashaKacharia", targets: ["NatashaKacharia"]),
         .library(name: "AliMottaghi", targets: ["AliMottaghi"]),
         .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
         .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
@@ -204,6 +205,15 @@ let package = Package(
             exclude: [
                 "Resources/AliMottaghi.jpeg.license",
                 "Resources/AliMottaghiBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "NatashaKacharia",
+            dependencies: [
+                .target(name: "InstructorViews")
             ],
             resources: [
                 .process("Resources")
