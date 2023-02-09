@@ -19,10 +19,12 @@ import EmmyThamakaison
 import HamedHekmat
 import JenMoore
 import JenniferXu
+import JuliaRhee
 import JustinWu
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
+import RachelWu
 import RajPabari
 import RiyaKarumanchi
 import SarahBarragan
@@ -85,10 +87,14 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .rachelWu:
+                RachelWu(navigationPath: navigationPath)
             case .danielGuo:
                 DanielGuo(navigationPath: navigationPath)
             case .jenMoore:
                 JenMoore()
+            case .juliaRhee:
+                JuliaRhee(navigationPath: navigationPath)
             }
         }
         return memberView

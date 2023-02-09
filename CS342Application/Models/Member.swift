@@ -31,10 +31,12 @@ enum Member: String, Identifiable, CaseIterable {
     case abhinavAgarwal = "Abhinav Agarwal"
     case stanleyYang = "Stanley Yang"
     case parthavShergill = "Parthav Shergill"
+    case rachelWu = "Rachel Wu"
     case danielGuo = "Daniel Guo"
     case jenMoore = "Jen Moore"
+    case juliaRhee = "Julia Rhee"
 
-
+    
     static var allMembers: [Role: [Member]] {
         var allMembers: [Role: [Member]] = [:]
         
