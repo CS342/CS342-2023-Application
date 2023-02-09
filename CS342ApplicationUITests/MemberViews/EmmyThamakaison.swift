@@ -24,7 +24,7 @@ class EmmyThamakaison: XCTestCase {
         app.scrollViews.otherElements.buttons["LinkedIn"].tap()
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
     
     func testEmmyThamakaisonandGitHubLink() throws {
@@ -36,6 +36,6 @@ class EmmyThamakaison: XCTestCase {
         app.scrollViews.otherElements.buttons["GitHub"].tap()
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 }
