@@ -32,7 +32,6 @@ let package = Package(
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "AnushehChaudry", targets: ["AnushehChaudry"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
