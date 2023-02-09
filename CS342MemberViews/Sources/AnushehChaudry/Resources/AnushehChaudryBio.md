@@ -1,0 +1,1 @@
+Anusheh Chaudry is a sophomore undergraduate student at Stanford University. She is from Ann Arbor, Michigan and is studying Computer Science with a focus on AI. In her free time she loves to bake, cook, play basketball, or watch movies. Her favorite movie she watched recently is Puss and Boots.

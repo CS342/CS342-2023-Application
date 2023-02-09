@@ -13,27 +13,36 @@ enum Member: String, Identifiable, CaseIterable {
     case shriyaReddy = "Shriya Reddy"
     case audreyLin = "Audrey Lin"
     case vishnuRavi = "Vishnu Ravi, MD"
+    case adamZhao = "Adam Zhao"
+    case anushehChaudry = "Anusheh Chaudry"
+    case emmyThamakaison = "Emmy Thamakaison"
     case ananyaVasireddy = "Ananya Vasireddy"
     case sarahBarragan = "Sarah Barragan"
     case caitlinKunchur = "Caitlin Kunchur"
     case sherryXie = "Sherry Xie"
     case andyWang = "Andy Wang"
     case rajPabari = "Raj Pabari"
+    case natashaKacharia = "Natasha Kacharia"
+    case aliMottaghi = "Ali Mottaghi"
     case sonyaJin = "Sonya Jin"
     case hamedHekmat = "Hamed Hekmat"
     case justinWu = "Justin Wu"
     case ashleyGriffin = "Ashley Griffin, Ph.D."
     case griffinSomaratne = "Griffin Somaratne"
+    case brianPark = "Brian Park"
+    case riyaKarumanchi = "Riya Karumanchi"
     case jenniferXu = "Jennifer Xu"
     case brookeKrajancich = "Brooke Krajancich"
     case alexisLowber = "Alexis Lowber, MS"
     case abhinavAgarwal = "Abhinav Agarwal"
     case stanleyYang = "Stanley Yang"
     case parthavShergill = "Parthav Shergill"
+    case rachelWu = "Rachel Wu"
     case danielGuo = "Daniel Guo"
     case jenMoore = "Jen Moore"
-
-
+    case juliaRhee = "Julia Rhee"
+    
+    
     static var allMembers: [Role: [Member]] {
         var allMembers: [Role: [Member]] = [:]
         
@@ -61,6 +70,8 @@ enum Member: String, Identifiable, CaseIterable {
         switch self {
         case .paulSchmiedmayer, .ashleyGriffin, .vishnuRavi:
             return .instructor
+        case .emmyThamakaison:
+            return .student
         case .oliverAalami:
             return .lead
         default:

@@ -7,23 +7,32 @@
 //
 
 import AbhinavAgarwal
+import AdamZhao
 import AlexisLowber
+import AliMottaghi
 import AnanyaVasireddy
 import AndyWang
+import AnushehChaudry
 import AshleyGriffin
 import AudreyLin
+import BrianPark
 import BrookeKrajancich
 import CaitlinKunchur
 import DanielGuo
 import GriffinSomaratne
+import EmmyThamakaison
 import HamedHekmat
 import JenMoore
 import JenniferXu
+import JuliaRhee
 import JustinWu
+import NatashaKacharia
 import OliverAalami
 import ParthavShergill
 import PaulSchmiedmayer
+import RachelWu
 import RajPabari
+import RiyaKarumanchi
 import SarahBarragan
 import SherryXie
 import ShriyaReddy
@@ -46,8 +55,14 @@ extension Member {
                 AudreyLin(navigationPath: navigationPath)
             case .vishnuRavi:
                 Text("Vishnu 👋")
+            case .adamZhao:
+                AdamZhao(navigationPath: navigationPath)
+            case .emmyThamakaison:
+                EmmyThamakaison(navigationPath: navigationPath)
             case .oliverAalami:
                 OliverAalami(navigationPath: navigationPath)
+            case .anushehChaudry:
+                AnushehChaudry(navigationPath: navigationPath)
             case .ananyaVasireddy:
                 AnanyaVasireddy(navigationPath: navigationPath)
             case .sarahBarragan:
@@ -60,6 +75,10 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .natashaKacharia:
+                NatashaKacharia(navigationPath: navigationPath)
+            case .aliMottaghi:
+                AliMottaghi(navigationPath: navigationPath)
             case .sonyaJin:
                 SonyaJin(navigationPath: navigationPath)
             case .hamedHekmat:
@@ -70,6 +89,10 @@ extension Member {
                 AshleyGriffin(navigationPath: navigationPath)
             case .griffinSomaratne:
                 GriffinSomaratne(navigationPath: navigationPath)
+            case .brianPark:
+                BrianPark(navigationPath: navigationPath)
+            case .riyaKarumanchi:
+                RiyaKarumanchi(navigationPath: navigationPath)
             case .jenniferXu:
                 JenniferXu(navigationPath: navigationPath)
             case .brookeKrajancich:
@@ -82,10 +105,14 @@ extension Member {
                 StanleyYang(navigationPath: navigationPath)
             case .parthavShergill:
                 ParthavShergill(navigationPath: navigationPath)
+            case .rachelWu:
+                RachelWu(navigationPath: navigationPath)
             case .danielGuo:
                 DanielGuo(navigationPath: navigationPath)
             case .jenMoore:
                 JenMoore()
+            case .juliaRhee:
+                JuliaRhee(navigationPath: navigationPath)
             }
         }
         return memberView
