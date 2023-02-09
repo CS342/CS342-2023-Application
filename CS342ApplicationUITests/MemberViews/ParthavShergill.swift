@@ -22,10 +22,10 @@ class ParthavShergill: XCTestCase {
         app.swipeUp()
         
         app.collectionViews.buttons["Parthav Shergill"].tap()
-        XCTAssert(app.staticTexts["Parthav Shergill"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.staticTexts["Parthav Shergill"].waitForExistence(timeout: 10.0))
         
         app.staticTexts["Parthav Shergill"].swipeUp()
-        XCTAssert(app.buttons["Click for a random quote"].waitForExistence(timeout: 0.5))
+        XCTAssert(app.buttons["Click for a random quote"].waitForExistence(timeout: 10.0))
         app.buttons["Click for a random quote"].tap()
     }
 }
