@@ -9,6 +9,7 @@
 import AbhinavAgarwal
 import AdamZhao
 import AlexisLowber
+import AliMottaghi
 import AnanyaVasireddy
 import AndyWang
 import AnushehChaudry
@@ -72,6 +73,8 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .aliMottaghi:
+                AliMottaghi(navigationPath: navigationPath)
             case .sonyaJin:
                 SonyaJin(navigationPath: navigationPath)
             case .hamedHekmat:

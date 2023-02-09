@@ -1,0 +1,1 @@
+Ali Mottaghi is a PhD Student at the Medical AI and Computer Vision Lab at Stanford. He is interested in developing new computer vision algorithms for more efficient and accessible healthcare delivery. 

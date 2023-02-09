@@ -21,6 +21,8 @@ let package = Package(
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "EmmyThamakaison", targets: ["EmmyThamakaison"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
+        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "AliMottaghi", targets: ["AliMottaghi"]),
         .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
         .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
         .library(name: "SonyaJin", targets: ["SonyaJin"]),
@@ -28,12 +30,11 @@ let package = Package(
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
-        .library(name: "AnushehChaudry", targets: ["AnushehChaudry"]),
-        .library(name: "SherryXie", targets: ["SherryXie"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
-        .library(name: "BrianPark", targets: ["BrianPark"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
+        .library(name: "AnushehChaudry", targets: ["AnushehChaudry"]),
+        .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "BrianPark", targets: ["BrianPark"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "RachelWu", targets: ["RachelWu"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
@@ -195,7 +196,19 @@ let package = Package(
                 .process("Resources")
             ]
         ),
-        
+        .target(
+            name: "AliMottaghi",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AliMottaghi.jpeg.license",
+                "Resources/AliMottaghiBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
         .target(
             name: "HamedHekmat",
             dependencies: [
