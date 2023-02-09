@@ -39,4 +39,3 @@ struct LinkedIn_Previews: PreviewProvider {
         LinkedIn()
     }
 }
-

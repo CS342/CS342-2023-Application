@@ -7,8 +7,8 @@
 //
 
 import InstructorViews
-import SwiftUI
 import MapKit
+import SwiftUI
 
 
 public struct BrianPark: View {
@@ -26,7 +26,7 @@ public struct BrianPark: View {
                     .padding()
                 MapView()
                     .frame(height: 300)
-                    .offset(y:-50)
+                    .offset(y: -50)
                 Text("Some of my socials:")
                     .font(.title3)
                 HStack(spacing: 30) {
@@ -34,7 +34,6 @@ public struct BrianPark: View {
                     Instagram()
                     Github()
                 }
-            
             }
         }
             .navigationTitle("Brian")

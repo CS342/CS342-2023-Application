@@ -5,8 +5,9 @@
 //  Created by Jeongwoo Park on 2023/01/24.
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
+
 
 struct MapView: View {
     @State private var region = MKCoordinateRegion(

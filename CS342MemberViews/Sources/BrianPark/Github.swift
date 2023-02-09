@@ -14,9 +14,9 @@ struct Github: View {
 
 
     var body: some View {
-        if let GitURL {
+        if let gitURL {
             Button {
-                openURL(GitURL)
+                openURL(gitURL)
             } label: {
                 Text("⚙️")
                     .frame(maxWidth: .infinity, idealHeight: 50)
@@ -28,7 +28,7 @@ struct Github: View {
     }
 
 
-    private var GitURL: URL? {
+    private var gitURL: URL? {
         URL(string: "https://github.com/brian-jw-park")
     }
 }
@@ -39,4 +39,3 @@ struct Github_Previews: PreviewProvider {
         Github()
     }
 }
-
