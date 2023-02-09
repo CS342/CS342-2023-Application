@@ -19,7 +19,6 @@ class OliverAalami: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        app.swipeUp()
         app.collectionViews.buttons["Prof. Oliver Aalami, MD"].tap()
         XCTAssert(app.staticTexts["Prof. Oliver Aalami, MD"].waitForExistence(timeout: 0.5))
 
