@@ -9,11 +9,13 @@
 import AbhinavAgarwal
 import AdamZhao
 import AlexisLowber
+import AliMottaghi
 import AnanyaVasireddy
 import AndyWang
 import AnushehChaudry
 import AshleyGriffin
 import AudreyLin
+import BrianPark
 import BrookeKrajancich
 import CaitlinKunchur
 import DanielGuo
@@ -74,6 +76,8 @@ extension Member {
                 RajPabari()
             case .natashaKacharia:
                 NatashaKacharia(navigationPath: navigationPath)
+            case .aliMottaghi:
+                AliMottaghi(navigationPath: navigationPath)
             case .sonyaJin:
                 SonyaJin(navigationPath: navigationPath)
             case .hamedHekmat:
@@ -82,6 +86,8 @@ extension Member {
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .brianPark:
+                BrianPark(navigationPath: navigationPath)
             case .riyaKarumanchi:
                 RiyaKarumanchi(navigationPath: navigationPath)
             case .jenniferXu:

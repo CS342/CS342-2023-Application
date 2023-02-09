@@ -23,6 +23,7 @@ let package = Package(
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "NatashaKacharia", targets: ["NatashaKacharia"]),
+        .library(name: "AliMottaghi", targets: ["AliMottaghi"]),
         .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
         .library(name: "ShriyaReddy", targets: ["ShriyaReddy"]),
         .library(name: "SonyaJin", targets: ["SonyaJin"]),
@@ -34,6 +35,7 @@ let package = Package(
         .library(name: "JustinWu", targets: ["JustinWu"]),
         .library(name: "AnushehChaudry", targets: ["AnushehChaudry"]),
         .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "BrianPark", targets: ["BrianPark"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "RachelWu", targets: ["RachelWu"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
@@ -195,7 +197,19 @@ let package = Package(
                 .process("Resources")
             ]
         ),
-        
+        .target(
+            name: "AliMottaghi",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/AliMottaghi.jpeg.license",
+                "Resources/AliMottaghiBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
         .target(
             name: "NatashaKacharia",
             dependencies: [
@@ -239,6 +253,19 @@ let package = Package(
             exclude: [
                 "Resources/AshleyGriffin.jpeg.license",
                 "Resources/AshleyGriffinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "BrianPark",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/BrianPark.jpeg.license",
+                "Resources/BrianParkBio.md.license"
             ],
             resources: [
                 .process("Resources")

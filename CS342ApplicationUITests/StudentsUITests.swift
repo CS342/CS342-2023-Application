@@ -23,6 +23,11 @@ class StudentsUITests: XCTestCase {
         
         app.collectionViews.buttons["Raj Pabari"].tap()
         XCTAssert(app.staticTexts["Raj Pabari"].waitForExistence(timeout: 0.5))
+        
+        app.navigationBars.firstMatch.buttons["CS342"].tap()
+        
+        app.collectionViews.buttons["Ali Mottaghi"].tap()
+        XCTAssert(app.staticTexts["Ali Mottaghi"].waitForExistence(timeout: 0.5))
     }
     
     func testHamed() throws {
@@ -82,6 +87,7 @@ class StudentsUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         app.swipeUp()
+        app.swipeUp()
         app.collectionViews.buttons["Daniel Guo"].tap()
         XCTAssert(app.staticTexts["Daniel Guo"].waitForExistence(timeout: 0.5))
     }
@@ -90,6 +96,7 @@ class StudentsUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
+        app.swipeUp()
         app.swipeUp()
         
         app.collectionViews.buttons["Alexis Lowber, MS"].tap()
