@@ -17,6 +17,7 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
+        .library(name: "AdamZhao", targets: ["AdamZhao"]),
         .library(name: "PaulSchmiedmayer", targets: ["PaulSchmiedmayer"]),
         .library(name: "EmmyThamakaison", targets: ["EmmyThamakaison"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
@@ -33,6 +34,9 @@ let package = Package(
         .library(name: "BrianPark", targets: ["BrianPark"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
+        .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "AnushehChaudry", targets: ["AnushehChaudry"]),
+        .library(name: "SherryXie", targets: ["SherryXie"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "RachelWu", targets: ["RachelWu"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
@@ -194,6 +198,7 @@ let package = Package(
                 .process("Resources")
             ]
         ),
+        
         .target(
             name: "HamedHekmat",
             dependencies: [
@@ -241,6 +246,25 @@ let package = Package(
             exclude: [
                 "Resources/BrianPark.jpeg.license",
                 "Resources/BrianParkBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "AdamZhao",
+            exclude: [
+                "Resources/AdamZhaoBio.md.license",
+                "Resources/Headshot_REAL.jpeg.license",
+                "Resources/PhotoBio.md.license",
+                "Resources/Stanford1.HEIC.license",
+                "Resources/Stanford2.HEIC.license",
+                "Resources/Stanford3.HEIC.license",
+                "Resources/Stanford4.HEIC.license",
+                "Resources/Stanford5.HEIC.license",
+                "Resources/Sunset1.JPG.license",
+                "Resources/Sunset2.JPG.license",
+                "Resources/SunsetBackground.JPG.license"
             ],
             resources: [
                 .process("Resources")
