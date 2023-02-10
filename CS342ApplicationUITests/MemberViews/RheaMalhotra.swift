@@ -19,6 +19,8 @@ class RheaMalhotra: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
+        app.swipeUp()
+        
         app.collectionViews.buttons["Rhea Malhotra"].tap()
         XCTAssert(app.staticTexts["Rhea Malhotra"].waitForExistence(timeout: 0.5))
         
@@ -31,11 +33,13 @@ class RheaMalhotra: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
+        app.swipeUp()
+        
         app.collectionViews.buttons["Rhea Malhotra"].tap()
         XCTAssert(app.staticTexts["Rhea Malhotra"].waitForExistence(timeout: 0.5))
         
         app.staticTexts["Rhea Malhotra"].swipeUp()
-        XCTAssert(app.buttons["Rhea's Github"].waitForExistence(timeout: 0.5))
-        app.buttons["Rhea's Github"].tap()
+        XCTAssert(app.buttons["Rhea's GitHub"].waitForExistence(timeout: 0.5))
+        app.buttons["Rhea's GitHub"].tap()
     }
 }
