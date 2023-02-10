@@ -8,11 +8,10 @@
 // SPDX-License-Identifier: MIT
 //
 
-
 // swiftlint:disable file_length
 import PackageDescription
 
-// swiftlint:disable file_length
+
 let package = Package(
     name: "CS342MemberViews",
     platforms: [
