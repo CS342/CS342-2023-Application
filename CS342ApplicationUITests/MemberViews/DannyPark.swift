@@ -18,7 +18,9 @@ class DannyPark: XCTestCase {
     func testDannyPark() throws {
         let app = XCUIApplication()
         app.launch()
-        
+
+        app.swipeUp()
+
         app.collectionViews.buttons["Danny Park"].tap()
         XCTAssert(app.staticTexts["Danny Park"].waitForExistence(timeout: 0.5))
         app.scrollViews.otherElements.buttons["LinkedIn"].tap()
