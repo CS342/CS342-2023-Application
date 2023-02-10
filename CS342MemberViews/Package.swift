@@ -8,10 +8,10 @@
 // SPDX-License-Identifier: MIT
 //
 
+// swiftlint:disable file_length
 import PackageDescription
 
 
-// swiftlint:disable file_length
 let package = Package(
     name: "CS342MemberViews",
     platforms: [
@@ -23,6 +23,8 @@ let package = Package(
         .library(name: "EmmyThamakaison", targets: ["EmmyThamakaison"]),
         .library(name: "OliverAalami", targets: ["OliverAalami"]),
         .library(name: "RajPabari", targets: ["RajPabari"]),
+        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
+        .library(name: "DannyPark", targets: ["DannyPark"]),
         .library(name: "RheaMalhotra", targets: ["RheaMalhotra"]),
         .library(name: "NatashaKacharia", targets: ["NatashaKacharia"]),
         .library(name: "AliMottaghi", targets: ["AliMottaghi"]),
@@ -33,7 +35,6 @@ let package = Package(
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "JiahuiChen", targets: ["JiahuiChen"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
         .library(name: "JustinWu", targets: ["JustinWu"]),
@@ -270,6 +271,19 @@ let package = Package(
             exclude: [
                 "Resources/AshleyGriffin.jpeg.license",
                 "Resources/AshleyGriffinBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+            ),
+        .target(
+            name: "DannyPark",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/DannyPark.jpeg.license",
+                "Resources/DannyParkBio.md.license"
             ],
             resources: [
                 .process("Resources")
