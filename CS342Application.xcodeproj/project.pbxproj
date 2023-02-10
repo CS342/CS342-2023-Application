@@ -11,84 +11,77 @@
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
 		2F23F698296FBAA3003FECF4 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F697296FBAA3003FECF4 /* MemberList.swift */; };
 		2F23F69A296FBAFB003FECF4 /* Member+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F699296FBAFB003FECF4 /* Member+Views.swift */; };
-		2F5A0C602994701D00751138 /* AshleyGriffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC94CBF298A0FB1009C8209 /* AshleyGriffin.swift */; };
-		2F5A0C612994701D00751138 /* CaitlinKunchur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */; };
-		2F5A0C622994701D00751138 /* OliverAalami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09E297A34C900479145 /* OliverAalami.swift */; };
-		2F5A0C632994701D00751138 /* PaulSchmiedmayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */; };
-		2F5A0C642994701D00751138 /* EmmyThamakaison.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96C6162297F421E00D25FBA /* EmmyThamakaison.swift */; };
-		2F5A0C652994701D00751138 /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF504297EFFD7007386C6 /* RajPabari.swift */; };
-		2F5A0C662994701D00751138 /* JenniferXu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F05852980E40F00CC72F3 /* JenniferXu.swift */; };
-		2F5A0C672994701D00751138 /* BrookeKrajancich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C8F6D29824F5C008E69BC /* BrookeKrajancich.swift */; };
-		2F5A0C682994701D00751138 /* ShriyaReddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E15092980E787001AEDAB /* ShriyaReddy.swift */; };
-		2F5A0C692994701D00751138 /* AbhinavAgarwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */; };
-		2F5A0C6A2994701D00751138 /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C387F2980761200528574 /* ParthavShergill.swift */; };
-		2F5A0C6C2994701D00751138 /* SherryXie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */; };
-		2F5A0C6F2994701D00751138 /* StanleyYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA067D529946A6000DBA17C /* StanleyYang.swift */; };
-		2F5A0C702994701D00751138 /* CS342ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */; };
-		2F5A0C712994701D00751138 /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
-		2F5A0C722994701D00751138 /* InstructorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */; };
-		2F5A0C732994701D00751138 /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09C297A34C300479145 /* LeadsUITests.swift */; };
-		2F5A0C78299470D200751138 /* AndyWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A0C77299470D200751138 /* AndyWang.swift */; };
-		2F6AFAEC2996DE8000AEF5BF /* RheaMalhotra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D8101A29800E0E000DC840 /* RheaMalhotra.swift */; };
-		2F6AFAED2996DEB600AEF5BF /* AudreyLin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FB666D297EE749008CE0DE /* AudreyLin.swift */; };
-		2FE2A24A2996E040005CB0BC /* AbhinavAgarwal in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2492996E040005CB0BC /* AbhinavAgarwal */; };
-		2FE2A24C2996E040005CB0BC /* AdamZhao in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A24B2996E040005CB0BC /* AdamZhao */; };
-		2FE2A24E2996E040005CB0BC /* AlexisLowber in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A24D2996E040005CB0BC /* AlexisLowber */; };
-		2FE2A2502996E040005CB0BC /* AliMottaghi in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A24F2996E040005CB0BC /* AliMottaghi */; };
-		2FE2A2522996E040005CB0BC /* AnanyaVasireddy in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2512996E040005CB0BC /* AnanyaVasireddy */; };
-		2FE2A2542996E040005CB0BC /* AndyWang in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2532996E040005CB0BC /* AndyWang */; };
-		2FE2A2562996E040005CB0BC /* AnushehChaudry in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2552996E040005CB0BC /* AnushehChaudry */; };
-		2FE2A2582996E040005CB0BC /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2572996E040005CB0BC /* AshleyGriffin */; };
-		2FE2A25A2996E040005CB0BC /* AudreyLin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2592996E040005CB0BC /* AudreyLin */; };
-		2FE2A25C2996E040005CB0BC /* BrianPark in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A25B2996E040005CB0BC /* BrianPark */; };
-		2FE2A25E2996E040005CB0BC /* BrookeKrajancich in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A25D2996E040005CB0BC /* BrookeKrajancich */; };
-		2FE2A2602996E040005CB0BC /* CaitlinKunchur in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A25F2996E040005CB0BC /* CaitlinKunchur */; };
-		2FE2A2622996E040005CB0BC /* DanielGuo in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2612996E040005CB0BC /* DanielGuo */; };
-		2FE2A2642996E040005CB0BC /* EmmyThamakaison in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2632996E040005CB0BC /* EmmyThamakaison */; };
-		2FE2A2662996E040005CB0BC /* GriffinSomaratne in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2652996E040005CB0BC /* GriffinSomaratne */; };
-		2FE2A2682996E040005CB0BC /* HamedHekmat in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2672996E040005CB0BC /* HamedHekmat */; };
-		2FE2A26A2996E040005CB0BC /* JenMoore in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2692996E040005CB0BC /* JenMoore */; };
-		2FE2A26C2996E040005CB0BC /* JenniferXu in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A26B2996E040005CB0BC /* JenniferXu */; };
-		2FE2A26E2996E040005CB0BC /* JiahuiChen in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A26D2996E040005CB0BC /* JiahuiChen */; };
-		2FE2A2702996E040005CB0BC /* JuliaRhee in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A26F2996E040005CB0BC /* JuliaRhee */; };
-		2FE2A2722996E040005CB0BC /* JustinWu in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2712996E040005CB0BC /* JustinWu */; };
-		2FE2A2742996E040005CB0BC /* NatashaKacharia in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2732996E040005CB0BC /* NatashaKacharia */; };
-		2FE2A2762996E040005CB0BC /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2752996E040005CB0BC /* OliverAalami */; };
-		2FE2A2782996E040005CB0BC /* ParthavShergill in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2772996E040005CB0BC /* ParthavShergill */; };
-		2FE2A27A2996E040005CB0BC /* RachelWu in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2792996E040005CB0BC /* RachelWu */; };
-		2FE2A27C2996E040005CB0BC /* RajPabari in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A27B2996E040005CB0BC /* RajPabari */; };
-		2FE2A27E2996E040005CB0BC /* RheaMalhotra in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A27D2996E040005CB0BC /* RheaMalhotra */; };
-		2FE2A2802996E040005CB0BC /* RiyaKarumanchi in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A27F2996E040005CB0BC /* RiyaKarumanchi */; };
-		2FE2A2822996E040005CB0BC /* SarahBarragan in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2812996E040005CB0BC /* SarahBarragan */; };
-		2FE2A2842996E040005CB0BC /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2832996E040005CB0BC /* SherryXie */; };
-		2FE2A2862996E040005CB0BC /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2852996E040005CB0BC /* ShriyaReddy */; };
-		2FE2A2882996E040005CB0BC /* SonyaJin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2872996E040005CB0BC /* SonyaJin */; };
-		2FE2A28A2996E040005CB0BC /* StanleyYang in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2892996E040005CB0BC /* StanleyYang */; };
 		2FE2A28C2996E057005CB0BC /* PaulSchmiedmayer in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A28B2996E057005CB0BC /* PaulSchmiedmayer */; };
-		4A2F0CBB2989CFB4001195D4 /* DanielGuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */; };
-		5A410273298382CC006D1303 /* GriffinSomaratne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A410272298382CC006D1303 /* GriffinSomaratne.swift */; };
-		6387ED8029800DE7000906C4 /* NatashaKacharia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6387ED7F29800DE7000906C4 /* NatashaKacharia.swift */; };
+		2FE2A28F2996FDED005CB0BC /* AbhinavAgarwal in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A28E2996FDED005CB0BC /* AbhinavAgarwal */; };
+		2FE2A2912996FDED005CB0BC /* AdamZhao in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2902996FDED005CB0BC /* AdamZhao */; };
+		2FE2A2932996FDED005CB0BC /* AlexisLowber in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2922996FDED005CB0BC /* AlexisLowber */; };
+		2FE2A2952996FDED005CB0BC /* AliMottaghi in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2942996FDED005CB0BC /* AliMottaghi */; };
+		2FE2A2972996FDED005CB0BC /* AnanyaVasireddy in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2962996FDED005CB0BC /* AnanyaVasireddy */; };
+		2FE2A2992996FDED005CB0BC /* AndyWang in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2982996FDED005CB0BC /* AndyWang */; };
+		2FE2A29B2996FDED005CB0BC /* AnushehChaudry in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A29A2996FDED005CB0BC /* AnushehChaudry */; };
+		2FE2A29D2996FDED005CB0BC /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A29C2996FDED005CB0BC /* AshleyGriffin */; };
+		2FE2A29F2996FDED005CB0BC /* AudreyLin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A29E2996FDED005CB0BC /* AudreyLin */; };
+		2FE2A2A12996FDED005CB0BC /* BrianPark in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2A02996FDED005CB0BC /* BrianPark */; };
+		2FE2A2A32996FDED005CB0BC /* BrookeKrajancich in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2A22996FDED005CB0BC /* BrookeKrajancich */; };
+		2FE2A2A52996FDED005CB0BC /* CaitlinKunchur in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2A42996FDED005CB0BC /* CaitlinKunchur */; };
+		2FE2A2A72996FDED005CB0BC /* DanielGuo in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2A62996FDED005CB0BC /* DanielGuo */; };
+		2FE2A2A92996FDED005CB0BC /* DannyPark in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2A82996FDED005CB0BC /* DannyPark */; };
+		2FE2A2AB2996FDED005CB0BC /* EmmyThamakaison in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2AA2996FDED005CB0BC /* EmmyThamakaison */; };
+		2FE2A2AD2996FDED005CB0BC /* GriffinSomaratne in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2AC2996FDED005CB0BC /* GriffinSomaratne */; };
+		2FE2A2AF2996FDED005CB0BC /* HamedHekmat in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2AE2996FDED005CB0BC /* HamedHekmat */; };
+		2FE2A2B12996FDED005CB0BC /* JenMoore in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2B02996FDED005CB0BC /* JenMoore */; };
+		2FE2A2B32996FDED005CB0BC /* JenniferXu in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2B22996FDED005CB0BC /* JenniferXu */; };
+		2FE2A2B52996FDED005CB0BC /* JiahuiChen in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2B42996FDED005CB0BC /* JiahuiChen */; };
+		2FE2A2B72996FDED005CB0BC /* JuliaRhee in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2B62996FDED005CB0BC /* JuliaRhee */; };
+		2FE2A2B92996FDED005CB0BC /* JustinWu in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2B82996FDED005CB0BC /* JustinWu */; };
+		2FE2A2BB2996FDED005CB0BC /* NatashaKacharia in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2BA2996FDED005CB0BC /* NatashaKacharia */; };
+		2FE2A2BD2996FDED005CB0BC /* OliverAalami in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2BC2996FDED005CB0BC /* OliverAalami */; };
+		2FE2A2BF2996FDED005CB0BC /* ParthavShergill in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2BE2996FDED005CB0BC /* ParthavShergill */; };
+		2FE2A2C12996FDED005CB0BC /* RachelWu in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2C02996FDED005CB0BC /* RachelWu */; };
+		2FE2A2C32996FDED005CB0BC /* RajPabari in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2C22996FDED005CB0BC /* RajPabari */; };
+		2FE2A2C52996FDED005CB0BC /* RheaMalhotra in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2C42996FDED005CB0BC /* RheaMalhotra */; };
+		2FE2A2C72996FDED005CB0BC /* RiyaKarumanchi in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2C62996FDED005CB0BC /* RiyaKarumanchi */; };
+		2FE2A2C92996FDED005CB0BC /* SarahBarragan in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2C82996FDED005CB0BC /* SarahBarragan */; };
+		2FE2A2CB2996FDED005CB0BC /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2CA2996FDED005CB0BC /* SherryXie */; };
+		2FE2A2CD2996FDED005CB0BC /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2CC2996FDED005CB0BC /* ShriyaReddy */; };
+		2FE2A2CF2996FDED005CB0BC /* SonyaJin in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2CE2996FDED005CB0BC /* SonyaJin */; };
+		2FE2A2D12996FDED005CB0BC /* StanleyYang in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE2A2D02996FDED005CB0BC /* StanleyYang */; };
+		2FE2A2ED2996FE0D005CB0BC /* AudreyLin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D22996FE0C005CB0BC /* AudreyLin.swift */; };
+		2FE2A2EE2996FE0D005CB0BC /* AnanyaVasireddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D32996FE0C005CB0BC /* AnanyaVasireddy.swift */; };
+		2FE2A2EF2996FE0D005CB0BC /* ShriyaReddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D42996FE0C005CB0BC /* ShriyaReddy.swift */; };
+		2FE2A2F02996FE0D005CB0BC /* EmmyThamakaison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D52996FE0C005CB0BC /* EmmyThamakaison.swift */; };
+		2FE2A2F12996FE0D005CB0BC /* AdamZhao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D62996FE0C005CB0BC /* AdamZhao.swift */; };
+		2FE2A2F22996FE0D005CB0BC /* AndyWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D72996FE0C005CB0BC /* AndyWang.swift */; };
+		2FE2A2F32996FE0D005CB0BC /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D82996FE0C005CB0BC /* ParthavShergill.swift */; };
+		2FE2A2F42996FE0D005CB0BC /* JenMoore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2D92996FE0C005CB0BC /* JenMoore.swift */; };
+		2FE2A2F52996FE0D005CB0BC /* BrookeKrajancich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2DA2996FE0C005CB0BC /* BrookeKrajancich.swift */; };
+		2FE2A2F62996FE0D005CB0BC /* StanleyYang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2DB2996FE0C005CB0BC /* StanleyYang.swift */; };
+		2FE2A2F72996FE0D005CB0BC /* DannyPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2DC2996FE0C005CB0BC /* DannyPark.swift */; };
+		2FE2A2F82996FE0D005CB0BC /* SherryXie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2DD2996FE0C005CB0BC /* SherryXie.swift */; };
+		2FE2A2F92996FE0D005CB0BC /* AshleyGriffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2DE2996FE0C005CB0BC /* AshleyGriffin.swift */; };
+		2FE2A2FA2996FE0D005CB0BC /* JustinWu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2DF2996FE0C005CB0BC /* JustinWu.swift */; };
+		2FE2A2FB2996FE0D005CB0BC /* RajPabari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E02996FE0C005CB0BC /* RajPabari.swift */; };
+		2FE2A2FC2996FE0D005CB0BC /* JiahuiChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E12996FE0C005CB0BC /* JiahuiChen.swift */; };
+		2FE2A2FD2996FE0D005CB0BC /* AbhinavAgarwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E22996FE0C005CB0BC /* AbhinavAgarwal.swift */; };
+		2FE2A2FE2996FE0D005CB0BC /* OliverAalami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E32996FE0C005CB0BC /* OliverAalami.swift */; };
+		2FE2A2FF2996FE0D005CB0BC /* CaitlinKunchur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E42996FE0D005CB0BC /* CaitlinKunchur.swift */; };
+		2FE2A3002996FE0D005CB0BC /* HamedHekmat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E52996FE0D005CB0BC /* HamedHekmat.swift */; };
+		2FE2A3012996FE0D005CB0BC /* RiyaKarumanchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E62996FE0D005CB0BC /* RiyaKarumanchi.swift */; };
+		2FE2A3022996FE0D005CB0BC /* NatashaKacharia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E72996FE0D005CB0BC /* NatashaKacharia.swift */; };
+		2FE2A3032996FE0D005CB0BC /* SonyaJin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E82996FE0D005CB0BC /* SonyaJin.swift */; };
+		2FE2A3042996FE0D005CB0BC /* AnushehChaudry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2E92996FE0D005CB0BC /* AnushehChaudry.swift */; };
+		2FE2A3052996FE0D005CB0BC /* JenniferXu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2EA2996FE0D005CB0BC /* JenniferXu.swift */; };
+		2FE2A3062996FE0D005CB0BC /* RheaMalhotra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2EB2996FE0D005CB0BC /* RheaMalhotra.swift */; };
+		2FE2A3072996FE0D005CB0BC /* DanielGuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2A2EC2996FE0D005CB0BC /* DanielGuo.swift */; };
+		2FE2A3082996FE13005CB0BC /* PaulSchmiedmayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */; };
+		2FE2A3092996FE1E005CB0BC /* CS342ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */; };
+		2FE2A30A2996FE25005CB0BC /* GriffinSomaratne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A410272298382CC006D1303 /* GriffinSomaratne.swift */; };
+		2FE2A30B2996FE29005CB0BC /* StudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF502297EFF88007386C6 /* StudentsUITests.swift */; };
+		2FE2A30C2996FE2C005CB0BC /* InstructorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */; };
+		2FE2A30D2996FE2F005CB0BC /* LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8A09C297A34C300479145 /* LeadsUITests.swift */; };
+		2FE2A30E2996FE32005CB0BC /* StudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D2378297FAC9A00342971 /* StudentUITests.swift */; };
 		653A2551283387FE005D4D48 /* CS342Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* CS342Application.swift */; };
 		653A256228338800005D4D48 /* CS342ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A256128338800005D4D48 /* CS342ApplicationTests.swift */; };
-		6DF9E9442981007900911234 /* RiyaKarumanchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9E9432981007900911234 /* RiyaKarumanchi.swift */; };
-		86FADEAB29886B54008BC807 /* AnanyaVasireddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADEAA29886B54008BC807 /* AnanyaVasireddy.swift */; };
-		A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* SherryXie */; };
-		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
-		ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */; };
-		DA14B6EA297FCB9300D09651 /* DannyPark in Frameworks */ = {isa = PBXBuildFile; productRef = DA14B6E9297FCB9300D09651 /* DannyPark */; };
-		DA14B6EC297FD9BC00D09651 /* DannyPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14B6EB297FD9BC00D09651 /* DannyPark.swift */; };
-		C725CEBE298072F400BF23C6 /* JiahuiChen in Frameworks */ = {isa = PBXBuildFile; productRef = C725CEBD298072F400BF23C6 /* JiahuiChen */; };
-		C725CEC029807B8A00BF23C6 /* JiahuiChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725CEBF29807B8A00BF23C6 /* JiahuiChen.swift */; };
-		ADC4123529810F08008E7C56 /* AbhinavAgarwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */; };
-		ADC4123729811ACE008E7C56 /* AbhinavAgarwal in Frameworks */ = {isa = PBXBuildFile; productRef = ADC4123629811ACE008E7C56 /* AbhinavAgarwal */; };
-		F72C38802980761200528574 /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C387F2980761200528574 /* ParthavShergill.swift */; };
-		89E6BD5F297F685C007B3E04 /* AdamZhao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6BD5E297F685C007B3E04 /* AdamZhao.swift */; };
-		A63D2379297FAC9A00342971 /* StudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D2378297FAC9A00342971 /* StudentUITests.swift */; };
-		A63D237B297FADCF00342971 /* AnushehChaudry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D237A297FADCF00342971 /* AnushehChaudry.swift */; };
-		ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */; };
-		C725CEC029807B8A00BF23C6 /* JiahuiChen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725CEBF29807B8A00BF23C6 /* JiahuiChen.swift */; };
-		F565FA51297F19820043DB25 /* JustinWu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565FA50297F19820043DB25 /* JustinWu.swift */; };
-		F72C38802980761200528574 /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C387F2980761200528574 /* ParthavShergill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +103,6 @@
 
 /* Begin PBXFileReference section */
 		23FFF502297EFF88007386C6 /* StudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsUITests.swift; sourceTree = "<group>"; };
-		23FFF504297EFFD7007386C6 /* RajPabari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajPabari.swift; sourceTree = "<group>"; };
 		2F23F690296FB11D003FECF4 /* CS342MemberViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CS342MemberViews; sourceTree = "<group>"; };
 		2F23F693296FBA8B003FECF4 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		2F23F695296FBA92003FECF4 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
@@ -119,43 +111,43 @@
 		2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorsUITests.swift; sourceTree = "<group>"; };
 		2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationUITests.swift; sourceTree = "<group>"; };
 		2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaulSchmiedmayer.swift; sourceTree = "<group>"; };
-		2F5A0C77299470D200751138 /* AndyWang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndyWang.swift; sourceTree = "<group>"; };
-		2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
-		2FA067D529946A6000DBA17C /* StanleyYang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StanleyYang.swift; sourceTree = "<group>"; };
 		2FC8A09C297A34C300479145 /* LeadsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadsUITests.swift; sourceTree = "<group>"; };
-		2FC8A09E297A34C900479145 /* OliverAalami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OliverAalami.swift; sourceTree = "<group>"; };
-		2FC94CBF298A0FB1009C8209 /* AshleyGriffin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AshleyGriffin.swift; sourceTree = "<group>"; };
-		3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaitlinKunchur.swift; sourceTree = "<group>"; };
-		4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanielGuo.swift; sourceTree = "<group>"; };
-		545E15092980E787001AEDAB /* ShriyaReddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriyaReddy.swift; sourceTree = "<group>"; };
+		2FE2A2D22996FE0C005CB0BC /* AudreyLin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudreyLin.swift; sourceTree = "<group>"; };
+		2FE2A2D32996FE0C005CB0BC /* AnanyaVasireddy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnanyaVasireddy.swift; sourceTree = "<group>"; };
+		2FE2A2D42996FE0C005CB0BC /* ShriyaReddy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShriyaReddy.swift; sourceTree = "<group>"; };
+		2FE2A2D52996FE0C005CB0BC /* EmmyThamakaison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmmyThamakaison.swift; sourceTree = "<group>"; };
+		2FE2A2D62996FE0C005CB0BC /* AdamZhao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdamZhao.swift; sourceTree = "<group>"; };
+		2FE2A2D72996FE0C005CB0BC /* AndyWang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndyWang.swift; sourceTree = "<group>"; };
+		2FE2A2D82996FE0C005CB0BC /* ParthavShergill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParthavShergill.swift; sourceTree = "<group>"; };
+		2FE2A2D92996FE0C005CB0BC /* JenMoore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JenMoore.swift; sourceTree = "<group>"; };
+		2FE2A2DA2996FE0C005CB0BC /* BrookeKrajancich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrookeKrajancich.swift; sourceTree = "<group>"; };
+		2FE2A2DB2996FE0C005CB0BC /* StanleyYang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StanleyYang.swift; sourceTree = "<group>"; };
+		2FE2A2DC2996FE0C005CB0BC /* DannyPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DannyPark.swift; sourceTree = "<group>"; };
+		2FE2A2DD2996FE0C005CB0BC /* SherryXie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherryXie.swift; sourceTree = "<group>"; };
+		2FE2A2DE2996FE0C005CB0BC /* AshleyGriffin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AshleyGriffin.swift; sourceTree = "<group>"; };
+		2FE2A2DF2996FE0C005CB0BC /* JustinWu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustinWu.swift; sourceTree = "<group>"; };
+		2FE2A2E02996FE0C005CB0BC /* RajPabari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RajPabari.swift; sourceTree = "<group>"; };
+		2FE2A2E12996FE0C005CB0BC /* JiahuiChen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiahuiChen.swift; sourceTree = "<group>"; };
+		2FE2A2E22996FE0C005CB0BC /* AbhinavAgarwal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbhinavAgarwal.swift; sourceTree = "<group>"; };
+		2FE2A2E32996FE0C005CB0BC /* OliverAalami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OliverAalami.swift; sourceTree = "<group>"; };
+		2FE2A2E42996FE0D005CB0BC /* CaitlinKunchur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaitlinKunchur.swift; sourceTree = "<group>"; };
+		2FE2A2E52996FE0D005CB0BC /* HamedHekmat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamedHekmat.swift; sourceTree = "<group>"; };
+		2FE2A2E62996FE0D005CB0BC /* RiyaKarumanchi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiyaKarumanchi.swift; sourceTree = "<group>"; };
+		2FE2A2E72996FE0D005CB0BC /* NatashaKacharia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatashaKacharia.swift; sourceTree = "<group>"; };
+		2FE2A2E82996FE0D005CB0BC /* SonyaJin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyaJin.swift; sourceTree = "<group>"; };
+		2FE2A2E92996FE0D005CB0BC /* AnushehChaudry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnushehChaudry.swift; sourceTree = "<group>"; };
+		2FE2A2EA2996FE0D005CB0BC /* JenniferXu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JenniferXu.swift; sourceTree = "<group>"; };
+		2FE2A2EB2996FE0D005CB0BC /* RheaMalhotra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RheaMalhotra.swift; sourceTree = "<group>"; };
+		2FE2A2EC2996FE0D005CB0BC /* DanielGuo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanielGuo.swift; sourceTree = "<group>"; };
 		5A410272298382CC006D1303 /* GriffinSomaratne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GriffinSomaratne.swift; sourceTree = "<group>"; };
-		6387ED7F29800DE7000906C4 /* NatashaKacharia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatashaKacharia.swift; sourceTree = "<group>"; };
 		653A254D283387FE005D4D48 /* CS342Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS342Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A2550283387FE005D4D48 /* CS342Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342Application.swift; sourceTree = "<group>"; };
 		653A255D28338800005D4D48 /* CS342ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A256128338800005D4D48 /* CS342ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342ApplicationTests.swift; sourceTree = "<group>"; };
 		653A256728338800005D4D48 /* CS342ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS342ApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A258928339462005D4D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshleyGriffin.swift; sourceTree = "<group>"; };
-		DA14B6EB297FD9BC00D09651 /* DannyPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DannyPark.swift; sourceTree = "<group>"; };
-		C725CEBF29807B8A00BF23C6 /* JiahuiChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiahuiChen.swift; sourceTree = "<group>"; };
-		666F05852980E40F00CC72F3 /* JenniferXu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenniferXu.swift; sourceTree = "<group>"; };
-		6DF9E9432981007900911234 /* RiyaKarumanchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiyaKarumanchi.swift; sourceTree = "<group>"; };
-		86FADEAA29886B54008BC807 /* AnanyaVasireddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnanyaVasireddy.swift; sourceTree = "<group>"; };
-		89E6BD5E297F685C007B3E04 /* AdamZhao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamZhao.swift; sourceTree = "<group>"; };
-		933C8F6D29824F5C008E69BC /* BrookeKrajancich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrookeKrajancich.swift; sourceTree = "<group>"; };
-		A11A0B0D297FDA3D00E03791 /* AndyWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndyWang.swift; sourceTree = "<group>"; };
 		A63D2378297FAC9A00342971 /* StudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUITests.swift; sourceTree = "<group>"; };
-		A63D237A297FADCF00342971 /* AnushehChaudry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnushehChaudry.swift; sourceTree = "<group>"; };
-		ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshleyGriffin.swift; sourceTree = "<group>"; };
-		ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhinavAgarwal.swift; sourceTree = "<group>"; };
 		B96C6161297DB29100D25FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B96C6162297F421E00D25FBA /* EmmyThamakaison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmmyThamakaison.swift; sourceTree = "<group>"; };
-		C725CEBF29807B8A00BF23C6 /* JiahuiChen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiahuiChen.swift; sourceTree = "<group>"; };
-		E1D8101A29800E0E000DC840 /* RheaMalhotra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RheaMalhotra.swift; sourceTree = "<group>"; };
-		F565FA50297F19820043DB25 /* JustinWu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustinWu.swift; sourceTree = "<group>"; };
-		F72C387F2980761200528574 /* ParthavShergill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParthavShergill.swift; sourceTree = "<group>"; };
-		F9FB666D297EE749008CE0DE /* AudreyLin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudreyLin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,107 +155,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C725CEBE298072F400BF23C6 /* JiahuiChen in Frameworks */,
-				549CDC42297A3D8800769FDD /* PaulSchmiedmayer in Frameworks */,
-				A673C85C297CDAE400D0E9A6 /* AnushehChaudry in Frameworks */,
-				31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */,
-				F9FB6670297F14C4008CE0DE /* AudreyLin in Frameworks */,
-				2FC94CCD298AFB1D009C8209 /* SherryXie in Frameworks */,
-				2FC94CCC298AFB1D009C8209 /* CaitlinKunchur in Frameworks */,
-				6659C233298AEAFE0014D85B /* SonyaJin in Frameworks */,
-				6659C21B298AEAFE0014D85B /* AlexisLowber in Frameworks */,
-				6659C22B298AEAFE0014D85B /* ParthavShergill in Frameworks */,
-				6659C229298AEAFE0014D85B /* JustinWu in Frameworks */,
-				6659C21D298AEAFE0014D85B /* AndyWang in Frameworks */,
-				6659C21F298AEAFE0014D85B /* AudreyLin in Frameworks */,
-				6659C219298AEAFE0014D85B /* AbhinavAgarwal in Frameworks */,
-				6659C225298AEAFE0014D85B /* HamedHekmat in Frameworks */,
-				6659C221298AEAFE0014D85B /* BrookeKrajancich in Frameworks */,
-				66087F0F2980CA6500EA5F65 /* JenniferXu in Frameworks */,
-				8625132D297FAF2B004014AE /* AnanyaVasireddy in Frameworks */,
-				549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */,
-				75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */,
-				31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */,
-				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
-				5A410275298383D3006D1303 /* GriffinSomaratne in Frameworks */,
-				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
-				A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */,
-				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
-				DA14B6EA297FCB9300D09651 /* DannyPark in Frameworks */,
-				3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */,
-				6DF9E946298105CA00911234 /* RiyaKarumanchi in Frameworks */,
-				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
-				4196F5E7297F1B5D002E3C66 /* AliMottaghi in Frameworks */,
-				C6DA125F297FCCB50073C7A3 /* BrianPark in Frameworks */,
-				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
-				6659C22F298AEAFE0014D85B /* ShriyaReddy in Frameworks */,
-				6659C22D298AEAFE0014D85B /* SarahBarragan in Frameworks */,
-				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
-				B96C6160297DA17300D25FBA /* EmmyThamakaison in Frameworks */,
-				A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */,
-				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
-				27B7629A297F8398007F1029 /* SonyaJin in Frameworks */,
-				3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */,
-				F7E62791297FA45B00200446 /* ParthavShergill in Frameworks */,
-				B9D23CB7298B22C00024943E /* SherryXie in Frameworks */,
-				F565FA53297F29700043DB25 /* JustinWu in Frameworks */,
-				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
-				89EC86C8297DEE3D00F2099A /* AdamZhao in Frameworks */,
-				A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */,
-				A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */,
-				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				933C8F6C29824E0A008E69BC /* BrookeKrajancich in Frameworks */,
-				5E67C7D32981ECF000171843 /* AlexisLowber in Frameworks */,
-				2383279B29885644001822D6 /* JenMoore in Frameworks */,
-				2F7FC3FF2985DC89005EDB04 /* SherryXie in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
-				2F05ED452985D9350035153C /* RachelWu in Frameworks */,
-				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
-				63057E1D297F1E2400DF58C1 /* NatashaKacharia in Frameworks */,
-				6659C223298AEAFE0014D85B /* CaitlinKunchur in Frameworks */,
-				64FE8AA7298B4825007E3FEF /* JuliaRhee in Frameworks */,
-				6659C231298AEAFE0014D85B /* ShriyaReddy in Frameworks */,
-				6659C227298AEAFE0014D85B /* JenMoore in Frameworks */,
-				6659C235298AEAFE0014D85B /* StanleyYang in Frameworks */,
-				ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */,
-				4ACE27D82989229A00092FF8 /* DanielGuo in Frameworks */,
-				2FE2A2742996E040005CB0BC /* NatashaKacharia in Frameworks */,
-				2FE2A2782996E040005CB0BC /* ParthavShergill in Frameworks */,
-				2FE2A25A2996E040005CB0BC /* AudreyLin in Frameworks */,
-				2FE2A2702996E040005CB0BC /* JuliaRhee in Frameworks */,
-				2FE2A27E2996E040005CB0BC /* RheaMalhotra in Frameworks */,
-				2FE2A2522996E040005CB0BC /* AnanyaVasireddy in Frameworks */,
-				2FE2A2542996E040005CB0BC /* AndyWang in Frameworks */,
+				2FE2A2CD2996FDED005CB0BC /* ShriyaReddy in Frameworks */,
+				2FE2A2B32996FDED005CB0BC /* JenniferXu in Frameworks */,
+				2FE2A2C32996FDED005CB0BC /* RajPabari in Frameworks */,
+				2FE2A2D12996FDED005CB0BC /* StanleyYang in Frameworks */,
+				2FE2A2BF2996FDED005CB0BC /* ParthavShergill in Frameworks */,
+				2FE2A2B52996FDED005CB0BC /* JiahuiChen in Frameworks */,
+				2FE2A2BD2996FDED005CB0BC /* OliverAalami in Frameworks */,
+				2FE2A29F2996FDED005CB0BC /* AudreyLin in Frameworks */,
+				2FE2A2972996FDED005CB0BC /* AnanyaVasireddy in Frameworks */,
+				2FE2A2992996FDED005CB0BC /* AndyWang in Frameworks */,
+				2FE2A2CF2996FDED005CB0BC /* SonyaJin in Frameworks */,
+				2FE2A29B2996FDED005CB0BC /* AnushehChaudry in Frameworks */,
+				2FE2A28F2996FDED005CB0BC /* AbhinavAgarwal in Frameworks */,
+				2FE2A2932996FDED005CB0BC /* AlexisLowber in Frameworks */,
+				2FE2A2B72996FDED005CB0BC /* JuliaRhee in Frameworks */,
+				2FE2A2CB2996FDED005CB0BC /* SherryXie in Frameworks */,
+				2FE2A2AD2996FDED005CB0BC /* GriffinSomaratne in Frameworks */,
+				2FE2A29D2996FDED005CB0BC /* AshleyGriffin in Frameworks */,
+				2FE2A2BB2996FDED005CB0BC /* NatashaKacharia in Frameworks */,
+				2FE2A2B12996FDED005CB0BC /* JenMoore in Frameworks */,
+				2FE2A2AB2996FDED005CB0BC /* EmmyThamakaison in Frameworks */,
+				2FE2A2C12996FDED005CB0BC /* RachelWu in Frameworks */,
+				2FE2A2C92996FDED005CB0BC /* SarahBarragan in Frameworks */,
+				2FE2A2B92996FDED005CB0BC /* JustinWu in Frameworks */,
+				2FE2A2A12996FDED005CB0BC /* BrianPark in Frameworks */,
+				2FE2A2AF2996FDED005CB0BC /* HamedHekmat in Frameworks */,
+				2FE2A2A52996FDED005CB0BC /* CaitlinKunchur in Frameworks */,
+				2FE2A2A32996FDED005CB0BC /* BrookeKrajancich in Frameworks */,
+				2FE2A2952996FDED005CB0BC /* AliMottaghi in Frameworks */,
+				2FE2A2912996FDED005CB0BC /* AdamZhao in Frameworks */,
 				2FE2A28C2996E057005CB0BC /* PaulSchmiedmayer in Frameworks */,
-				2FE2A2562996E040005CB0BC /* AnushehChaudry in Frameworks */,
-				2FE2A2882996E040005CB0BC /* SonyaJin in Frameworks */,
-				2FE2A2822996E040005CB0BC /* SarahBarragan in Frameworks */,
-				2FE2A27A2996E040005CB0BC /* RachelWu in Frameworks */,
-				2FE2A2802996E040005CB0BC /* RiyaKarumanchi in Frameworks */,
-				2FE2A24A2996E040005CB0BC /* AbhinavAgarwal in Frameworks */,
-				2FE2A2642996E040005CB0BC /* EmmyThamakaison in Frameworks */,
-				2FE2A2682996E040005CB0BC /* HamedHekmat in Frameworks */,
-				2FE2A24E2996E040005CB0BC /* AlexisLowber in Frameworks */,
-				2FE2A28A2996E040005CB0BC /* StanleyYang in Frameworks */,
-				2FE2A2722996E040005CB0BC /* JustinWu in Frameworks */,
-				2FE2A2582996E040005CB0BC /* AshleyGriffin in Frameworks */,
-				2FE2A2842996E040005CB0BC /* SherryXie in Frameworks */,
-				2FE2A26A2996E040005CB0BC /* JenMoore in Frameworks */,
-				2FE2A2862996E040005CB0BC /* ShriyaReddy in Frameworks */,
-				2FE2A26E2996E040005CB0BC /* JiahuiChen in Frameworks */,
-				2FE2A25C2996E040005CB0BC /* BrianPark in Frameworks */,
-				2FE2A27C2996E040005CB0BC /* RajPabari in Frameworks */,
-				2FE2A2602996E040005CB0BC /* CaitlinKunchur in Frameworks */,
-				2FE2A25E2996E040005CB0BC /* BrookeKrajancich in Frameworks */,
-				2FE2A26C2996E040005CB0BC /* JenniferXu in Frameworks */,
-				2FE2A2762996E040005CB0BC /* OliverAalami in Frameworks */,
-				2FE2A2502996E040005CB0BC /* AliMottaghi in Frameworks */,
-				2FE2A24C2996E040005CB0BC /* AdamZhao in Frameworks */,
-				2FE2A2622996E040005CB0BC /* DanielGuo in Frameworks */,
-				2FE2A2662996E040005CB0BC /* GriffinSomaratne in Frameworks */,
+				2FE2A2C72996FDED005CB0BC /* RiyaKarumanchi in Frameworks */,
+				2FE2A2C52996FDED005CB0BC /* RheaMalhotra in Frameworks */,
+				2FE2A2A72996FDED005CB0BC /* DanielGuo in Frameworks */,
+				2FE2A2A92996FDED005CB0BC /* DannyPark in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,33 +238,35 @@
 		2F23F6B329700C7F003FECF4 /* MemberViews */ = {
 			isa = PBXGroup;
 			children = (
-				DA14B6EB297FD9BC00D09651 /* DannyPark.swift */,
-				2F5A0C77299470D200751138 /* AndyWang.swift */,
-				2FC94CBF298A0FB1009C8209 /* AshleyGriffin.swift */,
-				3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */,
-				2FC8A09E297A34C900479145 /* OliverAalami.swift */,
-				E1D8101A29800E0E000DC840 /* RheaMalhotra.swift */,
 				2F23F6B129700C7B003FECF4 /* PaulSchmiedmayer.swift */,
-				A63D237A297FADCF00342971 /* AnushehChaudry.swift */,
-				F9FB666D297EE749008CE0DE /* AudreyLin.swift */,
-				A11A0B0D297FDA3D00E03791 /* AndyWang.swift */,
-				89E6BD5E297F685C007B3E04 /* AdamZhao.swift */,
-				B96C6162297F421E00D25FBA /* EmmyThamakaison.swift */,
-				23FFF504297EFFD7007386C6 /* RajPabari.swift */,
-				C725CEBF29807B8A00BF23C6 /* JiahuiChen.swift */,
-				6387ED7F29800DE7000906C4 /* NatashaKacharia.swift */,
-				ABFEA6DA297C78FD00EF30AE /* AshleyGriffin.swift */,
-				6DF9E9432981007900911234 /* RiyaKarumanchi.swift */,
-				666F05852980E40F00CC72F3 /* JenniferXu.swift */,
-				933C8F6D29824F5C008E69BC /* BrookeKrajancich.swift */,
-				545E15092980E787001AEDAB /* ShriyaReddy.swift */,
-				ADC4123429810F08008E7C56 /* AbhinavAgarwal.swift */,
-				F72C387F2980761200528574 /* ParthavShergill.swift */,
-				F565FA50297F19820043DB25 /* JustinWu.swift */,
-				2F7FC3FC2985DC5D005EDB04 /* SherryXie.swift */,
-				4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */,
-				86FADEAA29886B54008BC807 /* AnanyaVasireddy.swift */,
-				2FA067D529946A6000DBA17C /* StanleyYang.swift */,
+				2FE2A2E22996FE0C005CB0BC /* AbhinavAgarwal.swift */,
+				2FE2A2D62996FE0C005CB0BC /* AdamZhao.swift */,
+				2FE2A2D32996FE0C005CB0BC /* AnanyaVasireddy.swift */,
+				2FE2A2D72996FE0C005CB0BC /* AndyWang.swift */,
+				2FE2A2E92996FE0D005CB0BC /* AnushehChaudry.swift */,
+				2FE2A2DE2996FE0C005CB0BC /* AshleyGriffin.swift */,
+				2FE2A2D22996FE0C005CB0BC /* AudreyLin.swift */,
+				2FE2A2DA2996FE0C005CB0BC /* BrookeKrajancich.swift */,
+				2FE2A2E42996FE0D005CB0BC /* CaitlinKunchur.swift */,
+				2FE2A2EC2996FE0D005CB0BC /* DanielGuo.swift */,
+				2FE2A2DC2996FE0C005CB0BC /* DannyPark.swift */,
+				2FE2A2D52996FE0C005CB0BC /* EmmyThamakaison.swift */,
+				2FE2A2E52996FE0D005CB0BC /* HamedHekmat.swift */,
+				2FE2A2D92996FE0C005CB0BC /* JenMoore.swift */,
+				2FE2A2EA2996FE0D005CB0BC /* JenniferXu.swift */,
+				2FE2A2E12996FE0C005CB0BC /* JiahuiChen.swift */,
+				2FE2A2DF2996FE0C005CB0BC /* JustinWu.swift */,
+				2FE2A2E72996FE0D005CB0BC /* NatashaKacharia.swift */,
+				2FE2A2E32996FE0C005CB0BC /* OliverAalami.swift */,
+				2FE2A2D82996FE0C005CB0BC /* ParthavShergill.swift */,
+				2FE2A2E02996FE0C005CB0BC /* RajPabari.swift */,
+				2FE2A2EB2996FE0D005CB0BC /* RheaMalhotra.swift */,
+				5A410272298382CC006D1303 /* GriffinSomaratne.swift */,
+				2FE2A2E62996FE0D005CB0BC /* RiyaKarumanchi.swift */,
+				2FE2A2DD2996FE0C005CB0BC /* SherryXie.swift */,
+				2FE2A2D42996FE0C005CB0BC /* ShriyaReddy.swift */,
+				2FE2A2E82996FE0D005CB0BC /* SonyaJin.swift */,
+				2FE2A2DB2996FE0C005CB0BC /* StanleyYang.swift */,
 			);
 			path = MemberViews;
 			sourceTree = "<group>";
@@ -390,7 +318,6 @@
 			children = (
 				2F23F6B329700C7F003FECF4 /* MemberViews */,
 				2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */,
-				5A410272298382CC006D1303 /* GriffinSomaratne.swift */,
 				23FFF502297EFF88007386C6 /* StudentsUITests.swift */,
 				2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */,
 				2FC8A09C297A34C300479145 /* LeadsUITests.swift */,
@@ -416,99 +343,41 @@
 			);
 			name = CS342Application;
 			packageProductDependencies = (
-				2F23F691296FB12A003FECF4 /* PaulSchmiedmayer */,
-				89EC86C7297DEE3D00F2099A /* AdamZhao */,
-				75CF1E92297CCD1000E7E71B /* SarahBarragan */,
-				31AD2F0C297FBFBE00880C3F /* StanleyYang */,
-				F9FB666F297F14C4008CE0DE /* AudreyLin */,
-				B96C615F297DA17300D25FBA /* EmmyThamakaison */,
-				2FC8A09A297A315300479145 /* OliverAalami */,
-				A673C85B297CDAE400D0E9A6 /* AnushehChaudry */,
-				A11A0B09297F9C8600E03791 /* SherryXie */,
-				31AD2F0C297FBFBE00880C3F /* StanleyYang */,
-				2FC8A09A297A315300479145 /* OliverAalami */,
-				8625132C297FAF2B004014AE /* AnanyaVasireddy */,
-				75CF1E92297CCD1000E7E71B /* SarahBarragan */,
-				31AD2F0C297FBFBE00880C3F /* StanleyYang */,
-				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
-				A11A0B09297F9C8600E03791 /* SherryXie */,
-				2324B680297D972200C8D549 /* RajPabari */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
-				DA14B6E9297FCB9300D09651 /* DannyPark */,
-				C725CEBD298072F400BF23C6 /* JiahuiChen */,
-				27B76299297F8398007F1029 /* SonyaJin */,
-				ADC4123629811ACE008E7C56 /* AbhinavAgarwal */,
-				933C8F6B29824E0A008E69BC /* BrookeKrajancich */,
-				5E67C7D22981ECF000171843 /* AlexisLowber */,
-				ADC4123629811ACE008E7C56 /* AbhinavAgarwal */,
-				1A8C31D7297F95E1002D6F2F /* HamedHekmat */,
-				4ACE27D72989229A00092FF8 /* DanielGuo */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
-				5A410274298383D3006D1303 /* GriffinSomaratne */,
-				63057E1C297F1E2400DF58C1 /* NatashaKacharia */,
-				4196F5E6297F1B5D002E3C66 /* AliMottaghi */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
-				C6DA125E297FCCB50073C7A3 /* BrianPark */,
-				F7E62790297FA45B00200446 /* ParthavShergill */,
-				F565FA52297F29700043DB25 /* JustinWu */,
-				F7E62790297FA45B00200446 /* ParthavShergill */,
-				F565FA52297F29700043DB25 /* JustinWu */,
-				2F05ED442985D9350035153C /* RachelWu */,
-				B9D23CB6298B22C00024943E /* SherryXie */,
-				4ACE27D72989229A00092FF8 /* DanielGuo */,
-				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
-				6DF9E945298105CA00911234 /* RiyaKarumanchi */,
-				66087F0E2980CA6500EA5F65 /* JenniferXu */,
-				6659C218298AEAFE0014D85B /* AbhinavAgarwal */,
-				6659C21A298AEAFE0014D85B /* AlexisLowber */,
-				6659C21C298AEAFE0014D85B /* AndyWang */,
-				6659C21E298AEAFE0014D85B /* AudreyLin */,
-				6659C220298AEAFE0014D85B /* BrookeKrajancich */,
-				6659C222298AEAFE0014D85B /* CaitlinKunchur */,
-				6659C224298AEAFE0014D85B /* HamedHekmat */,
-				6659C226298AEAFE0014D85B /* JenMoore */,
-				6659C228298AEAFE0014D85B /* JustinWu */,
-				6659C22A298AEAFE0014D85B /* ParthavShergill */,
-				6659C22C298AEAFE0014D85B /* SarahBarragan */,
-				6659C22E298AEAFE0014D85B /* ShriyaReddy */,
-				6659C230298AEAFE0014D85B /* ShriyaReddy */,
-				6659C232298AEAFE0014D85B /* SonyaJin */,
-				6659C234298AEAFE0014D85B /* StanleyYang */,
-				64FE8AA6298B4825007E3FEF /* JuliaRhee */,
-				2FE2A2492996E040005CB0BC /* AbhinavAgarwal */,
-				2FE2A24B2996E040005CB0BC /* AdamZhao */,
-				2FE2A24D2996E040005CB0BC /* AlexisLowber */,
-				2FE2A24F2996E040005CB0BC /* AliMottaghi */,
-				2FE2A2512996E040005CB0BC /* AnanyaVasireddy */,
-				2FE2A2532996E040005CB0BC /* AndyWang */,
-				2FE2A2552996E040005CB0BC /* AnushehChaudry */,
-				2FE2A2572996E040005CB0BC /* AshleyGriffin */,
-				2FE2A2592996E040005CB0BC /* AudreyLin */,
-				2FE2A25B2996E040005CB0BC /* BrianPark */,
-				2FE2A25D2996E040005CB0BC /* BrookeKrajancich */,
-				2FE2A25F2996E040005CB0BC /* CaitlinKunchur */,
-				2FE2A2612996E040005CB0BC /* DanielGuo */,
-				2FE2A2632996E040005CB0BC /* EmmyThamakaison */,
-				2FE2A2652996E040005CB0BC /* GriffinSomaratne */,
-				2FE2A2672996E040005CB0BC /* HamedHekmat */,
-				2FE2A2692996E040005CB0BC /* JenMoore */,
-				2FE2A26B2996E040005CB0BC /* JenniferXu */,
-				2FE2A26D2996E040005CB0BC /* JiahuiChen */,
-				2FE2A26F2996E040005CB0BC /* JuliaRhee */,
-				2FE2A2712996E040005CB0BC /* JustinWu */,
-				2FE2A2732996E040005CB0BC /* NatashaKacharia */,
-				2FE2A2752996E040005CB0BC /* OliverAalami */,
-				2FE2A2772996E040005CB0BC /* ParthavShergill */,
-				2FE2A2792996E040005CB0BC /* RachelWu */,
-				2FE2A27B2996E040005CB0BC /* RajPabari */,
-				2FE2A27D2996E040005CB0BC /* RheaMalhotra */,
-				2FE2A27F2996E040005CB0BC /* RiyaKarumanchi */,
-				2FE2A2812996E040005CB0BC /* SarahBarragan */,
-				2FE2A2832996E040005CB0BC /* SherryXie */,
-				2FE2A2852996E040005CB0BC /* ShriyaReddy */,
-				2FE2A2872996E040005CB0BC /* SonyaJin */,
-				2FE2A2892996E040005CB0BC /* StanleyYang */,
 				2FE2A28B2996E057005CB0BC /* PaulSchmiedmayer */,
+				2FE2A28E2996FDED005CB0BC /* AbhinavAgarwal */,
+				2FE2A2902996FDED005CB0BC /* AdamZhao */,
+				2FE2A2922996FDED005CB0BC /* AlexisLowber */,
+				2FE2A2942996FDED005CB0BC /* AliMottaghi */,
+				2FE2A2962996FDED005CB0BC /* AnanyaVasireddy */,
+				2FE2A2982996FDED005CB0BC /* AndyWang */,
+				2FE2A29A2996FDED005CB0BC /* AnushehChaudry */,
+				2FE2A29C2996FDED005CB0BC /* AshleyGriffin */,
+				2FE2A29E2996FDED005CB0BC /* AudreyLin */,
+				2FE2A2A02996FDED005CB0BC /* BrianPark */,
+				2FE2A2A22996FDED005CB0BC /* BrookeKrajancich */,
+				2FE2A2A42996FDED005CB0BC /* CaitlinKunchur */,
+				2FE2A2A62996FDED005CB0BC /* DanielGuo */,
+				2FE2A2A82996FDED005CB0BC /* DannyPark */,
+				2FE2A2AA2996FDED005CB0BC /* EmmyThamakaison */,
+				2FE2A2AC2996FDED005CB0BC /* GriffinSomaratne */,
+				2FE2A2AE2996FDED005CB0BC /* HamedHekmat */,
+				2FE2A2B02996FDED005CB0BC /* JenMoore */,
+				2FE2A2B22996FDED005CB0BC /* JenniferXu */,
+				2FE2A2B42996FDED005CB0BC /* JiahuiChen */,
+				2FE2A2B62996FDED005CB0BC /* JuliaRhee */,
+				2FE2A2B82996FDED005CB0BC /* JustinWu */,
+				2FE2A2BA2996FDED005CB0BC /* NatashaKacharia */,
+				2FE2A2BC2996FDED005CB0BC /* OliverAalami */,
+				2FE2A2BE2996FDED005CB0BC /* ParthavShergill */,
+				2FE2A2C02996FDED005CB0BC /* RachelWu */,
+				2FE2A2C22996FDED005CB0BC /* RajPabari */,
+				2FE2A2C42996FDED005CB0BC /* RheaMalhotra */,
+				2FE2A2C62996FDED005CB0BC /* RiyaKarumanchi */,
+				2FE2A2C82996FDED005CB0BC /* SarahBarragan */,
+				2FE2A2CA2996FDED005CB0BC /* SherryXie */,
+				2FE2A2CC2996FDED005CB0BC /* ShriyaReddy */,
+				2FE2A2CE2996FDED005CB0BC /* SonyaJin */,
+				2FE2A2D02996FDED005CB0BC /* StanleyYang */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -571,6 +440,7 @@
 					};
 					653A256628338800005D4D48 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1420;
 						TestTargetID = 653A254C283387FE005D4D48;
 					};
 				};
@@ -660,51 +530,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC94CD7298B116B009C8209 /* ShriyaReddy.swift in Sources */,
-				2FC94CD8298B116E009C8209 /* AbhinavAgarwal.swift in Sources */,
-				2FC94CDA298B1173009C8209 /* JustinWu.swift in Sources */,
-				2FC94CD9298B1170009C8209 /* ParthavShergill.swift in Sources */,
-				23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */,
-				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
-				666F05862980E40F00CC72F3 /* JenniferXu.swift in Sources */,
-				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
-				DA14B6EC297FD9BC00D09651 /* DannyPark.swift in Sources */,
-				31AD2F0F297FCBE600880C3F /* StanleyYang.swift in Sources */,
-				A11A0B0E297FDA3D00E03791 /* AndyWang.swift in Sources */,
-				2F7FC3FD2985DC5D005EDB04 /* SherryXie.swift in Sources */,
-				2FC8A09F297A34C900479145 /* OliverAalami.swift in Sources */,
-				2F6AFAEC2996DE8000AEF5BF /* RheaMalhotra.swift in Sources */,
-				ABFEA6DB297C78FD00EF30AE /* AshleyGriffin.swift in Sources */,
-				C725CEC029807B8A00BF23C6 /* JiahuiChen.swift in Sources */,
-				F72C38802980761200528574 /* ParthavShergill.swift in Sources */,
-				5A410273298382CC006D1303 /* GriffinSomaratne.swift in Sources */,
-				86FADEAB29886B54008BC807 /* AnanyaVasireddy.swift in Sources */,
-				6387ED8029800DE7000906C4 /* NatashaKacharia.swift in Sources */,
-				4A2F0CBB2989CFB4001195D4 /* DanielGuo.swift in Sources */,
-				89E6BD5F297F685C007B3E04 /* AdamZhao.swift in Sources */,
-				F565FA51297F19820043DB25 /* JustinWu.swift in Sources */,
-				6DF9E9442981007900911234 /* RiyaKarumanchi.swift in Sources */,
-				A63D2379297FAC9A00342971 /* StudentUITests.swift in Sources */,
-				A63D237B297FADCF00342971 /* AnushehChaudry.swift in Sources */,
-				2F5A0C602994701D00751138 /* AshleyGriffin.swift in Sources */,
-				2F5A0C612994701D00751138 /* CaitlinKunchur.swift in Sources */,
-				2F5A0C622994701D00751138 /* OliverAalami.swift in Sources */,
-				2F5A0C632994701D00751138 /* PaulSchmiedmayer.swift in Sources */,
-				2F5A0C642994701D00751138 /* EmmyThamakaison.swift in Sources */,
-				2F5A0C652994701D00751138 /* RajPabari.swift in Sources */,
-				2F5A0C662994701D00751138 /* JenniferXu.swift in Sources */,
-				2F5A0C672994701D00751138 /* BrookeKrajancich.swift in Sources */,
-				2F5A0C682994701D00751138 /* ShriyaReddy.swift in Sources */,
-				2F5A0C692994701D00751138 /* AbhinavAgarwal.swift in Sources */,
-				2F6AFAED2996DEB600AEF5BF /* AudreyLin.swift in Sources */,
-				2F5A0C6A2994701D00751138 /* ParthavShergill.swift in Sources */,
-				2F5A0C6C2994701D00751138 /* SherryXie.swift in Sources */,
-				2F5A0C6F2994701D00751138 /* StanleyYang.swift in Sources */,
-				2F5A0C78299470D200751138 /* AndyWang.swift in Sources */,
-				2F5A0C702994701D00751138 /* CS342ApplicationUITests.swift in Sources */,
-				2F5A0C712994701D00751138 /* StudentsUITests.swift in Sources */,
-				2F5A0C722994701D00751138 /* InstructorsUITests.swift in Sources */,
-				2F5A0C732994701D00751138 /* LeadsUITests.swift in Sources */,
+				2FE2A2F52996FE0D005CB0BC /* BrookeKrajancich.swift in Sources */,
+				2FE2A3052996FE0D005CB0BC /* JenniferXu.swift in Sources */,
+				2FE2A2FD2996FE0D005CB0BC /* AbhinavAgarwal.swift in Sources */,
+				2FE2A3022996FE0D005CB0BC /* NatashaKacharia.swift in Sources */,
+				2FE2A30A2996FE25005CB0BC /* GriffinSomaratne.swift in Sources */,
+				2FE2A3042996FE0D005CB0BC /* AnushehChaudry.swift in Sources */,
+				2FE2A2F42996FE0D005CB0BC /* JenMoore.swift in Sources */,
+				2FE2A3072996FE0D005CB0BC /* DanielGuo.swift in Sources */,
+				2FE2A2FA2996FE0D005CB0BC /* JustinWu.swift in Sources */,
+				2FE2A2FC2996FE0D005CB0BC /* JiahuiChen.swift in Sources */,
+				2FE2A2F72996FE0D005CB0BC /* DannyPark.swift in Sources */,
+				2FE2A3012996FE0D005CB0BC /* RiyaKarumanchi.swift in Sources */,
+				2FE2A2F02996FE0D005CB0BC /* EmmyThamakaison.swift in Sources */,
+				2FE2A2EF2996FE0D005CB0BC /* ShriyaReddy.swift in Sources */,
+				2FE2A30D2996FE2F005CB0BC /* LeadsUITests.swift in Sources */,
+				2FE2A3092996FE1E005CB0BC /* CS342ApplicationUITests.swift in Sources */,
+				2FE2A2ED2996FE0D005CB0BC /* AudreyLin.swift in Sources */,
+				2FE2A3002996FE0D005CB0BC /* HamedHekmat.swift in Sources */,
+				2FE2A2FE2996FE0D005CB0BC /* OliverAalami.swift in Sources */,
+				2FE2A30B2996FE29005CB0BC /* StudentsUITests.swift in Sources */,
+				2FE2A3032996FE0D005CB0BC /* SonyaJin.swift in Sources */,
+				2FE2A30E2996FE32005CB0BC /* StudentUITests.swift in Sources */,
+				2FE2A30C2996FE2C005CB0BC /* InstructorsUITests.swift in Sources */,
+				2FE2A2F32996FE0D005CB0BC /* ParthavShergill.swift in Sources */,
+				2FE2A2FF2996FE0D005CB0BC /* CaitlinKunchur.swift in Sources */,
+				2FE2A2F12996FE0D005CB0BC /* AdamZhao.swift in Sources */,
+				2FE2A3062996FE0D005CB0BC /* RheaMalhotra.swift in Sources */,
+				2FE2A2F62996FE0D005CB0BC /* StanleyYang.swift in Sources */,
+				2FE2A2F92996FE0D005CB0BC /* AshleyGriffin.swift in Sources */,
+				2FE2A2F82996FE0D005CB0BC /* SherryXie.swift in Sources */,
+				2FE2A2F22996FE0D005CB0BC /* AndyWang.swift in Sources */,
+				2FE2A2FB2996FE0D005CB0BC /* RajPabari.swift in Sources */,
+				2FE2A3082996FE13005CB0BC /* PaulSchmiedmayer.swift in Sources */,
+				2FE2A2EE2996FE0D005CB0BC /* AnanyaVasireddy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,7 +739,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 3833Q4CX9P;
+				DEVELOPMENT_TEAM = 637867499T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CS342Application/Info.plist;
@@ -948,15 +807,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 637867499T;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.schmiedmayer.CS342ApplicationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_ELicenseRef-CS342Application_LOC_STRINGS" = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CS342Application;
@@ -967,11 +833,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 637867499T;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.schmiedmayer.CS342ApplicationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1024,145 +896,145 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2FE2A2492996E040005CB0BC /* AbhinavAgarwal */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AbhinavAgarwal;
-		};
-		2FE2A24B2996E040005CB0BC /* AdamZhao */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AdamZhao;
-		};
-		2FE2A24D2996E040005CB0BC /* AlexisLowber */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AlexisLowber;
-		};
-		2FE2A24F2996E040005CB0BC /* AliMottaghi */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AliMottaghi;
-		};
-		2FE2A2512996E040005CB0BC /* AnanyaVasireddy */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AnanyaVasireddy;
-		};
-		2FE2A2532996E040005CB0BC /* AndyWang */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AndyWang;
-		};
-		2FE2A2552996E040005CB0BC /* AnushehChaudry */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AnushehChaudry;
-		};
-		2FE2A2572996E040005CB0BC /* AshleyGriffin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AshleyGriffin;
-		};
-		DA14B6E9297FCB9300D09651 /* DannyPark */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DannyPark;
-		};
-		2FE2A2592996E040005CB0BC /* AudreyLin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AudreyLin;
-		};
-		2FE2A25B2996E040005CB0BC /* BrianPark */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = BrianPark;
-		};
-		2FE2A25D2996E040005CB0BC /* BrookeKrajancich */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = BrookeKrajancich;
-		};
-		2FE2A25F2996E040005CB0BC /* CaitlinKunchur */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CaitlinKunchur;
-		};
-		2FE2A2612996E040005CB0BC /* DanielGuo */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DanielGuo;
-		};
-		2FE2A2632996E040005CB0BC /* EmmyThamakaison */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = EmmyThamakaison;
-		};
-		2FE2A2652996E040005CB0BC /* GriffinSomaratne */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = GriffinSomaratne;
-		};
-		2FE2A2672996E040005CB0BC /* HamedHekmat */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = HamedHekmat;
-		};
-		2FE2A2692996E040005CB0BC /* JenMoore */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = JenMoore;
-		};
-		2FE2A26B2996E040005CB0BC /* JenniferXu */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = JenniferXu;
-		};
-		2FE2A26D2996E040005CB0BC /* JiahuiChen */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = JiahuiChen;
-		};
-		2FE2A26F2996E040005CB0BC /* JuliaRhee */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = JuliaRhee;
-		};
-		2FE2A2712996E040005CB0BC /* JustinWu */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = JustinWu;
-		};
-		2FE2A2732996E040005CB0BC /* NatashaKacharia */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NatashaKacharia;
-		};
-		2FE2A2752996E040005CB0BC /* OliverAalami */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = OliverAalami;
-		};
-		2FE2A2772996E040005CB0BC /* ParthavShergill */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ParthavShergill;
-		};
-		2FE2A2792996E040005CB0BC /* RachelWu */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RachelWu;
-		};
-		2FE2A27B2996E040005CB0BC /* RajPabari */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RajPabari;
-		};
-		2FE2A27D2996E040005CB0BC /* RheaMalhotra */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RheaMalhotra;
-		};
-		2FE2A27F2996E040005CB0BC /* RiyaKarumanchi */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RiyaKarumanchi;
-		};
-		2FE2A2812996E040005CB0BC /* SarahBarragan */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SarahBarragan;
-		};
-		2FE2A2832996E040005CB0BC /* SherryXie */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SherryXie;
-		};
-		2FE2A2852996E040005CB0BC /* ShriyaReddy */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ShriyaReddy;
-		};
-		2FE2A2872996E040005CB0BC /* SonyaJin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SonyaJin;
-		};
-		2FE2A2892996E040005CB0BC /* StanleyYang */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = StanleyYang;
-		};
 		2FE2A28B2996E057005CB0BC /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PaulSchmiedmayer;
+		};
+		2FE2A28E2996FDED005CB0BC /* AbhinavAgarwal */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AbhinavAgarwal;
+		};
+		2FE2A2902996FDED005CB0BC /* AdamZhao */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdamZhao;
+		};
+		2FE2A2922996FDED005CB0BC /* AlexisLowber */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlexisLowber;
+		};
+		2FE2A2942996FDED005CB0BC /* AliMottaghi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AliMottaghi;
+		};
+		2FE2A2962996FDED005CB0BC /* AnanyaVasireddy */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnanyaVasireddy;
+		};
+		2FE2A2982996FDED005CB0BC /* AndyWang */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AndyWang;
+		};
+		2FE2A29A2996FDED005CB0BC /* AnushehChaudry */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnushehChaudry;
+		};
+		2FE2A29C2996FDED005CB0BC /* AshleyGriffin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AshleyGriffin;
+		};
+		2FE2A29E2996FDED005CB0BC /* AudreyLin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudreyLin;
+		};
+		2FE2A2A02996FDED005CB0BC /* BrianPark */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrianPark;
+		};
+		2FE2A2A22996FDED005CB0BC /* BrookeKrajancich */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BrookeKrajancich;
+		};
+		2FE2A2A42996FDED005CB0BC /* CaitlinKunchur */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CaitlinKunchur;
+		};
+		2FE2A2A62996FDED005CB0BC /* DanielGuo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DanielGuo;
+		};
+		2FE2A2A82996FDED005CB0BC /* DannyPark */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DannyPark;
+		};
+		2FE2A2AA2996FDED005CB0BC /* EmmyThamakaison */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EmmyThamakaison;
+		};
+		2FE2A2AC2996FDED005CB0BC /* GriffinSomaratne */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GriffinSomaratne;
+		};
+		2FE2A2AE2996FDED005CB0BC /* HamedHekmat */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HamedHekmat;
+		};
+		2FE2A2B02996FDED005CB0BC /* JenMoore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JenMoore;
+		};
+		2FE2A2B22996FDED005CB0BC /* JenniferXu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JenniferXu;
+		};
+		2FE2A2B42996FDED005CB0BC /* JiahuiChen */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JiahuiChen;
+		};
+		2FE2A2B62996FDED005CB0BC /* JuliaRhee */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JuliaRhee;
+		};
+		2FE2A2B82996FDED005CB0BC /* JustinWu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustinWu;
+		};
+		2FE2A2BA2996FDED005CB0BC /* NatashaKacharia */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NatashaKacharia;
+		};
+		2FE2A2BC2996FDED005CB0BC /* OliverAalami */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OliverAalami;
+		};
+		2FE2A2BE2996FDED005CB0BC /* ParthavShergill */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ParthavShergill;
+		};
+		2FE2A2C02996FDED005CB0BC /* RachelWu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RachelWu;
+		};
+		2FE2A2C22996FDED005CB0BC /* RajPabari */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RajPabari;
+		};
+		2FE2A2C42996FDED005CB0BC /* RheaMalhotra */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RheaMalhotra;
+		};
+		2FE2A2C62996FDED005CB0BC /* RiyaKarumanchi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RiyaKarumanchi;
+		};
+		2FE2A2C82996FDED005CB0BC /* SarahBarragan */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SarahBarragan;
+		};
+		2FE2A2CA2996FDED005CB0BC /* SherryXie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SherryXie;
+		};
+		2FE2A2CC2996FDED005CB0BC /* ShriyaReddy */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShriyaReddy;
+		};
+		2FE2A2CE2996FDED005CB0BC /* SonyaJin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonyaJin;
+		};
+		2FE2A2D02996FDED005CB0BC /* StanleyYang */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StanleyYang;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
