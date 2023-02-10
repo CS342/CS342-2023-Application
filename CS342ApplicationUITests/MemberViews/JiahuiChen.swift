@@ -18,6 +18,8 @@ class JiahuiChen: XCTestCase {
     func testJiahuiChenAndFunFactView() throws {
         let app = XCUIApplication()
         app.launch()
+
+        app.swipeUp()
         
         app.collectionViews.buttons["Jiahui Chen"].tap()
         XCTAssert(app.staticTexts["Jiahui Chen"].waitForExistence(timeout: 0.5))

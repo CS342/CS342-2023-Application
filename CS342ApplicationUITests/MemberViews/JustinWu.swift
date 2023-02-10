@@ -23,12 +23,14 @@ class JustinWu: XCTestCase {
         
         app.collectionViews.buttons["Justin Wu"].tap()
         XCTAssert(app.staticTexts["Justin Wu"].waitForExistence(timeout: 0.5))
-
+        
+        
+        XCTAssert(app.scrollViews.otherElements.buttons["LinkedIn"].waitForExistence(timeout: 1.0))
         app.scrollViews.otherElements.buttons["LinkedIn"].tap()
 
         
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
-        XCTAssert(safari.wait(for: .runningForeground, timeout: 2.0))
+        XCTAssert(safari.wait(for: .runningForeground, timeout: 10.0))
     }
 
     func testQuizLink() throws {
