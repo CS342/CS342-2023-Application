@@ -1,0 +1,1 @@
+Brian Park is an undergraduate sophomore majoring in Undecided (most likely means Computer Science). He was born in Seoul, South Korea and spent a total of 8 years there. Other than that, he spent four years in Seattle and five years in Paris, France. He is a huge basketball and tennis fan. 
