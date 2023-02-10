@@ -19,15 +19,15 @@ public struct DannyPark: View {
             VStack(spacing: 42) {
                 MapView()
                     .frame(height: 300)
-                    .offset(y:-50)
+                    .offset(y: -50)
                 ProfileView(profileImage: Bundle.module.image(fromFileNamed: "DannyPark"))
-                    .offset(y:-240)
+                    .offset(y: -240)
                 DescriptionView(
                     name: "Danny Park",
                     title: "Undergraduate Student",
                     description: Bundle.module.markdown(fromFileNamed: "DannyParkBio")
                 )
-                .offset(y:-260)
+                .offset(y: -260)
                 
                 Button(action: {
                     print("Delete tapped!")

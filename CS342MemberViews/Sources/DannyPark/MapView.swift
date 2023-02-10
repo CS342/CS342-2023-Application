@@ -1,12 +1,12 @@
 //
-//  MapView.swift
-//  Landmarks
+// This source file is part of the CS342 2023 Application project
 //
-//  Created by Danny Park on 1/22/23.
+// SPDX-FileCopyrightText: 2023 Stanford University
 //
-
-import SwiftUI
+// SPDX-License-Identifier: MIT
+//
 import MapKit
+import SwiftUI
 
 struct MapView: View {
     @State private var region = MKCoordinateRegion(
