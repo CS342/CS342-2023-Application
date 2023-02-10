@@ -12,6 +12,7 @@
 // swiftlint:disable file_length
 import PackageDescription
 
+// swiftlint:disable file_length
 let package = Package(
     name: "CS342MemberViews",
     platforms: [
@@ -25,6 +26,7 @@ let package = Package(
         .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "DannyPark", targets: ["DannyPark"]),
+        .library(name: "RheaMalhotra", targets: ["RheaMalhotra"]),
         .library(name: "NatashaKacharia", targets: ["NatashaKacharia"]),
         .library(name: "AliMottaghi", targets: ["AliMottaghi"]),
         .library(name: "AnanyaVasireddy", targets: ["AnanyaVasireddy"]),
@@ -34,7 +36,6 @@ let package = Package(
         .library(name: "SarahBarragan", targets: ["SarahBarragan"]),
         .library(name: "StanleyYang", targets: ["StanleyYang"]),
         .library(name: "AudreyLin", targets: ["AudreyLin"]),
-        .library(name: "RajPabari", targets: ["RajPabari"]),
         .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "JiahuiChen", targets: ["JiahuiChen"]),
         .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
@@ -44,20 +45,13 @@ let package = Package(
         .library(name: "BrianPark", targets: ["BrianPark"]),
         .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "RachelWu", targets: ["RachelWu"]),
-        .library(name: "AshleyGriffin", targets: ["AshleyGriffin"]),
         .library(name: "RiyaKarumanchi", targets: ["RiyaKarumanchi"]),
         .library(name: "JenniferXu", targets: ["JenniferXu"]),
         .library(name: "BrookeKrajancich", targets: ["BrookeKrajancich"]),
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
-        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
-        .library(name: "JustinWu", targets: ["JustinWu"]),
-        .library(name: "AndyWang", targets: ["AndyWang"]),
         .library(name: "GriffinSomaratne", targets: ["GriffinSomaratne"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
-        .library(name: "SherryXie", targets: ["SherryXie"]),
-        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
-        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "JenMoore", targets: ["JenMoore"]),
         .library(name: "JuliaRhee", targets: ["JuliaRhee"]),
         .library(name: "DanielGuo", targets: ["DanielGuo"])
@@ -205,6 +199,19 @@ let package = Package(
             exclude: [
                 "Resources/RajPabari.jpeg.license",
                 "Resources/RajPabariBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "RheaMalhotra",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/RheaMalhotra.jpeg.license",
+                "Resources/RheaMalhotraBio.md.license"
             ],
             resources: [
                 .process("Resources")
@@ -362,7 +369,7 @@ let package = Package(
             ],
             exclude: [
                 "Resources/GriffinSomaratne.jpeg.license",
-                "Resources/GriffinSomaratne.md.license",
+                "Resources/GriffinSomaratneBio.md.license",
                 "Resources/BackdropImage.jpeg.license",
                 "Resources/BlueFace.jpeg.license",
                 "Resources/hia.jpeg.license",
@@ -370,8 +377,7 @@ let package = Package(
                 "Resources/ME103.jpeg.license",
                 "Resources/ME104.jpeg.license",
                 "Resources/StanfordApp.jpeg.license",
-                "Resources/Tear.jpeg.license",
-                "Resources/Background.jpg.license"
+                "Resources/Tear.jpeg.license"
             ],
             resources: [
                 .process("Resources")
