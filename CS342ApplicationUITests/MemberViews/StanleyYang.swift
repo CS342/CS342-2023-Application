@@ -20,6 +20,7 @@ class StanleyYang: XCTestCase {
         app.launch()
         
         app.swipeUp()
+        app.swipeUp()
         
         app.collectionViews.buttons["Stanley Yang"].tap()
         XCTAssert(app.staticTexts["Stanley Yang"].waitForExistence(timeout: 0.5))
