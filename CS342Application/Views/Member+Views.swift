@@ -33,6 +33,7 @@ import ParthavShergill
 import PaulSchmiedmayer
 import RachelWu
 import RajPabari
+import RheaMalhotra
 import RiyaKarumanchi
 import SarahBarragan
 import SherryXie
@@ -76,6 +77,8 @@ extension Member {
                 AndyWang(navigationPath: navigationPath)
             case .rajPabari:
                 RajPabari()
+            case .rheaMalhotra:
+                RheaMalhotra(navigationPath: navigationPath)
             case .natashaKacharia:
                 NatashaKacharia(navigationPath: navigationPath)
             case .aliMottaghi:

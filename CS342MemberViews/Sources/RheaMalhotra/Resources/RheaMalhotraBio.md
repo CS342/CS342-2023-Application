@@ -1,0 +1,1 @@
+Rhea Malhotra is an undergraduate at Stanford University studying Computer Science and Computational Biology. She is originally from Allentown, Pennsylvania and her interests include genomics, oncology, and the biotech startup space.

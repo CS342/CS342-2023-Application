@@ -22,6 +22,7 @@ enum Member: String, Identifiable, CaseIterable {
     case sherryXie = "Sherry Xie"
     case andyWang = "Andy Wang"
     case rajPabari = "Raj Pabari"
+    case rheaMalhotra = "Rhea Malhotra"
     case natashaKacharia = "Natasha Kacharia"
     case aliMottaghi = "Ali Mottaghi"
     case sonyaJin = "Sonya Jin"
