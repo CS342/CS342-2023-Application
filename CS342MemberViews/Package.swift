@@ -43,6 +43,13 @@ let package = Package(
         .library(name: "JenniferXu", targets: ["JenniferXu"]),
         .library(name: "BrookeKrajancich", targets: ["BrookeKrajancich"]),
         .library(name: "AlexisLowber", targets: ["AlexisLowber"]),
+        .library(name: "HamedHekmat", targets: ["HamedHekmat"]),
+        .library(name: "JustinWu", targets: ["JustinWu"]),
+        .library(name: "AndyWang", targets: ["AndyWang"]),
+        .library(name: "GriffinSomaratne", targets: ["GriffinSomaratne"]),
+        .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
+        .library(name: "SherryXie", targets: ["SherryXie"]),
+        .library(name: "ParthavShergill", targets: ["ParthavShergill"]),
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "CaitlinKunchur", targets: ["CaitlinKunchur"]),
         .library(name: "JenMoore", targets: ["JenMoore"]),
@@ -310,6 +317,28 @@ let package = Package(
             ],
             exclude: [
                 "Resources/BrookeKrajancich.png.license",
+                "Resources/Background.jpg.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        ),
+        .target(
+            name: "GriffinSomaratne",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/GriffinSomaratne.jpeg.license",
+                "Resources/GriffinSomaratne.md.license",
+                "Resources/BackdropImage.jpeg.license",
+                "Resources/BlueFace.jpeg.license",
+                "Resources/hia.jpeg.license",
+                "Resources/imi.jpeg.license",
+                "Resources/ME103.jpeg.license",
+                "Resources/ME104.jpeg.license",
+                "Resources/StanfordApp.jpeg.license",
+                "Resources/Tear.jpeg.license",
                 "Resources/Background.jpg.license"
             ],
             resources: [

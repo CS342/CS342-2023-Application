@@ -20,6 +20,7 @@ import BrookeKrajancich
 import CaitlinKunchur
 import DanielGuo
 import EmmyThamakaison
+import GriffinSomaratne
 import HamedHekmat
 import JenMoore
 import JenniferXu
@@ -86,6 +87,8 @@ extension Member {
                 JustinWu(navigationPath: navigationPath)
             case .ashleyGriffin:
                 AshleyGriffin(navigationPath: navigationPath)
+            case .griffinSomaratne:
+                GriffinSomaratne(navigationPath: navigationPath)
             case .brianPark:
                 BrianPark(navigationPath: navigationPath)
             case .riyaKarumanchi:

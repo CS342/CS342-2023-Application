@@ -38,9 +38,12 @@
 		2FC94CCD298AFB1D009C8209 /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* SherryXie */; };
 		31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */ = {isa = PBXBuildFile; productRef = 31AD2F0C297FBFBE00880C3F /* StanleyYang */; };
 		3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */ = {isa = PBXBuildFile; productRef = 3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */; };
-		4196F5E7297F1B5D002E3C66 /* AliMottaghi in Frameworks */ = {isa = PBXBuildFile; productRef = 4196F5E6297F1B5D002E3C66 /* AliMottaghi */; };
 		4A2F0CBB2989CFB4001195D4 /* DanielGuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */; };
 		4ACE27D82989229A00092FF8 /* DanielGuo in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACE27D72989229A00092FF8 /* DanielGuo */; };
+		549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC43297A3D8800769FDD /* ShriyaReddy */; };
+		5A410273298382CC006D1303 /* GriffinSomaratne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A410272298382CC006D1303 /* GriffinSomaratne.swift */; };
+		5A410275298383D3006D1303 /* GriffinSomaratne in Frameworks */ = {isa = PBXBuildFile; productRef = 5A410274298383D3006D1303 /* GriffinSomaratne */; };
+		4196F5E7297F1B5D002E3C66 /* AliMottaghi in Frameworks */ = {isa = PBXBuildFile; productRef = 4196F5E6297F1B5D002E3C66 /* AliMottaghi */; };
 		549CDC44297A3D8800769FDD /* ShriyaReddy in Frameworks */ = {isa = PBXBuildFile; productRef = 549CDC43297A3D8800769FDD /* ShriyaReddy */; };
 		63057E1D297F1E2400DF58C1 /* NatashaKacharia in Frameworks */ = {isa = PBXBuildFile; productRef = 63057E1C297F1E2400DF58C1 /* NatashaKacharia */; };
 		6387ED8029800DE7000906C4 /* NatashaKacharia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6387ED7F29800DE7000906C4 /* NatashaKacharia.swift */; };
@@ -68,14 +71,15 @@
 		75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */ = {isa = PBXBuildFile; productRef = 75CF1E92297CCD1000E7E71B /* SarahBarragan */; };
 		8625132D297FAF2B004014AE /* AnanyaVasireddy in Frameworks */ = {isa = PBXBuildFile; productRef = 8625132C297FAF2B004014AE /* AnanyaVasireddy */; };
 		86FADEAB29886B54008BC807 /* AnanyaVasireddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FADEAA29886B54008BC807 /* AnanyaVasireddy.swift */; };
+		A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* SherryXie */; };
+		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
+		F72C38802980761200528574 /* ParthavShergill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C387F2980761200528574 /* ParthavShergill.swift */; };
 		89E6BD5F297F685C007B3E04 /* AdamZhao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6BD5E297F685C007B3E04 /* AdamZhao.swift */; };
 		89EC86C8297DEE3D00F2099A /* AdamZhao in Frameworks */ = {isa = PBXBuildFile; productRef = 89EC86C7297DEE3D00F2099A /* AdamZhao */; };
 		A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = A11A0B09297F9C8600E03791 /* SherryXie */; };
 		A63D2379297FAC9A00342971 /* StudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D2378297FAC9A00342971 /* StudentUITests.swift */; };
 		A63D237B297FADCF00342971 /* AnushehChaudry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D237A297FADCF00342971 /* AnushehChaudry.swift */; };
-		A673C85C297CDAE400D0E9A6 /* AnushehChaudry in Frameworks */ = {isa = PBXBuildFile; productRef = A673C85B297CDAE400D0E9A6 /* AnushehChaudry */; };
-		ABFEA6D9297C75FD00EF30AE /* AshleyGriffin in Frameworks */ = {isa = PBXBuildFile; productRef = ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */; };
-		B96C6160297DA17300D25FBA /* EmmyThamakaison in Frameworks */ = {isa = PBXBuildFile; productRef = B96C615F297DA17300D25FBA /* EmmyThamakaison */; };
+		A673C85C297CDAE400D0E9A6 /* AnushehChaudry in Frameworks */ = {isa = PBXBuildFile; productRef = A673C85B297CDAE400D0E9A6 /* AnushehChaudry */; };		B96C6160297DA17300D25FBA /* EmmyThamakaison in Frameworks */ = {isa = PBXBuildFile; productRef = B96C615F297DA17300D25FBA /* EmmyThamakaison */; };
 		B9D23CB7298B22C00024943E /* SherryXie in Frameworks */ = {isa = PBXBuildFile; productRef = B9D23CB6298B22C00024943E /* SherryXie */; };
 		C6DA125F297FCCB50073C7A3 /* BrianPark in Frameworks */ = {isa = PBXBuildFile; productRef = C6DA125E297FCCB50073C7A3 /* BrianPark */; };
 		F565FA51297F19820043DB25 /* JustinWu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F565FA50297F19820043DB25 /* JustinWu.swift */; };
@@ -121,6 +125,7 @@
 		3648E0E4297F0EF700ADE5C2 /* CaitlinKunchur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaitlinKunchur.swift; sourceTree = "<group>"; };
 		4A2F0CBA2989CFB4001195D4 /* DanielGuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanielGuo.swift; sourceTree = "<group>"; };
 		545E15092980E787001AEDAB /* ShriyaReddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriyaReddy.swift; sourceTree = "<group>"; };
+		5A410272298382CC006D1303 /* GriffinSomaratne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GriffinSomaratne.swift; sourceTree = "<group>"; };
 		6387ED7F29800DE7000906C4 /* NatashaKacharia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatashaKacharia.swift; sourceTree = "<group>"; };
 		653A254D283387FE005D4D48 /* CS342Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS342Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653A2550283387FE005D4D48 /* CS342Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS342Application.swift; sourceTree = "<group>"; };
@@ -170,6 +175,11 @@
 				75CF1E93297CCD1000E7E71B /* SarahBarragan in Frameworks */,
 				31AD2F0D297FBFBE00880C3F /* StanleyYang in Frameworks */,
 				2FC8A09B297A315300479145 /* OliverAalami in Frameworks */,
+				5A410275298383D3006D1303 /* GriffinSomaratne in Frameworks */,
+				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
+				A11A0B0A297F9C8600E03791 /* SherryXie in Frameworks */,
+				2324B681297D972200C8D549 /* RajPabari in Frameworks */,
+				3648E0E3297F09AD00ADE5C2 /* CaitlinKunchur in Frameworks */,
 				6DF9E946298105CA00911234 /* RiyaKarumanchi in Frameworks */,
 				2F23F692296FB12A003FECF4 /* PaulSchmiedmayer in Frameworks */,
 				4196F5E7297F1B5D002E3C66 /* AliMottaghi in Frameworks */,
@@ -325,6 +335,7 @@
 			children = (
 				2F23F6B329700C7F003FECF4 /* MemberViews */,
 				2F23F6AF296FFFF1003FECF4 /* CS342ApplicationUITests.swift */,
+				5A410272298382CC006D1303 /* GriffinSomaratne.swift */,
 				23FFF502297EFF88007386C6 /* StudentsUITests.swift */,
 				2F23F6AD296FFBAA003FECF4 /* InstructorsUITests.swift */,
 				2FC8A09C297A34C300479145 /* LeadsUITests.swift */,
@@ -368,6 +379,9 @@
 				3648E0E2297F09AD00ADE5C2 /* CaitlinKunchur */,
 				A11A0B09297F9C8600E03791 /* SherryXie */,
 				2324B680297D972200C8D549 /* RajPabari */,
+				4ACE27D72989229A00092FF8 /* DanielGuo */,
+				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
+				5A410274298383D3006D1303 /* GriffinSomaratne */,
 				63057E1C297F1E2400DF58C1 /* NatashaKacharia */,
 				4196F5E6297F1B5D002E3C66 /* AliMottaghi */,
 				ABFEA6D8297C75FD00EF30AE /* AshleyGriffin */,
@@ -557,6 +571,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC94CD7298B116B009C8209 /* ShriyaReddy.swift in Sources */,
+				2FC94CD8298B116E009C8209 /* AbhinavAgarwal.swift in Sources */,
+				2FC94CDA298B1173009C8209 /* JustinWu.swift in Sources */,
+				2FC94CD9298B1170009C8209 /* ParthavShergill.swift in Sources */,
+				23FFF505297EFFD7007386C6 /* RajPabari.swift in Sources */,
+				2F23F6B0296FFFF1003FECF4 /* CS342ApplicationUITests.swift in Sources */,
+				666F05862980E40F00CC72F3 /* JenniferXu.swift in Sources */,
+				2F23F6B229700C7B003FECF4 /* PaulSchmiedmayer.swift in Sources */,
+				5A410273298382CC006D1303 /* GriffinSomaratne.swift in Sources */,
 				86FADEAB29886B54008BC807 /* AnanyaVasireddy.swift in Sources */,
 				6387ED8029800DE7000906C4 /* NatashaKacharia.swift in Sources */,
 				4A2F0CBB2989CFB4001195D4 /* DanielGuo.swift in Sources */,
@@ -939,6 +962,10 @@
 		549CDC43297A3D8800769FDD /* ShriyaReddy */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ShriyaReddy;
+		};
+		5A410274298383D3006D1303 /* GriffinSomaratne */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GriffinSomaratne;
 		};
 		63057E1C297F1E2400DF58C1 /* NatashaKacharia */ = {
 			isa = XCSwiftPackageProductDependency;
