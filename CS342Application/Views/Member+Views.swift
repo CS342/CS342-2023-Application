@@ -39,6 +39,7 @@ import RiyaKarumanchi
 import SarahBarragan
 import SherryXie
 import ShriyaReddy
+import SidGopisetty
 import SonyaJin
 import StanleyYang
 import SwiftUI
@@ -122,6 +123,8 @@ extension Member {
                 JenMoore()
             case .juliaRhee:
                 JuliaRhee(navigationPath: navigationPath)
+            case .sidgopisetty:
+                SidGopisetty(navigationPath: navigationPath)
             }
         }
         return memberView
