@@ -38,4 +38,3 @@ struct InstagramUsername_Previews: PreviewProvider {
         InstagramUsername()
     }
 }
-

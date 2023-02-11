@@ -45,4 +45,3 @@ struct RiyaKarumanchi_Previews: PreviewProvider {
         }
     }
 }
-
