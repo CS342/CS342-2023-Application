@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FA79CFE29971A00003B0C59 /* SidGopisetty in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA79CFD29971A00003B0C59 /* SidGopisetty */; };
 		2F23F694296FBA8B003FECF4 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F693296FBA8B003FECF4 /* Role.swift */; };
 		2F23F696296FBA92003FECF4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F695296FBA92003FECF4 /* Member.swift */; };
 		2F23F698296FBAA3003FECF4 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23F697296FBAA3003FECF4 /* MemberList.swift */; };
@@ -163,6 +164,7 @@
 				2FE2A2B52996FDED005CB0BC /* JiahuiChen in Frameworks */,
 				2FE2A2BD2996FDED005CB0BC /* OliverAalami in Frameworks */,
 				2FE2A29F2996FDED005CB0BC /* AudreyLin in Frameworks */,
+				1FA79CFE29971A00003B0C59 /* SidGopisetty in Frameworks */,
 				2FE2A2972996FDED005CB0BC /* AnanyaVasireddy in Frameworks */,
 				2FE2A2992996FDED005CB0BC /* AndyWang in Frameworks */,
 				2FE2A2CF2996FDED005CB0BC /* SonyaJin in Frameworks */,
@@ -378,6 +380,7 @@
 				2FE2A2CC2996FDED005CB0BC /* ShriyaReddy */,
 				2FE2A2CE2996FDED005CB0BC /* SonyaJin */,
 				2FE2A2D02996FDED005CB0BC /* StanleyYang */,
+				1FA79CFD29971A00003B0C59 /* SidGopisetty */,
 			);
 			productName = CS342Application;
 			productReference = 653A254D283387FE005D4D48 /* CS342Application.app */;
@@ -896,6 +899,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1FA79CFD29971A00003B0C59 /* SidGopisetty */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SidGopisetty;
+		};
 		2FE2A28B2996E057005CB0BC /* PaulSchmiedmayer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PaulSchmiedmayer;

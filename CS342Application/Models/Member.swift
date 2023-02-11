@@ -44,6 +44,7 @@ enum Member: String, Identifiable, CaseIterable {
     case danielGuo = "Daniel Guo"
     case jenMoore = "Jen Moore"
     case juliaRhee = "Julia Rhee"
+    case sidgopisetty = "Sid Gopisetty"
     
     
     static var allMembers: [Role: [Member]] {

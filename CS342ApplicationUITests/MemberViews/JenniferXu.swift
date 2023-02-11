@@ -24,6 +24,7 @@ class JenniferXu: XCTestCase {
 
         app.launch()
         app.swipeUp()
+        app.swipeUp()
         
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
@@ -37,6 +38,7 @@ class JenniferXu: XCTestCase {
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
 
         app.launch()
+        app.swipeUp()
         app.swipeUp()
         
         app.collectionViews.buttons["Jennifer Xu"].tap()
@@ -52,6 +54,7 @@ class JenniferXu: XCTestCase {
 
         app.launch()
         app.swipeUp()
+        app.swipeUp()
         
         app.collectionViews.buttons["Jennifer Xu"].tap()
 
@@ -65,6 +68,7 @@ class JenniferXu: XCTestCase {
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
 
         app.launch()
+        app.swipeUp()
         app.swipeUp()
         
         app.collectionViews.buttons["Jennifer Xu"].tap()

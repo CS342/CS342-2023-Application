@@ -52,7 +52,8 @@ let package = Package(
         .library(name: "AbhinavAgarwal", targets: ["AbhinavAgarwal"]),
         .library(name: "JenMoore", targets: ["JenMoore"]),
         .library(name: "JuliaRhee", targets: ["JuliaRhee"]),
-        .library(name: "DanielGuo", targets: ["DanielGuo"])
+        .library(name: "DanielGuo", targets: ["DanielGuo"]),
+        .library(name: "SidGopisetty", targets: ["SidGopisetty"])
     ],
     targets: [
         .target(
@@ -275,7 +276,7 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-            ),
+        ),
         .target(
             name: "DannyPark",
             dependencies: [
@@ -504,7 +505,7 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-      ),
+        ),
         .target(
             name: "JuliaRhee",
             exclude: [
@@ -513,6 +514,19 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
-      )
+        ),
+        .target(
+            name: "SidGopisetty",
+            dependencies: [
+                .target(name: "InstructorViews")
+            ],
+            exclude: [
+                "Resources/SidGopisetty.jpeg.license",
+                "Resources/SidGopisettyBio.md.license"
+            ],
+            resources: [
+                .process("Resources")
+            ]
+        )
     ]
 )
